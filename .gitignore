@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+
+# Generated build output
+dist/
+node_modules/

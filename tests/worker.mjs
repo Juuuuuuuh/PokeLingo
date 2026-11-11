@@ -1,0 +1,13 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),source=fs.readFileSync(path.join(root,'dist/server/index.js'),'utf8'),worker=(await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'))).default;
+for(const p of ['/','/app.js','/pokemon-data.js','/evolution-data.js','/assets/1025.png','/assets/form-10007.png']){const r=await worker.fetch(new Request('https://example.test'+p),{});assert.equal(r.status,200);assert.ok((await r.arrayBuffer()).byteLength>0)}
+assert.equal((await worker.fetch(new Request('https://example.test/missing'),{})).status,404);
+let r=await worker.fetch(new Request('https://example.test/api/ai-status'),{});assert.equal((await r.json()).configured,false);
+const task={name:'자격증 기출문제 풀이',category:'공부',minutes:50,context:'다음 주 시험을 대비해 오답을 정리해요.'};const req=(data=task,headers={})=>new Request('https://example.test/api/evaluate-goal',{method:'POST',headers:{'Content-Type':'application/json',...headers},body:JSON.stringify(data)});
+r=await worker.fetch(req(),{});assert.equal(r.status,503);assert.ok((await r.json()).message.includes('기본'));
+r=await worker.fetch(req({...task,minutes:-1}),{OPENAI_API_KEY:'test-only'});assert.equal(r.status,400);
+r=await worker.fetch(req(task,{Origin:'https://other.test'}),{OPENAI_API_KEY:'test-only'});assert.equal(r.status,403);
+let called=false;globalThis.fetch=async(url,init)=>{called=true;assert.equal(url,'https://api.openai.com/v1/responses');const body=JSON.parse(init.body);assert.equal(body.store,false);assert.equal(body.text.format.type,'json_schema');return new Response(JSON.stringify({output:[{content:[{type:'output_text',text:JSON.stringify({difficulty:4,importance:4,effort:4,reason:'시험 대비 기출 풀이와 오답 정리는 집중이 필요해요.'})}]}]}),{status:200,headers:{'Content-Type':'application/json'}})};
+r=await worker.fetch(req(),{OPENAI_API_KEY:'test-only'});assert.equal(r.status,200);const result=await r.json();assert.ok(called);assert.equal(result.source,'ai');assert.equal(result.reward.coins,124);assert.equal(result.reward.xp,62);assert.ok(!JSON.stringify(result).includes('test-only'));
+globalThis.fetch=async()=>new Response('{}',{status:429});r=await worker.fetch(req(),{OPENAI_API_KEY:'test-only'});assert.equal(r.status,502);assert.ok((await r.json()).message.includes('한도'));
+console.log('PASS: worker assets, last species/origin sprites, AI unconfigured status, invalid input/origin rejection, mocked structured AI response, deterministic rewards, provider failure handling. Live AI call requires configured key.');

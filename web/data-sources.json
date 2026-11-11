@@ -1,0 +1,7 @@
+{
+  "source": "https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv",
+  "species": 1025,
+  "lastNationalDex": 1025,
+  "sprites": "https://github.com/PokeAPI/sprites",
+  "scope": "default species forms"
+}

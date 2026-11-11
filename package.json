@@ -1,0 +1,13 @@
+{
+  "name": "pokelingo",
+  "version": "0.2.1",
+  "private": true,
+  "type": "module",
+  "description": "현실의 성취를 포켓몬 수집과 탐험으로 연결하는 개인 성장 RPG",
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "test": "node scripts/test.mjs",
+    "dev": "python3 -m http.server 8000 --directory web"
+  },
+  "engines": { "node": ">=20" }
+}
