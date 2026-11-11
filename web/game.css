@@ -10,3 +10,5 @@
 .rare-mini-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.rare-mini-gallery>div{background:#233c29;border:1px solid #526b46;text-align:center;padding:5px}.rare-mini-gallery img{width:66px;height:66px;image-rendering:pixelated;max-width:100%}.rare-mini-gallery small{display:block;color:#b8c796;font-size:8px;line-height:1.7}@media(max-width:720px){.rare-mini-gallery small{font-size:7px}.level-stat-list>div{font-size:9px;padding:9px 11px}}
 
 .game-dock{grid-template-columns:repeat(8,minmax(0,1fr))}.game-dock button{min-width:0;font-size:11px}.regiongrid .full{margin-top:8px}
+
+.special-roster{background:#172d25;border:1px solid #536b46;padding:12px;margin-bottom:14px}.special-roster .rare-mini-gallery{margin:8px 0 0;grid-template-columns:repeat(auto-fit,minmax(78px,1fr))}.special-roster .rare-mini-gallery small{font-size:10px}.special-roster .rare-mini-gallery img{width:78px;height:78px}
