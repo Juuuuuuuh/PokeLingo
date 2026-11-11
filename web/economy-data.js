@@ -1,4 +1,6 @@
 const BATTLE_ITEMS=[
+{id:'rare-candy',name:'이상한사탕',price:60,kind:'성장',desc:'어떤 포켓몬이든 1레벨 상승 · 스바식 능력치 재계산 · 최고 Lv.100'},
+{id:'heart-scale',name:'하트비늘',price:15,kind:'기술 도구',desc:'잊거나 배우지 않은 기술 1개 떠올리기 · 슬롯 확정 시 소모'},
 {id:'potion',name:'상처약',price:8,kind:'회복',heal:20,desc:'기절하지 않은 포켓몬의 HP 20 회복'},
 {id:'super-potion',name:'좋은상처약',price:18,kind:'회복',heal:60,desc:'HP 60 회복 · 스바 기준'},
 {id:'hyper-potion',name:'고급상처약',price:35,kind:'회복',heal:120,desc:'HP 120 회복 · 스바 기준'},
