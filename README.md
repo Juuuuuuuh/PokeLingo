@@ -24,6 +24,12 @@ node tests/worker.mjs
 
 빌드 결과는 Cloudflare Worker ESM인 `dist/server/index.js`입니다. 정적 화면과 1,025종의 로컬 스프라이트를 포함합니다. `.openai/hosting.json`의 기존 Site ID와 접근 권한을 유지합니다.
 
+## 픽셀 마을 인터페이스
+
+홈은 건물을 직접 선택하는 픽셀 마을입니다. 포켓몬의 집은 실내/배치, 퀘스트 게시판은 목표, 연구소는 영입, 상점은 진화 도구, 탐험의 문은 9개 지방 탐험으로 연결됩니다. 하단 도크로 도감과 파티에도 접근할 수 있습니다. 기존 v1 저장 키와 진행 상황을 유지합니다.
+
+기본폼 이상해씨·파이리·꼬부기·피카츄·이브이는 PMDCollab/SpriteCollab의 원본 방향별 걷기 프레임을 CSS로 표시합니다. 그 외 포켓몬과 변경폼은 기존 스프라이트로 이동합니다. 움직임 줄이기 접근성 설정을 존중합니다. 픽셀 마을/건물/실내 그래픽은 자체 작성한 SVG이며 외부 게임 화면의 복사본이 아닙니다.
+
 ## 기능
 
 - 전국도감 No.1~1025, 한국어 이름, 복합 타입, 종족값, 일반/숨겨진 특성, 세대/보유/검색/페이지 탐색
@@ -57,5 +63,7 @@ Sites 비밀키 설정 지침에 따라 OpenAI Developers 플러그인의 `opena
 
 - https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv
 - https://github.com/PokeAPI/sprites
+- 걷기 스프라이트: https://github.com/PMDCollab/SpriteCollab · CHUNSOFT. 각 종별 출처 기록과 사용 지침은 `web/assets/walk/`에 있습니다. 공식 원본의 권리는 각 권리자에게 있고, 저장소의 팬 제출물 정책은 CC BY-NC 4.0입니다.
+- Galmuri 폰트: Lee Minseo (quiple), SIL OFL 1.1. 라이선스 원문은 `web/assets/fonts/ofl.md`에 포함했습니다.
 
 비상업적 팬 프로젝트이며 포켓몬 관련 권리는 해당 권리자에게 있습니다.
