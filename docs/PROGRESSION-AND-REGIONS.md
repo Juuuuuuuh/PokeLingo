@@ -66,3 +66,15 @@
 마을 이름은 태초마을입니다. 파티 카드에서 `능력치를 본다`, `기술 확인하기`, `이상한사탕 사용`으로 접근합니다. 기술 확인하기의 `배운 기록`과 `떠올리기`에서 이전 기술도 볼 수 있습니다.
 
 검증: `npm test`는 진화 전 전용 기술 보존, 취소 시 도구 미소모, 하트비늘 차감, 레벨 100 제한, 전 종 레벨 능력치, 지방별 수량·정렬·세대·희귀 후보·빈도, 버드렉스 두 폼, 반복 특별 조우, 관찰 조우와 저장 이전을 검사합니다.
+
+## Manual clears, automatic expeditions and trainer competitions (0.6)
+
+Existing exploration clears migrate once to manual clears because automatic battles did not exist before this version. New regions require a manual clear before automatic combat opens. Both modes use the same party stats, equipped moves, PP, held items, encounters and rewards. Automatic combat chooses a supported damaging move using the existing damage evaluator, uses the healing fork, switches on fainting and stops after 400 actions. It can lose; it does not spend bag consumables. Special encounters still require their ticket and level gate.
+
+Energy starts at 6 once and caps at 12. Successful, nonduplicate goal completions replenish 1–3 energy according to goal size. There is no unattended daily refill. Ordinary explorations and gym entries cost 1; special explorations and PWT cost 2. Failures and retreats consume energy. Exploration special tickets retain the existing refund rule. These are initial economy values, intended for tuning from actual play.
+
+The gym unlocks at trainer level 8. All selected members must share the chosen gym type (forms included). One challenger fields three Pokemon. Every three wins raises gym rank (cap 10); first rank milestones award a ticket. Three consecutive losses reset the current streak, preserving rank and Pokemon. Wins give 30 coins and one Rare Candy.
+
+PWT unlocks at trainer level 20, ten registered species and three gym wins. Nine regional cups each have three trainers with three Pokemon each. Teams are fan-game adaptations using SV-compatible species and legal supported level/TM moves. Owned fighters are cloned and normalized to level 50; their actual learned slots, nature, IVs and EVs remain. Bag items are forbidden; HP/PP/status reset between trainers, but not between that trainer's Pokemon. Held consumables are restored after gym/PWT win, defeat or forfeit. First cup wins award a trophy, 150 coins, two tickets and three Rare Candies; repeats award 30 coins and one Rare Candy. Arena and exploration reward commits are idempotent.
+
+Storage remains browser-local. Linux hosting with persistent account saves, database and server-authoritative battle results is a future migration; this version does not implement server accounts or deploy to a personal Linux machine.
