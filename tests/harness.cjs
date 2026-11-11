@@ -1,0 +1,6 @@
+const vm=require('node:vm'),fs=require('node:fs'),crypto=require('node:crypto'),path=require('node:path');
+function createGame(){const root=path.resolve(__dirname,'..'),els=new Map();
+function el(s){if(!els.has(s))els.set(s,{innerHTML:'',textContent:'',value:'',checked:false,dataset:{},style:{},classList:{add(){},remove(){},toggle(){}},addEventListener(){},setAttribute(){},querySelectorAll(){return[]},showModal(){this.open=true},close(){this.open=false},focus(){},setSelectionRange(){}});return els.get(s)}
+let storage=null;const c=vm.createContext({console,crypto,Date,Intl,Math:Object.assign(Object.create(Math),{random:()=>.5}),Set,Number,String,JSON,Array,AbortSignal,localStorage:{getItem(){return storage},setItem(k,v){storage=v}},document:{querySelector:el,querySelectorAll(){return[]}},window:{scrollTo(){},setTimeout(){return 1}},clearTimeout(){},setTimeout(){return 1}});const run=s=>vm.runInContext(s,c);
+for(const f of ['pokemon-data.js','evolution-data.js','locations.js','type-data.js','moves-data.js','economy-data.js','reward-rules.js','combat-core.js','app.js'])vm.runInContext(fs.readFileSync(path.join(root,'web',f),'utf8'),c,{filename:f});return {run,c,el,els,root};}
+module.exports={createGame};

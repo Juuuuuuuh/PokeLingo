@@ -6,3 +6,5 @@ __pycache__/
 # Generated build output
 dist/
 node_modules/
+
+work/

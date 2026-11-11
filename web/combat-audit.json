@@ -1,0 +1,11442 @@
+{
+  "standard": "Scarlet/Violet including The Teal Mask and The Indigo Disk only",
+  "generatedAt": "2026-11-11T10:30:02.682611+00:00",
+  "primaryLearnsets": "Pokemon Showdown Gen9 L/M/R entries; no Gen1-8 moves merged",
+  "secondary": "PokeAPI version groups 25/26/27, Pokemon types and move types",
+  "species": 1025,
+  "supportedForms": 67,
+  "typeChecks": 1092,
+  "unavailableSV": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "41",
+    "42",
+    "46",
+    "47",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "77",
+    "78",
+    "83",
+    "95",
+    "98",
+    "99",
+    "104",
+    "105",
+    "108",
+    "114",
+    "115",
+    "118",
+    "119",
+    "120",
+    "121",
+    "122",
+    "124",
+    "127",
+    "138",
+    "139",
+    "140",
+    "141",
+    "142",
+    "165",
+    "166",
+    "169",
+    "175",
+    "176",
+    "177",
+    "178",
+    "201",
+    "202",
+    "208",
+    "213",
+    "222",
+    "223",
+    "224",
+    "226",
+    "238",
+    "241",
+    "251",
+    "263",
+    "264",
+    "265",
+    "266",
+    "267",
+    "268",
+    "269",
+    "276",
+    "277",
+    "290",
+    "291",
+    "292",
+    "293",
+    "294",
+    "295",
+    "300",
+    "301",
+    "303",
+    "304",
+    "305",
+    "306",
+    "309",
+    "310",
+    "315",
+    "318",
+    "319",
+    "320",
+    "321",
+    "327",
+    "337",
+    "338",
+    "343",
+    "344",
+    "345",
+    "346",
+    "347",
+    "348",
+    "351",
+    "352",
+    "359",
+    "360",
+    "363",
+    "364",
+    "365",
+    "366",
+    "367",
+    "368",
+    "369",
+    "399",
+    "400",
+    "406",
+    "407",
+    "412",
+    "413",
+    "414",
+    "420",
+    "421",
+    "427",
+    "428",
+    "431",
+    "432",
+    "439",
+    "441",
+    "451",
+    "452",
+    "455",
+    "458",
+    "463",
+    "465",
+    "468",
+    "494",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "509",
+    "510",
+    "511",
+    "512",
+    "513",
+    "514",
+    "515",
+    "516",
+    "517",
+    "518",
+    "519",
+    "520",
+    "521",
+    "524",
+    "525",
+    "526",
+    "527",
+    "528",
+    "531",
+    "535",
+    "536",
+    "537",
+    "538",
+    "539",
+    "543",
+    "544",
+    "545",
+    "554",
+    "555",
+    "556",
+    "557",
+    "558",
+    "561",
+    "562",
+    "563",
+    "564",
+    "565",
+    "566",
+    "567",
+    "568",
+    "569",
+    "582",
+    "583",
+    "584",
+    "587",
+    "588",
+    "589",
+    "592",
+    "593",
+    "597",
+    "598",
+    "599",
+    "600",
+    "601",
+    "605",
+    "606",
+    "616",
+    "617",
+    "618",
+    "621",
+    "626",
+    "631",
+    "632",
+    "649",
+    "659",
+    "660",
+    "674",
+    "675",
+    "676",
+    "679",
+    "680",
+    "681",
+    "682",
+    "683",
+    "684",
+    "685",
+    "688",
+    "689",
+    "694",
+    "695",
+    "696",
+    "697",
+    "698",
+    "699",
+    "710",
+    "711",
+    "716",
+    "717",
+    "718",
+    "746",
+    "755",
+    "756",
+    "759",
+    "760",
+    "767",
+    "768",
+    "771",
+    "772",
+    "773",
+    "776",
+    "777",
+    "780",
+    "781",
+    "785",
+    "786",
+    "787",
+    "788",
+    "793",
+    "794",
+    "795",
+    "796",
+    "797",
+    "798",
+    "799",
+    "802",
+    "803",
+    "804",
+    "805",
+    "806",
+    "807",
+    "808",
+    "809",
+    "824",
+    "825",
+    "826",
+    "827",
+    "828",
+    "829",
+    "830",
+    "831",
+    "832",
+    "835",
+    "836",
+    "850",
+    "851",
+    "852",
+    "853",
+    "862",
+    "864",
+    "865",
+    "866",
+    "867",
+    "880",
+    "881",
+    "882",
+    "883",
+    "210075",
+    "210076",
+    "210077",
+    "210078",
+    "210232",
+    "210233",
+    "210234",
+    "210235",
+    "210236",
+    "210237",
+    "210238",
+    "210239",
+    "210240",
+    "210241",
+    "210242",
+    "210243",
+    "210244",
+    "210245",
+    "210246",
+    "210247",
+    "210248"
+  ],
+  "svLearnsets": 779,
+  "moves": 834,
+  "battleSupportedMoves": 484,
+  "tmCount": 229,
+  "sourceDifferences": [
+    {
+      "key": "26",
+      "species": 26,
+      "showdown": "raichu",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        313
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "36",
+      "species": 36,
+      "showdown": "clefable",
+      "missingInAPILevel": [
+        1,
+        45,
+        47,
+        111,
+        150,
+        186,
+        204,
+        227,
+        236,
+        266,
+        322,
+        356,
+        361,
+        383,
+        495,
+        500,
+        574
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "38",
+      "species": 38,
+      "showdown": "ninetales",
+      "missingInAPILevel": [
+        50,
+        52,
+        83,
+        109,
+        126,
+        180,
+        219,
+        261,
+        286,
+        326,
+        417,
+        510,
+        517
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "51",
+      "species": 51,
+      "showdown": "dugtrio",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        184,
+        270
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "62",
+      "species": 62,
+      "showdown": "poliwrath",
+      "missingInAPILevel": [
+        1,
+        38,
+        55,
+        56,
+        187,
+        240,
+        341,
+        414,
+        509
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "71",
+      "species": 71,
+      "showdown": "victreebel",
+      "missingInAPILevel": [
+        254,
+        255,
+        256,
+        380,
+        438
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "80",
+      "species": 80,
+      "showdown": "slowbro",
+      "missingInAPILevel": [
+        248
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "103",
+      "species": 103,
+      "showdown": "exeggutor",
+      "missingInAPILevel": [
+        74
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "136",
+      "species": 136,
+      "showdown": "flareon",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        488
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "157",
+      "species": 157,
+      "showdown": "typhlosion",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [
+        101,
+        109,
+        180,
+        347,
+        506,
+        809
+      ],
+      "levelDifferences": []
+    },
+    {
+      "key": "164",
+      "species": 164,
+      "showdown": "noctowl",
+      "missingInAPILevel": [
+        432
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "186",
+      "species": 186,
+      "showdown": "politoed",
+      "missingInAPILevel": [
+        34,
+        38,
+        55,
+        61,
+        95,
+        195,
+        207,
+        304,
+        341,
+        414
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "188",
+      "species": 188,
+      "showdown": "skiploom",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        240
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "197",
+      "species": 197,
+      "showdown": "umbreon",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        189
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "199",
+      "species": 199,
+      "showdown": "slowking",
+      "missingInAPILevel": [
+        248,
+        881
+      ],
+      "missingInAPIMachine": [
+        270
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "244",
+      "species": 244,
+      "showdown": "entei",
+      "missingInAPILevel": [
+        221,
+        245
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "245",
+      "species": 245,
+      "showdown": "suicune",
+      "missingInAPILevel": [
+        245,
+        329
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "249",
+      "species": 249,
+      "showdown": "lugia",
+      "missingInAPILevel": [
+        407
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "253",
+      "species": 253,
+      "showdown": "grovyle",
+      "missingInAPILevel": [
+        206,
+        210,
+        404,
+        412
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "254",
+      "species": 254,
+      "showdown": "sceptile",
+      "missingInAPILevel": [
+        206,
+        210,
+        404,
+        412,
+        880
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "256",
+      "species": 256,
+      "showdown": "combusken",
+      "missingInAPILevel": [
+        53,
+        297
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "257",
+      "species": 257,
+      "showdown": "blaziken",
+      "missingInAPILevel": [
+        7,
+        52,
+        53,
+        297
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "259",
+      "species": 259,
+      "showdown": "marshtomp",
+      "missingInAPILevel": [
+        249
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "260",
+      "species": 260,
+      "showdown": "swampert",
+      "missingInAPILevel": [
+        57,
+        89,
+        249,
+        359
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "272",
+      "species": 272,
+      "showdown": "ludicolo",
+      "missingInAPILevel": [
+        45,
+        54,
+        55,
+        56,
+        71,
+        72,
+        154,
+        175,
+        282,
+        298,
+        310,
+        412,
+        428
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "275",
+      "species": 275,
+      "showdown": "shiftry",
+      "missingInAPILevel": [
+        18,
+        33,
+        71,
+        72,
+        74,
+        75,
+        106,
+        153,
+        205,
+        207,
+        235,
+        251,
+        252,
+        259,
+        310,
+        326,
+        389
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "286",
+      "species": 286,
+      "showdown": "breloom",
+      "missingInAPILevel": [
+        147
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "311",
+      "species": 311,
+      "showdown": "plusle",
+      "missingInAPILevel": [
+        609
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "312",
+      "species": 312,
+      "showdown": "minun",
+      "missingInAPILevel": [
+        609
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "329",
+      "species": 329,
+      "showdown": "vibrava",
+      "missingInAPILevel": [
+        48,
+        90,
+        242,
+        276,
+        310,
+        523
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "330",
+      "species": 330,
+      "showdown": "flygon",
+      "missingInAPILevel": [
+        44,
+        90,
+        91,
+        242,
+        276,
+        310,
+        349,
+        364
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "335",
+      "species": 335,
+      "showdown": "zangoose",
+      "missingInAPILevel": [
+        24,
+        50,
+        68,
+        154,
+        174,
+        175,
+        187,
+        364,
+        400,
+        458,
+        501,
+        515
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "357",
+      "species": 357,
+      "showdown": "tropius",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        347
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "376",
+      "species": 376,
+      "showdown": "metagross",
+      "missingInAPILevel": [
+        153,
+        468
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "386",
+      "species": 386,
+      "showdown": "deoxys",
+      "missingInAPILevel": [
+        68,
+        97,
+        104,
+        129,
+        133,
+        182,
+        191,
+        192,
+        243,
+        245,
+        269,
+        276,
+        334
+      ],
+      "missingInAPIMachine": [
+        133,
+        191,
+        269,
+        334
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "392",
+      "species": 392,
+      "showdown": "infernape",
+      "missingInAPILevel": [
+        269,
+        303
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "411",
+      "species": 411,
+      "showdown": "bastiodon",
+      "missingInAPILevel": [
+        469
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "461",
+      "species": 461,
+      "showdown": "weavile",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        179
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "469",
+      "species": 469,
+      "showdown": "yanmega",
+      "missingInAPILevel": [
+        95
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "471",
+      "species": 471,
+      "showdown": "glaceon",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        885
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "475",
+      "species": 475,
+      "showdown": "gallade",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        118
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "478",
+      "species": 478,
+      "showdown": "froslass",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        885
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "480",
+      "species": 480,
+      "showdown": "uxie",
+      "missingInAPILevel": [
+        161,
+        173,
+        219,
+        231,
+        427,
+        472,
+        478,
+        496,
+        502,
+        797
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "481",
+      "species": 481,
+      "showdown": "mesprit",
+      "missingInAPILevel": [
+        161,
+        173,
+        219,
+        231,
+        427,
+        472,
+        478,
+        496,
+        502,
+        797
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "482",
+      "species": 482,
+      "showdown": "azelf",
+      "missingInAPILevel": [
+        120,
+        161,
+        173,
+        219,
+        231,
+        371,
+        372,
+        427,
+        472,
+        478,
+        496,
+        502,
+        797
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "492",
+      "species": 492,
+      "showdown": "shaymin",
+      "missingInAPILevel": [
+        98,
+        403,
+        437
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "500",
+      "species": 500,
+      "showdown": "emboar",
+      "missingInAPILevel": [
+        203,
+        359
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "503",
+      "species": 503,
+      "showdown": "samurott",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [
+        399,
+        555,
+        675,
+        808
+      ],
+      "levelDifferences": []
+    },
+    {
+      "key": "542",
+      "species": 542,
+      "showdown": "leavanny",
+      "missingInAPILevel": [
+        450
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "571",
+      "species": 571,
+      "showdown": "zoroark",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        227
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "573",
+      "species": 573,
+      "showdown": "cinccino",
+      "missingInAPILevel": [
+        21,
+        129,
+        227,
+        270,
+        304,
+        321,
+        350,
+        387,
+        495,
+        497,
+        608
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "623",
+      "species": 623,
+      "showdown": "golurk",
+      "missingInAPILevel": [
+        189,
+        264
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "640",
+      "species": 640,
+      "showdown": "virizion",
+      "missingInAPILevel": [
+        36
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "692",
+      "species": 692,
+      "showdown": "clauncher",
+      "missingInAPILevel": [
+        11
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "693",
+      "species": 693,
+      "showdown": "clawitzer",
+      "missingInAPILevel": [
+        11
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "700",
+      "species": 700,
+      "showdown": "sylveon",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        189
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "720",
+      "species": 720,
+      "showdown": "hoopa",
+      "missingInAPILevel": [
+        282,
+        399,
+        621
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "724",
+      "species": 724,
+      "showdown": "decidueye",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [
+        179,
+        184,
+        264,
+        269,
+        280,
+        317,
+        339,
+        370,
+        396,
+        411,
+        811,
+        918
+      ],
+      "levelDifferences": []
+    },
+    {
+      "key": "727",
+      "species": 727,
+      "showdown": "incineroar",
+      "missingInAPILevel": [
+        10,
+        45,
+        675
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "732",
+      "species": 732,
+      "showdown": "trumbeak",
+      "missingInAPILevel": [
+        497
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "738",
+      "species": 738,
+      "showdown": "vikavolt",
+      "missingInAPILevel": [
+        11,
+        91,
+        189,
+        334,
+        404,
+        450
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "739",
+      "species": 739,
+      "showdown": "crabrawler",
+      "missingInAPILevel": [
+        11
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "757",
+      "species": 757,
+      "showdown": "salandit",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        488
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "758",
+      "species": 758,
+      "showdown": "salazzle",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        488,
+        525
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "784",
+      "species": 784,
+      "showdown": "kommoo",
+      "missingInAPILevel": [
+        187
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "820",
+      "species": 820,
+      "showdown": "greedent",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        885
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "834",
+      "species": 834,
+      "showdown": "drednaw",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        525
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "839",
+      "species": 839,
+      "showdown": "coalossal",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        189
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "845",
+      "species": 845,
+      "showdown": "cramorant",
+      "missingInAPILevel": [
+        562
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "863",
+      "species": 863,
+      "showdown": "perrserker",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        332,
+        430
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "886",
+      "species": 886,
+      "showdown": "drakloak",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        109
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "887",
+      "species": 887,
+      "showdown": "dragapult",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        109
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "895",
+      "species": 895,
+      "showdown": "regidrago",
+      "missingInAPILevel": [
+        11
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "900",
+      "species": 900,
+      "showdown": "kleavor",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        240
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "901",
+      "species": 901,
+      "showdown": "ursaluna",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [
+        410
+      ],
+      "levelDifferences": []
+    },
+    {
+      "key": "902",
+      "species": 902,
+      "showdown": "basculegion",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        129,
+        203,
+        428
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "904",
+      "species": 904,
+      "showdown": "overqwil",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        129,
+        352,
+        491,
+        506
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "908",
+      "species": 908,
+      "showdown": "meowscarada",
+      "missingInAPILevel": [
+        104,
+        271
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "910",
+      "species": 910,
+      "showdown": "crocalor",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        227
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "911",
+      "species": 911,
+      "showdown": "skeledirge",
+      "missingInAPILevel": [
+        47,
+        281
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "912",
+      "species": 912,
+      "showdown": "quaxly",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        164,
+        214
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "913",
+      "species": 913,
+      "showdown": "quaxwell",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        164,
+        214
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "914",
+      "species": 914,
+      "showdown": "quaquaval",
+      "missingInAPILevel": [
+        68
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "925",
+      "species": 925,
+      "showdown": "maushold",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        226
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "935",
+      "species": 935,
+      "showdown": "charcadet",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        156
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "937",
+      "species": 937,
+      "showdown": "ceruledge",
+      "missingInAPILevel": [
+        400,
+        425,
+        501,
+        669
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "950",
+      "species": 950,
+      "showdown": "klawf",
+      "missingInAPILevel": [
+        11
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "954",
+      "species": 954,
+      "showdown": "rabsca",
+      "missingInAPILevel": [
+        219,
+        244
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "962",
+      "species": 962,
+      "showdown": "bombirdier",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        156
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "965",
+      "species": 965,
+      "showdown": "varoom",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        156
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "979",
+      "species": 979,
+      "showdown": "annihilape",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        370,
+        851
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "985",
+      "species": 985,
+      "showdown": "screamtail",
+      "missingInAPILevel": [
+        241
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "986",
+      "species": 986,
+      "showdown": "brutebonnet",
+      "missingInAPILevel": [
+        241
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "987",
+      "species": 987,
+      "showdown": "fluttermane",
+      "missingInAPILevel": [
+        241
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "988",
+      "species": 988,
+      "showdown": "slitherwing",
+      "missingInAPILevel": [
+        241
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "989",
+      "species": 989,
+      "showdown": "sandyshocks",
+      "missingInAPILevel": [
+        241
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "990",
+      "species": 990,
+      "showdown": "irontreads",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        214
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "991",
+      "species": 991,
+      "showdown": "ironbundle",
+      "missingInAPILevel": [
+        604
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "992",
+      "species": 992,
+      "showdown": "ironhands",
+      "missingInAPILevel": [
+        604
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "994",
+      "species": 994,
+      "showdown": "ironmoth",
+      "missingInAPILevel": [
+        604
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "995",
+      "species": 995,
+      "showdown": "ironthorns",
+      "missingInAPILevel": [
+        604
+      ],
+      "missingInAPIMachine": [
+        214
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1005",
+      "species": 1005,
+      "showdown": "roaringmoon",
+      "missingInAPILevel": [
+        241,
+        746,
+        784,
+        799
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1006",
+      "species": 1006,
+      "showdown": "ironvaliant",
+      "missingInAPILevel": [
+        604
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1009",
+      "species": 1009,
+      "showdown": "walkingwake",
+      "missingInAPILevel": [
+        241,
+        468
+      ],
+      "missingInAPIMachine": [
+        525
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1010",
+      "species": 1010,
+      "showdown": "ironleaves",
+      "missingInAPILevel": [
+        511,
+        604
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1011",
+      "species": 1011,
+      "showdown": "dipplin",
+      "missingInAPILevel": [
+        611
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1017",
+      "species": 1017,
+      "showdown": "ogerpon",
+      "missingInAPILevel": [
+        24,
+        68,
+        514,
+        532
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1019",
+      "species": 1019,
+      "showdown": "hydrapple",
+      "missingInAPILevel": [
+        281,
+        458,
+        611
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1020",
+      "species": 1020,
+      "showdown": "gougingfire",
+      "missingInAPILevel": [
+        24,
+        246,
+        568
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1021",
+      "species": 1021,
+      "showdown": "ragingbolt",
+      "missingInAPILevel": [
+        246
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "1025",
+      "species": 1025,
+      "showdown": "pecharunt",
+      "missingInAPILevel": [
+        111,
+        205,
+        212
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10001",
+      "species": 386,
+      "showdown": "deoxysattack",
+      "missingInAPILevel": [
+        68,
+        97,
+        104,
+        105,
+        129,
+        133,
+        182,
+        191,
+        243,
+        245,
+        282,
+        334,
+        356
+      ],
+      "missingInAPIMachine": [
+        133,
+        191,
+        334
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10002",
+      "species": 386,
+      "showdown": "deoxysdefense",
+      "missingInAPILevel": [
+        63,
+        97,
+        104,
+        129,
+        192,
+        245,
+        269,
+        276,
+        322,
+        356,
+        473
+      ],
+      "missingInAPIMachine": [
+        417
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10003",
+      "species": 386,
+      "showdown": "deoxysspeed",
+      "missingInAPILevel": [
+        63,
+        68,
+        100,
+        133,
+        182,
+        191,
+        192,
+        243,
+        269,
+        276,
+        322,
+        334,
+        356
+      ],
+      "missingInAPIMachine": [
+        191,
+        334
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10245",
+      "species": 483,
+      "showdown": "dialgaorigin",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        46,
+        244,
+        319,
+        356,
+        784,
+        799
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10246",
+      "species": 484,
+      "showdown": "palkiaorigin",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        46,
+        244,
+        250,
+        356,
+        784,
+        799,
+        814
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10006",
+      "species": 492,
+      "showdown": "shayminsky",
+      "missingInAPILevel": [
+        235,
+        361,
+        580
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10086",
+      "species": 720,
+      "showdown": "hoopaunbound",
+      "missingInAPILevel": [
+        247,
+        417,
+        428,
+        566,
+        593
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10193",
+      "species": 898,
+      "showdown": "calyrexice",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        38,
+        46,
+        174,
+        244,
+        248,
+        333,
+        356,
+        667,
+        669,
+        675,
+        797,
+        808
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10194",
+      "species": 898,
+      "showdown": "calyrexshadow",
+      "missingInAPILevel": [],
+      "missingInAPIMachine": [
+        38,
+        114,
+        174,
+        220,
+        244,
+        248,
+        356,
+        669,
+        797,
+        808
+      ],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10273",
+      "species": 1017,
+      "showdown": "ogerponwellspring",
+      "missingInAPILevel": [
+        24,
+        68,
+        514,
+        532
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10274",
+      "species": 1017,
+      "showdown": "ogerponhearthflame",
+      "missingInAPILevel": [
+        24,
+        68,
+        514,
+        532
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    },
+    {
+      "key": "10275",
+      "species": 1017,
+      "showdown": "ogerponcornerstone",
+      "missingInAPILevel": [
+        24,
+        68,
+        514,
+        532
+      ],
+      "missingInAPIMachine": [],
+      "apiOnlyLevel": [],
+      "apiOnlyMachine": [],
+      "levelDifferences": []
+    }
+  ],
+  "moveTypeDifferences": [],
+  "typeReference": [
+    {
+      "key": "1",
+      "species": 1,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "bulbasaur"
+    },
+    {
+      "key": "2",
+      "species": 2,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "ivysaur"
+    },
+    {
+      "key": "3",
+      "species": 3,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "venusaur"
+    },
+    {
+      "key": "4",
+      "species": 4,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "charmander"
+    },
+    {
+      "key": "5",
+      "species": 5,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "charmeleon"
+    },
+    {
+      "key": "6",
+      "species": 6,
+      "types": [
+        "불꽃",
+        "비행"
+      ],
+      "showdown": "charizard"
+    },
+    {
+      "key": "7",
+      "species": 7,
+      "types": [
+        "물"
+      ],
+      "showdown": "squirtle"
+    },
+    {
+      "key": "8",
+      "species": 8,
+      "types": [
+        "물"
+      ],
+      "showdown": "wartortle"
+    },
+    {
+      "key": "9",
+      "species": 9,
+      "types": [
+        "물"
+      ],
+      "showdown": "blastoise"
+    },
+    {
+      "key": "10",
+      "species": 10,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "caterpie"
+    },
+    {
+      "key": "11",
+      "species": 11,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "metapod"
+    },
+    {
+      "key": "12",
+      "species": 12,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "butterfree"
+    },
+    {
+      "key": "13",
+      "species": 13,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "weedle"
+    },
+    {
+      "key": "14",
+      "species": 14,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "kakuna"
+    },
+    {
+      "key": "15",
+      "species": 15,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "beedrill"
+    },
+    {
+      "key": "16",
+      "species": 16,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "pidgey"
+    },
+    {
+      "key": "17",
+      "species": 17,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "pidgeotto"
+    },
+    {
+      "key": "18",
+      "species": 18,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "pidgeot"
+    },
+    {
+      "key": "19",
+      "species": 19,
+      "types": [
+        "노말"
+      ],
+      "showdown": "rattata"
+    },
+    {
+      "key": "20",
+      "species": 20,
+      "types": [
+        "노말"
+      ],
+      "showdown": "raticate"
+    },
+    {
+      "key": "21",
+      "species": 21,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "spearow"
+    },
+    {
+      "key": "22",
+      "species": 22,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "fearow"
+    },
+    {
+      "key": "23",
+      "species": 23,
+      "types": [
+        "독"
+      ],
+      "showdown": "ekans"
+    },
+    {
+      "key": "24",
+      "species": 24,
+      "types": [
+        "독"
+      ],
+      "showdown": "arbok"
+    },
+    {
+      "key": "25",
+      "species": 25,
+      "types": [
+        "전기"
+      ],
+      "showdown": "pikachu"
+    },
+    {
+      "key": "26",
+      "species": 26,
+      "types": [
+        "전기"
+      ],
+      "showdown": "raichu"
+    },
+    {
+      "key": "27",
+      "species": 27,
+      "types": [
+        "땅"
+      ],
+      "showdown": "sandshrew"
+    },
+    {
+      "key": "28",
+      "species": 28,
+      "types": [
+        "땅"
+      ],
+      "showdown": "sandslash"
+    },
+    {
+      "key": "29",
+      "species": 29,
+      "types": [
+        "독"
+      ],
+      "showdown": "nidoranf"
+    },
+    {
+      "key": "30",
+      "species": 30,
+      "types": [
+        "독"
+      ],
+      "showdown": "nidorina"
+    },
+    {
+      "key": "31",
+      "species": 31,
+      "types": [
+        "독",
+        "땅"
+      ],
+      "showdown": "nidoqueen"
+    },
+    {
+      "key": "32",
+      "species": 32,
+      "types": [
+        "독"
+      ],
+      "showdown": "nidoranm"
+    },
+    {
+      "key": "33",
+      "species": 33,
+      "types": [
+        "독"
+      ],
+      "showdown": "nidorino"
+    },
+    {
+      "key": "34",
+      "species": 34,
+      "types": [
+        "독",
+        "땅"
+      ],
+      "showdown": "nidoking"
+    },
+    {
+      "key": "35",
+      "species": 35,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "clefairy"
+    },
+    {
+      "key": "36",
+      "species": 36,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "clefable"
+    },
+    {
+      "key": "37",
+      "species": 37,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "vulpix"
+    },
+    {
+      "key": "38",
+      "species": 38,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "ninetales"
+    },
+    {
+      "key": "39",
+      "species": 39,
+      "types": [
+        "노말",
+        "페어리"
+      ],
+      "showdown": "jigglypuff"
+    },
+    {
+      "key": "40",
+      "species": 40,
+      "types": [
+        "노말",
+        "페어리"
+      ],
+      "showdown": "wigglytuff"
+    },
+    {
+      "key": "41",
+      "species": 41,
+      "types": [
+        "독",
+        "비행"
+      ],
+      "showdown": "zubat"
+    },
+    {
+      "key": "42",
+      "species": 42,
+      "types": [
+        "독",
+        "비행"
+      ],
+      "showdown": "golbat"
+    },
+    {
+      "key": "43",
+      "species": 43,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "oddish"
+    },
+    {
+      "key": "44",
+      "species": 44,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "gloom"
+    },
+    {
+      "key": "45",
+      "species": 45,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "vileplume"
+    },
+    {
+      "key": "46",
+      "species": 46,
+      "types": [
+        "벌레",
+        "풀"
+      ],
+      "showdown": "paras"
+    },
+    {
+      "key": "47",
+      "species": 47,
+      "types": [
+        "벌레",
+        "풀"
+      ],
+      "showdown": "parasect"
+    },
+    {
+      "key": "48",
+      "species": 48,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "venonat"
+    },
+    {
+      "key": "49",
+      "species": 49,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "venomoth"
+    },
+    {
+      "key": "50",
+      "species": 50,
+      "types": [
+        "땅"
+      ],
+      "showdown": "diglett"
+    },
+    {
+      "key": "51",
+      "species": 51,
+      "types": [
+        "땅"
+      ],
+      "showdown": "dugtrio"
+    },
+    {
+      "key": "52",
+      "species": 52,
+      "types": [
+        "노말"
+      ],
+      "showdown": "meowth"
+    },
+    {
+      "key": "53",
+      "species": 53,
+      "types": [
+        "노말"
+      ],
+      "showdown": "persian"
+    },
+    {
+      "key": "54",
+      "species": 54,
+      "types": [
+        "물"
+      ],
+      "showdown": "psyduck"
+    },
+    {
+      "key": "55",
+      "species": 55,
+      "types": [
+        "물"
+      ],
+      "showdown": "golduck"
+    },
+    {
+      "key": "56",
+      "species": 56,
+      "types": [
+        "격투"
+      ],
+      "showdown": "mankey"
+    },
+    {
+      "key": "57",
+      "species": 57,
+      "types": [
+        "격투"
+      ],
+      "showdown": "primeape"
+    },
+    {
+      "key": "58",
+      "species": 58,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "growlithe"
+    },
+    {
+      "key": "59",
+      "species": 59,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "arcanine"
+    },
+    {
+      "key": "60",
+      "species": 60,
+      "types": [
+        "물"
+      ],
+      "showdown": "poliwag"
+    },
+    {
+      "key": "61",
+      "species": 61,
+      "types": [
+        "물"
+      ],
+      "showdown": "poliwhirl"
+    },
+    {
+      "key": "62",
+      "species": 62,
+      "types": [
+        "물",
+        "격투"
+      ],
+      "showdown": "poliwrath"
+    },
+    {
+      "key": "63",
+      "species": 63,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "abra"
+    },
+    {
+      "key": "64",
+      "species": 64,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "kadabra"
+    },
+    {
+      "key": "65",
+      "species": 65,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "alakazam"
+    },
+    {
+      "key": "66",
+      "species": 66,
+      "types": [
+        "격투"
+      ],
+      "showdown": "machop"
+    },
+    {
+      "key": "67",
+      "species": 67,
+      "types": [
+        "격투"
+      ],
+      "showdown": "machoke"
+    },
+    {
+      "key": "68",
+      "species": 68,
+      "types": [
+        "격투"
+      ],
+      "showdown": "machamp"
+    },
+    {
+      "key": "69",
+      "species": 69,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "bellsprout"
+    },
+    {
+      "key": "70",
+      "species": 70,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "weepinbell"
+    },
+    {
+      "key": "71",
+      "species": 71,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "victreebel"
+    },
+    {
+      "key": "72",
+      "species": 72,
+      "types": [
+        "물",
+        "독"
+      ],
+      "showdown": "tentacool"
+    },
+    {
+      "key": "73",
+      "species": 73,
+      "types": [
+        "물",
+        "독"
+      ],
+      "showdown": "tentacruel"
+    },
+    {
+      "key": "74",
+      "species": 74,
+      "types": [
+        "바위",
+        "땅"
+      ],
+      "showdown": "geodude"
+    },
+    {
+      "key": "75",
+      "species": 75,
+      "types": [
+        "바위",
+        "땅"
+      ],
+      "showdown": "graveler"
+    },
+    {
+      "key": "76",
+      "species": 76,
+      "types": [
+        "바위",
+        "땅"
+      ],
+      "showdown": "golem"
+    },
+    {
+      "key": "77",
+      "species": 77,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "ponyta"
+    },
+    {
+      "key": "78",
+      "species": 78,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "rapidash"
+    },
+    {
+      "key": "79",
+      "species": 79,
+      "types": [
+        "물",
+        "에스퍼"
+      ],
+      "showdown": "slowpoke"
+    },
+    {
+      "key": "80",
+      "species": 80,
+      "types": [
+        "물",
+        "에스퍼"
+      ],
+      "showdown": "slowbro"
+    },
+    {
+      "key": "81",
+      "species": 81,
+      "types": [
+        "전기",
+        "강철"
+      ],
+      "showdown": "magnemite"
+    },
+    {
+      "key": "82",
+      "species": 82,
+      "types": [
+        "전기",
+        "강철"
+      ],
+      "showdown": "magneton"
+    },
+    {
+      "key": "83",
+      "species": 83,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "farfetchd"
+    },
+    {
+      "key": "84",
+      "species": 84,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "doduo"
+    },
+    {
+      "key": "85",
+      "species": 85,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "dodrio"
+    },
+    {
+      "key": "86",
+      "species": 86,
+      "types": [
+        "물"
+      ],
+      "showdown": "seel"
+    },
+    {
+      "key": "87",
+      "species": 87,
+      "types": [
+        "물",
+        "얼음"
+      ],
+      "showdown": "dewgong"
+    },
+    {
+      "key": "88",
+      "species": 88,
+      "types": [
+        "독"
+      ],
+      "showdown": "grimer"
+    },
+    {
+      "key": "89",
+      "species": 89,
+      "types": [
+        "독"
+      ],
+      "showdown": "muk"
+    },
+    {
+      "key": "90",
+      "species": 90,
+      "types": [
+        "물"
+      ],
+      "showdown": "shellder"
+    },
+    {
+      "key": "91",
+      "species": 91,
+      "types": [
+        "물",
+        "얼음"
+      ],
+      "showdown": "cloyster"
+    },
+    {
+      "key": "92",
+      "species": 92,
+      "types": [
+        "고스트",
+        "독"
+      ],
+      "showdown": "gastly"
+    },
+    {
+      "key": "93",
+      "species": 93,
+      "types": [
+        "고스트",
+        "독"
+      ],
+      "showdown": "haunter"
+    },
+    {
+      "key": "94",
+      "species": 94,
+      "types": [
+        "고스트",
+        "독"
+      ],
+      "showdown": "gengar"
+    },
+    {
+      "key": "95",
+      "species": 95,
+      "types": [
+        "바위",
+        "땅"
+      ],
+      "showdown": "onix"
+    },
+    {
+      "key": "96",
+      "species": 96,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "drowzee"
+    },
+    {
+      "key": "97",
+      "species": 97,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "hypno"
+    },
+    {
+      "key": "98",
+      "species": 98,
+      "types": [
+        "물"
+      ],
+      "showdown": "krabby"
+    },
+    {
+      "key": "99",
+      "species": 99,
+      "types": [
+        "물"
+      ],
+      "showdown": "kingler"
+    },
+    {
+      "key": "100",
+      "species": 100,
+      "types": [
+        "전기"
+      ],
+      "showdown": "voltorb"
+    },
+    {
+      "key": "101",
+      "species": 101,
+      "types": [
+        "전기"
+      ],
+      "showdown": "electrode"
+    },
+    {
+      "key": "102",
+      "species": 102,
+      "types": [
+        "풀",
+        "에스퍼"
+      ],
+      "showdown": "exeggcute"
+    },
+    {
+      "key": "103",
+      "species": 103,
+      "types": [
+        "풀",
+        "에스퍼"
+      ],
+      "showdown": "exeggutor"
+    },
+    {
+      "key": "104",
+      "species": 104,
+      "types": [
+        "땅"
+      ],
+      "showdown": "cubone"
+    },
+    {
+      "key": "105",
+      "species": 105,
+      "types": [
+        "땅"
+      ],
+      "showdown": "marowak"
+    },
+    {
+      "key": "106",
+      "species": 106,
+      "types": [
+        "격투"
+      ],
+      "showdown": "hitmonlee"
+    },
+    {
+      "key": "107",
+      "species": 107,
+      "types": [
+        "격투"
+      ],
+      "showdown": "hitmonchan"
+    },
+    {
+      "key": "108",
+      "species": 108,
+      "types": [
+        "노말"
+      ],
+      "showdown": "lickitung"
+    },
+    {
+      "key": "109",
+      "species": 109,
+      "types": [
+        "독"
+      ],
+      "showdown": "koffing"
+    },
+    {
+      "key": "110",
+      "species": 110,
+      "types": [
+        "독"
+      ],
+      "showdown": "weezing"
+    },
+    {
+      "key": "111",
+      "species": 111,
+      "types": [
+        "땅",
+        "바위"
+      ],
+      "showdown": "rhyhorn"
+    },
+    {
+      "key": "112",
+      "species": 112,
+      "types": [
+        "땅",
+        "바위"
+      ],
+      "showdown": "rhydon"
+    },
+    {
+      "key": "113",
+      "species": 113,
+      "types": [
+        "노말"
+      ],
+      "showdown": "chansey"
+    },
+    {
+      "key": "114",
+      "species": 114,
+      "types": [
+        "풀"
+      ],
+      "showdown": "tangela"
+    },
+    {
+      "key": "115",
+      "species": 115,
+      "types": [
+        "노말"
+      ],
+      "showdown": "kangaskhan"
+    },
+    {
+      "key": "116",
+      "species": 116,
+      "types": [
+        "물"
+      ],
+      "showdown": "horsea"
+    },
+    {
+      "key": "117",
+      "species": 117,
+      "types": [
+        "물"
+      ],
+      "showdown": "seadra"
+    },
+    {
+      "key": "118",
+      "species": 118,
+      "types": [
+        "물"
+      ],
+      "showdown": "goldeen"
+    },
+    {
+      "key": "119",
+      "species": 119,
+      "types": [
+        "물"
+      ],
+      "showdown": "seaking"
+    },
+    {
+      "key": "120",
+      "species": 120,
+      "types": [
+        "물"
+      ],
+      "showdown": "staryu"
+    },
+    {
+      "key": "121",
+      "species": 121,
+      "types": [
+        "물",
+        "에스퍼"
+      ],
+      "showdown": "starmie"
+    },
+    {
+      "key": "122",
+      "species": 122,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "mrmime"
+    },
+    {
+      "key": "123",
+      "species": 123,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "scyther"
+    },
+    {
+      "key": "124",
+      "species": 124,
+      "types": [
+        "얼음",
+        "에스퍼"
+      ],
+      "showdown": "jynx"
+    },
+    {
+      "key": "125",
+      "species": 125,
+      "types": [
+        "전기"
+      ],
+      "showdown": "electabuzz"
+    },
+    {
+      "key": "126",
+      "species": 126,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "magmar"
+    },
+    {
+      "key": "127",
+      "species": 127,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "pinsir"
+    },
+    {
+      "key": "128",
+      "species": 128,
+      "types": [
+        "노말"
+      ],
+      "showdown": "tauros"
+    },
+    {
+      "key": "129",
+      "species": 129,
+      "types": [
+        "물"
+      ],
+      "showdown": "magikarp"
+    },
+    {
+      "key": "130",
+      "species": 130,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "gyarados"
+    },
+    {
+      "key": "131",
+      "species": 131,
+      "types": [
+        "물",
+        "얼음"
+      ],
+      "showdown": "lapras"
+    },
+    {
+      "key": "132",
+      "species": 132,
+      "types": [
+        "노말"
+      ],
+      "showdown": "ditto"
+    },
+    {
+      "key": "133",
+      "species": 133,
+      "types": [
+        "노말"
+      ],
+      "showdown": "eevee"
+    },
+    {
+      "key": "134",
+      "species": 134,
+      "types": [
+        "물"
+      ],
+      "showdown": "vaporeon"
+    },
+    {
+      "key": "135",
+      "species": 135,
+      "types": [
+        "전기"
+      ],
+      "showdown": "jolteon"
+    },
+    {
+      "key": "136",
+      "species": 136,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "flareon"
+    },
+    {
+      "key": "137",
+      "species": 137,
+      "types": [
+        "노말"
+      ],
+      "showdown": "porygon"
+    },
+    {
+      "key": "138",
+      "species": 138,
+      "types": [
+        "바위",
+        "물"
+      ],
+      "showdown": "omanyte"
+    },
+    {
+      "key": "139",
+      "species": 139,
+      "types": [
+        "바위",
+        "물"
+      ],
+      "showdown": "omastar"
+    },
+    {
+      "key": "140",
+      "species": 140,
+      "types": [
+        "바위",
+        "물"
+      ],
+      "showdown": "kabuto"
+    },
+    {
+      "key": "141",
+      "species": 141,
+      "types": [
+        "바위",
+        "물"
+      ],
+      "showdown": "kabutops"
+    },
+    {
+      "key": "142",
+      "species": 142,
+      "types": [
+        "바위",
+        "비행"
+      ],
+      "showdown": "aerodactyl"
+    },
+    {
+      "key": "143",
+      "species": 143,
+      "types": [
+        "노말"
+      ],
+      "showdown": "snorlax"
+    },
+    {
+      "key": "144",
+      "species": 144,
+      "types": [
+        "얼음",
+        "비행"
+      ],
+      "showdown": "articuno"
+    },
+    {
+      "key": "145",
+      "species": 145,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "zapdos"
+    },
+    {
+      "key": "146",
+      "species": 146,
+      "types": [
+        "불꽃",
+        "비행"
+      ],
+      "showdown": "moltres"
+    },
+    {
+      "key": "147",
+      "species": 147,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "dratini"
+    },
+    {
+      "key": "148",
+      "species": 148,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "dragonair"
+    },
+    {
+      "key": "149",
+      "species": 149,
+      "types": [
+        "드래곤",
+        "비행"
+      ],
+      "showdown": "dragonite"
+    },
+    {
+      "key": "150",
+      "species": 150,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "mewtwo"
+    },
+    {
+      "key": "151",
+      "species": 151,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "mew"
+    },
+    {
+      "key": "152",
+      "species": 152,
+      "types": [
+        "풀"
+      ],
+      "showdown": "chikorita"
+    },
+    {
+      "key": "153",
+      "species": 153,
+      "types": [
+        "풀"
+      ],
+      "showdown": "bayleef"
+    },
+    {
+      "key": "154",
+      "species": 154,
+      "types": [
+        "풀"
+      ],
+      "showdown": "meganium"
+    },
+    {
+      "key": "155",
+      "species": 155,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "cyndaquil"
+    },
+    {
+      "key": "156",
+      "species": 156,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "quilava"
+    },
+    {
+      "key": "157",
+      "species": 157,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "typhlosion"
+    },
+    {
+      "key": "158",
+      "species": 158,
+      "types": [
+        "물"
+      ],
+      "showdown": "totodile"
+    },
+    {
+      "key": "159",
+      "species": 159,
+      "types": [
+        "물"
+      ],
+      "showdown": "croconaw"
+    },
+    {
+      "key": "160",
+      "species": 160,
+      "types": [
+        "물"
+      ],
+      "showdown": "feraligatr"
+    },
+    {
+      "key": "161",
+      "species": 161,
+      "types": [
+        "노말"
+      ],
+      "showdown": "sentret"
+    },
+    {
+      "key": "162",
+      "species": 162,
+      "types": [
+        "노말"
+      ],
+      "showdown": "furret"
+    },
+    {
+      "key": "163",
+      "species": 163,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "hoothoot"
+    },
+    {
+      "key": "164",
+      "species": 164,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "noctowl"
+    },
+    {
+      "key": "165",
+      "species": 165,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "ledyba"
+    },
+    {
+      "key": "166",
+      "species": 166,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "ledian"
+    },
+    {
+      "key": "167",
+      "species": 167,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "spinarak"
+    },
+    {
+      "key": "168",
+      "species": 168,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "ariados"
+    },
+    {
+      "key": "169",
+      "species": 169,
+      "types": [
+        "독",
+        "비행"
+      ],
+      "showdown": "crobat"
+    },
+    {
+      "key": "170",
+      "species": 170,
+      "types": [
+        "물",
+        "전기"
+      ],
+      "showdown": "chinchou"
+    },
+    {
+      "key": "171",
+      "species": 171,
+      "types": [
+        "물",
+        "전기"
+      ],
+      "showdown": "lanturn"
+    },
+    {
+      "key": "172",
+      "species": 172,
+      "types": [
+        "전기"
+      ],
+      "showdown": "pichu"
+    },
+    {
+      "key": "173",
+      "species": 173,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "cleffa"
+    },
+    {
+      "key": "174",
+      "species": 174,
+      "types": [
+        "노말",
+        "페어리"
+      ],
+      "showdown": "igglybuff"
+    },
+    {
+      "key": "175",
+      "species": 175,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "togepi"
+    },
+    {
+      "key": "176",
+      "species": 176,
+      "types": [
+        "페어리",
+        "비행"
+      ],
+      "showdown": "togetic"
+    },
+    {
+      "key": "177",
+      "species": 177,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "natu"
+    },
+    {
+      "key": "178",
+      "species": 178,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "xatu"
+    },
+    {
+      "key": "179",
+      "species": 179,
+      "types": [
+        "전기"
+      ],
+      "showdown": "mareep"
+    },
+    {
+      "key": "180",
+      "species": 180,
+      "types": [
+        "전기"
+      ],
+      "showdown": "flaaffy"
+    },
+    {
+      "key": "181",
+      "species": 181,
+      "types": [
+        "전기"
+      ],
+      "showdown": "ampharos"
+    },
+    {
+      "key": "182",
+      "species": 182,
+      "types": [
+        "풀"
+      ],
+      "showdown": "bellossom"
+    },
+    {
+      "key": "183",
+      "species": 183,
+      "types": [
+        "물",
+        "페어리"
+      ],
+      "showdown": "marill"
+    },
+    {
+      "key": "184",
+      "species": 184,
+      "types": [
+        "물",
+        "페어리"
+      ],
+      "showdown": "azumarill"
+    },
+    {
+      "key": "185",
+      "species": 185,
+      "types": [
+        "바위"
+      ],
+      "showdown": "sudowoodo"
+    },
+    {
+      "key": "186",
+      "species": 186,
+      "types": [
+        "물"
+      ],
+      "showdown": "politoed"
+    },
+    {
+      "key": "187",
+      "species": 187,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "hoppip"
+    },
+    {
+      "key": "188",
+      "species": 188,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "skiploom"
+    },
+    {
+      "key": "189",
+      "species": 189,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "jumpluff"
+    },
+    {
+      "key": "190",
+      "species": 190,
+      "types": [
+        "노말"
+      ],
+      "showdown": "aipom"
+    },
+    {
+      "key": "191",
+      "species": 191,
+      "types": [
+        "풀"
+      ],
+      "showdown": "sunkern"
+    },
+    {
+      "key": "192",
+      "species": 192,
+      "types": [
+        "풀"
+      ],
+      "showdown": "sunflora"
+    },
+    {
+      "key": "193",
+      "species": 193,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "yanma"
+    },
+    {
+      "key": "194",
+      "species": 194,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "wooper"
+    },
+    {
+      "key": "195",
+      "species": 195,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "quagsire"
+    },
+    {
+      "key": "196",
+      "species": 196,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "espeon"
+    },
+    {
+      "key": "197",
+      "species": 197,
+      "types": [
+        "악"
+      ],
+      "showdown": "umbreon"
+    },
+    {
+      "key": "198",
+      "species": 198,
+      "types": [
+        "악",
+        "비행"
+      ],
+      "showdown": "murkrow"
+    },
+    {
+      "key": "199",
+      "species": 199,
+      "types": [
+        "물",
+        "에스퍼"
+      ],
+      "showdown": "slowking"
+    },
+    {
+      "key": "200",
+      "species": 200,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "misdreavus"
+    },
+    {
+      "key": "201",
+      "species": 201,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "unown"
+    },
+    {
+      "key": "202",
+      "species": 202,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "wobbuffet"
+    },
+    {
+      "key": "203",
+      "species": 203,
+      "types": [
+        "노말",
+        "에스퍼"
+      ],
+      "showdown": "girafarig"
+    },
+    {
+      "key": "204",
+      "species": 204,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "pineco"
+    },
+    {
+      "key": "205",
+      "species": 205,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "forretress"
+    },
+    {
+      "key": "206",
+      "species": 206,
+      "types": [
+        "노말"
+      ],
+      "showdown": "dunsparce"
+    },
+    {
+      "key": "207",
+      "species": 207,
+      "types": [
+        "땅",
+        "비행"
+      ],
+      "showdown": "gligar"
+    },
+    {
+      "key": "208",
+      "species": 208,
+      "types": [
+        "강철",
+        "땅"
+      ],
+      "showdown": "steelix"
+    },
+    {
+      "key": "209",
+      "species": 209,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "snubbull"
+    },
+    {
+      "key": "210",
+      "species": 210,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "granbull"
+    },
+    {
+      "key": "211",
+      "species": 211,
+      "types": [
+        "물",
+        "독"
+      ],
+      "showdown": "qwilfish"
+    },
+    {
+      "key": "212",
+      "species": 212,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "scizor"
+    },
+    {
+      "key": "213",
+      "species": 213,
+      "types": [
+        "벌레",
+        "바위"
+      ],
+      "showdown": "shuckle"
+    },
+    {
+      "key": "214",
+      "species": 214,
+      "types": [
+        "벌레",
+        "격투"
+      ],
+      "showdown": "heracross"
+    },
+    {
+      "key": "215",
+      "species": 215,
+      "types": [
+        "악",
+        "얼음"
+      ],
+      "showdown": "sneasel"
+    },
+    {
+      "key": "216",
+      "species": 216,
+      "types": [
+        "노말"
+      ],
+      "showdown": "teddiursa"
+    },
+    {
+      "key": "217",
+      "species": 217,
+      "types": [
+        "노말"
+      ],
+      "showdown": "ursaring"
+    },
+    {
+      "key": "218",
+      "species": 218,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "slugma"
+    },
+    {
+      "key": "219",
+      "species": 219,
+      "types": [
+        "불꽃",
+        "바위"
+      ],
+      "showdown": "magcargo"
+    },
+    {
+      "key": "220",
+      "species": 220,
+      "types": [
+        "얼음",
+        "땅"
+      ],
+      "showdown": "swinub"
+    },
+    {
+      "key": "221",
+      "species": 221,
+      "types": [
+        "얼음",
+        "땅"
+      ],
+      "showdown": "piloswine"
+    },
+    {
+      "key": "222",
+      "species": 222,
+      "types": [
+        "물",
+        "바위"
+      ],
+      "showdown": "corsola"
+    },
+    {
+      "key": "223",
+      "species": 223,
+      "types": [
+        "물"
+      ],
+      "showdown": "remoraid"
+    },
+    {
+      "key": "224",
+      "species": 224,
+      "types": [
+        "물"
+      ],
+      "showdown": "octillery"
+    },
+    {
+      "key": "225",
+      "species": 225,
+      "types": [
+        "얼음",
+        "비행"
+      ],
+      "showdown": "delibird"
+    },
+    {
+      "key": "226",
+      "species": 226,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "mantine"
+    },
+    {
+      "key": "227",
+      "species": 227,
+      "types": [
+        "강철",
+        "비행"
+      ],
+      "showdown": "skarmory"
+    },
+    {
+      "key": "228",
+      "species": 228,
+      "types": [
+        "악",
+        "불꽃"
+      ],
+      "showdown": "houndour"
+    },
+    {
+      "key": "229",
+      "species": 229,
+      "types": [
+        "악",
+        "불꽃"
+      ],
+      "showdown": "houndoom"
+    },
+    {
+      "key": "230",
+      "species": 230,
+      "types": [
+        "물",
+        "드래곤"
+      ],
+      "showdown": "kingdra"
+    },
+    {
+      "key": "231",
+      "species": 231,
+      "types": [
+        "땅"
+      ],
+      "showdown": "phanpy"
+    },
+    {
+      "key": "232",
+      "species": 232,
+      "types": [
+        "땅"
+      ],
+      "showdown": "donphan"
+    },
+    {
+      "key": "233",
+      "species": 233,
+      "types": [
+        "노말"
+      ],
+      "showdown": "porygon2"
+    },
+    {
+      "key": "234",
+      "species": 234,
+      "types": [
+        "노말"
+      ],
+      "showdown": "stantler"
+    },
+    {
+      "key": "235",
+      "species": 235,
+      "types": [
+        "노말"
+      ],
+      "showdown": "smeargle"
+    },
+    {
+      "key": "236",
+      "species": 236,
+      "types": [
+        "격투"
+      ],
+      "showdown": "tyrogue"
+    },
+    {
+      "key": "237",
+      "species": 237,
+      "types": [
+        "격투"
+      ],
+      "showdown": "hitmontop"
+    },
+    {
+      "key": "238",
+      "species": 238,
+      "types": [
+        "얼음",
+        "에스퍼"
+      ],
+      "showdown": "smoochum"
+    },
+    {
+      "key": "239",
+      "species": 239,
+      "types": [
+        "전기"
+      ],
+      "showdown": "elekid"
+    },
+    {
+      "key": "240",
+      "species": 240,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "magby"
+    },
+    {
+      "key": "241",
+      "species": 241,
+      "types": [
+        "노말"
+      ],
+      "showdown": "miltank"
+    },
+    {
+      "key": "242",
+      "species": 242,
+      "types": [
+        "노말"
+      ],
+      "showdown": "blissey"
+    },
+    {
+      "key": "243",
+      "species": 243,
+      "types": [
+        "전기"
+      ],
+      "showdown": "raikou"
+    },
+    {
+      "key": "244",
+      "species": 244,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "entei"
+    },
+    {
+      "key": "245",
+      "species": 245,
+      "types": [
+        "물"
+      ],
+      "showdown": "suicune"
+    },
+    {
+      "key": "246",
+      "species": 246,
+      "types": [
+        "바위",
+        "땅"
+      ],
+      "showdown": "larvitar"
+    },
+    {
+      "key": "247",
+      "species": 247,
+      "types": [
+        "바위",
+        "땅"
+      ],
+      "showdown": "pupitar"
+    },
+    {
+      "key": "248",
+      "species": 248,
+      "types": [
+        "바위",
+        "악"
+      ],
+      "showdown": "tyranitar"
+    },
+    {
+      "key": "249",
+      "species": 249,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "lugia"
+    },
+    {
+      "key": "250",
+      "species": 250,
+      "types": [
+        "불꽃",
+        "비행"
+      ],
+      "showdown": "hooh"
+    },
+    {
+      "key": "251",
+      "species": 251,
+      "types": [
+        "에스퍼",
+        "풀"
+      ],
+      "showdown": "celebi"
+    },
+    {
+      "key": "252",
+      "species": 252,
+      "types": [
+        "풀"
+      ],
+      "showdown": "treecko"
+    },
+    {
+      "key": "253",
+      "species": 253,
+      "types": [
+        "풀"
+      ],
+      "showdown": "grovyle"
+    },
+    {
+      "key": "254",
+      "species": 254,
+      "types": [
+        "풀"
+      ],
+      "showdown": "sceptile"
+    },
+    {
+      "key": "255",
+      "species": 255,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "torchic"
+    },
+    {
+      "key": "256",
+      "species": 256,
+      "types": [
+        "불꽃",
+        "격투"
+      ],
+      "showdown": "combusken"
+    },
+    {
+      "key": "257",
+      "species": 257,
+      "types": [
+        "불꽃",
+        "격투"
+      ],
+      "showdown": "blaziken"
+    },
+    {
+      "key": "258",
+      "species": 258,
+      "types": [
+        "물"
+      ],
+      "showdown": "mudkip"
+    },
+    {
+      "key": "259",
+      "species": 259,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "marshtomp"
+    },
+    {
+      "key": "260",
+      "species": 260,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "swampert"
+    },
+    {
+      "key": "261",
+      "species": 261,
+      "types": [
+        "악"
+      ],
+      "showdown": "poochyena"
+    },
+    {
+      "key": "262",
+      "species": 262,
+      "types": [
+        "악"
+      ],
+      "showdown": "mightyena"
+    },
+    {
+      "key": "263",
+      "species": 263,
+      "types": [
+        "노말"
+      ],
+      "showdown": "zigzagoon"
+    },
+    {
+      "key": "264",
+      "species": 264,
+      "types": [
+        "노말"
+      ],
+      "showdown": "linoone"
+    },
+    {
+      "key": "265",
+      "species": 265,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "wurmple"
+    },
+    {
+      "key": "266",
+      "species": 266,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "silcoon"
+    },
+    {
+      "key": "267",
+      "species": 267,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "beautifly"
+    },
+    {
+      "key": "268",
+      "species": 268,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "cascoon"
+    },
+    {
+      "key": "269",
+      "species": 269,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "dustox"
+    },
+    {
+      "key": "270",
+      "species": 270,
+      "types": [
+        "물",
+        "풀"
+      ],
+      "showdown": "lotad"
+    },
+    {
+      "key": "271",
+      "species": 271,
+      "types": [
+        "물",
+        "풀"
+      ],
+      "showdown": "lombre"
+    },
+    {
+      "key": "272",
+      "species": 272,
+      "types": [
+        "물",
+        "풀"
+      ],
+      "showdown": "ludicolo"
+    },
+    {
+      "key": "273",
+      "species": 273,
+      "types": [
+        "풀"
+      ],
+      "showdown": "seedot"
+    },
+    {
+      "key": "274",
+      "species": 274,
+      "types": [
+        "풀",
+        "악"
+      ],
+      "showdown": "nuzleaf"
+    },
+    {
+      "key": "275",
+      "species": 275,
+      "types": [
+        "풀",
+        "악"
+      ],
+      "showdown": "shiftry"
+    },
+    {
+      "key": "276",
+      "species": 276,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "taillow"
+    },
+    {
+      "key": "277",
+      "species": 277,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "swellow"
+    },
+    {
+      "key": "278",
+      "species": 278,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "wingull"
+    },
+    {
+      "key": "279",
+      "species": 279,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "pelipper"
+    },
+    {
+      "key": "280",
+      "species": 280,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "ralts"
+    },
+    {
+      "key": "281",
+      "species": 281,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "kirlia"
+    },
+    {
+      "key": "282",
+      "species": 282,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "gardevoir"
+    },
+    {
+      "key": "283",
+      "species": 283,
+      "types": [
+        "벌레",
+        "물"
+      ],
+      "showdown": "surskit"
+    },
+    {
+      "key": "284",
+      "species": 284,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "masquerain"
+    },
+    {
+      "key": "285",
+      "species": 285,
+      "types": [
+        "풀"
+      ],
+      "showdown": "shroomish"
+    },
+    {
+      "key": "286",
+      "species": 286,
+      "types": [
+        "풀",
+        "격투"
+      ],
+      "showdown": "breloom"
+    },
+    {
+      "key": "287",
+      "species": 287,
+      "types": [
+        "노말"
+      ],
+      "showdown": "slakoth"
+    },
+    {
+      "key": "288",
+      "species": 288,
+      "types": [
+        "노말"
+      ],
+      "showdown": "vigoroth"
+    },
+    {
+      "key": "289",
+      "species": 289,
+      "types": [
+        "노말"
+      ],
+      "showdown": "slaking"
+    },
+    {
+      "key": "290",
+      "species": 290,
+      "types": [
+        "벌레",
+        "땅"
+      ],
+      "showdown": "nincada"
+    },
+    {
+      "key": "291",
+      "species": 291,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "ninjask"
+    },
+    {
+      "key": "292",
+      "species": 292,
+      "types": [
+        "벌레",
+        "고스트"
+      ],
+      "showdown": "shedinja"
+    },
+    {
+      "key": "293",
+      "species": 293,
+      "types": [
+        "노말"
+      ],
+      "showdown": "whismur"
+    },
+    {
+      "key": "294",
+      "species": 294,
+      "types": [
+        "노말"
+      ],
+      "showdown": "loudred"
+    },
+    {
+      "key": "295",
+      "species": 295,
+      "types": [
+        "노말"
+      ],
+      "showdown": "exploud"
+    },
+    {
+      "key": "296",
+      "species": 296,
+      "types": [
+        "격투"
+      ],
+      "showdown": "makuhita"
+    },
+    {
+      "key": "297",
+      "species": 297,
+      "types": [
+        "격투"
+      ],
+      "showdown": "hariyama"
+    },
+    {
+      "key": "298",
+      "species": 298,
+      "types": [
+        "노말",
+        "페어리"
+      ],
+      "showdown": "azurill"
+    },
+    {
+      "key": "299",
+      "species": 299,
+      "types": [
+        "바위"
+      ],
+      "showdown": "nosepass"
+    },
+    {
+      "key": "300",
+      "species": 300,
+      "types": [
+        "노말"
+      ],
+      "showdown": "skitty"
+    },
+    {
+      "key": "301",
+      "species": 301,
+      "types": [
+        "노말"
+      ],
+      "showdown": "delcatty"
+    },
+    {
+      "key": "302",
+      "species": 302,
+      "types": [
+        "악",
+        "고스트"
+      ],
+      "showdown": "sableye"
+    },
+    {
+      "key": "303",
+      "species": 303,
+      "types": [
+        "강철",
+        "페어리"
+      ],
+      "showdown": "mawile"
+    },
+    {
+      "key": "304",
+      "species": 304,
+      "types": [
+        "강철",
+        "바위"
+      ],
+      "showdown": "aron"
+    },
+    {
+      "key": "305",
+      "species": 305,
+      "types": [
+        "강철",
+        "바위"
+      ],
+      "showdown": "lairon"
+    },
+    {
+      "key": "306",
+      "species": 306,
+      "types": [
+        "강철",
+        "바위"
+      ],
+      "showdown": "aggron"
+    },
+    {
+      "key": "307",
+      "species": 307,
+      "types": [
+        "격투",
+        "에스퍼"
+      ],
+      "showdown": "meditite"
+    },
+    {
+      "key": "308",
+      "species": 308,
+      "types": [
+        "격투",
+        "에스퍼"
+      ],
+      "showdown": "medicham"
+    },
+    {
+      "key": "309",
+      "species": 309,
+      "types": [
+        "전기"
+      ],
+      "showdown": "electrike"
+    },
+    {
+      "key": "310",
+      "species": 310,
+      "types": [
+        "전기"
+      ],
+      "showdown": "manectric"
+    },
+    {
+      "key": "311",
+      "species": 311,
+      "types": [
+        "전기"
+      ],
+      "showdown": "plusle"
+    },
+    {
+      "key": "312",
+      "species": 312,
+      "types": [
+        "전기"
+      ],
+      "showdown": "minun"
+    },
+    {
+      "key": "313",
+      "species": 313,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "volbeat"
+    },
+    {
+      "key": "314",
+      "species": 314,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "illumise"
+    },
+    {
+      "key": "315",
+      "species": 315,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "roselia"
+    },
+    {
+      "key": "316",
+      "species": 316,
+      "types": [
+        "독"
+      ],
+      "showdown": "gulpin"
+    },
+    {
+      "key": "317",
+      "species": 317,
+      "types": [
+        "독"
+      ],
+      "showdown": "swalot"
+    },
+    {
+      "key": "318",
+      "species": 318,
+      "types": [
+        "물",
+        "악"
+      ],
+      "showdown": "carvanha"
+    },
+    {
+      "key": "319",
+      "species": 319,
+      "types": [
+        "물",
+        "악"
+      ],
+      "showdown": "sharpedo"
+    },
+    {
+      "key": "320",
+      "species": 320,
+      "types": [
+        "물"
+      ],
+      "showdown": "wailmer"
+    },
+    {
+      "key": "321",
+      "species": 321,
+      "types": [
+        "물"
+      ],
+      "showdown": "wailord"
+    },
+    {
+      "key": "322",
+      "species": 322,
+      "types": [
+        "불꽃",
+        "땅"
+      ],
+      "showdown": "numel"
+    },
+    {
+      "key": "323",
+      "species": 323,
+      "types": [
+        "불꽃",
+        "땅"
+      ],
+      "showdown": "camerupt"
+    },
+    {
+      "key": "324",
+      "species": 324,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "torkoal"
+    },
+    {
+      "key": "325",
+      "species": 325,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "spoink"
+    },
+    {
+      "key": "326",
+      "species": 326,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "grumpig"
+    },
+    {
+      "key": "327",
+      "species": 327,
+      "types": [
+        "노말"
+      ],
+      "showdown": "spinda"
+    },
+    {
+      "key": "328",
+      "species": 328,
+      "types": [
+        "땅"
+      ],
+      "showdown": "trapinch"
+    },
+    {
+      "key": "329",
+      "species": 329,
+      "types": [
+        "땅",
+        "드래곤"
+      ],
+      "showdown": "vibrava"
+    },
+    {
+      "key": "330",
+      "species": 330,
+      "types": [
+        "땅",
+        "드래곤"
+      ],
+      "showdown": "flygon"
+    },
+    {
+      "key": "331",
+      "species": 331,
+      "types": [
+        "풀"
+      ],
+      "showdown": "cacnea"
+    },
+    {
+      "key": "332",
+      "species": 332,
+      "types": [
+        "풀",
+        "악"
+      ],
+      "showdown": "cacturne"
+    },
+    {
+      "key": "333",
+      "species": 333,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "swablu"
+    },
+    {
+      "key": "334",
+      "species": 334,
+      "types": [
+        "드래곤",
+        "비행"
+      ],
+      "showdown": "altaria"
+    },
+    {
+      "key": "335",
+      "species": 335,
+      "types": [
+        "노말"
+      ],
+      "showdown": "zangoose"
+    },
+    {
+      "key": "336",
+      "species": 336,
+      "types": [
+        "독"
+      ],
+      "showdown": "seviper"
+    },
+    {
+      "key": "337",
+      "species": 337,
+      "types": [
+        "바위",
+        "에스퍼"
+      ],
+      "showdown": "lunatone"
+    },
+    {
+      "key": "338",
+      "species": 338,
+      "types": [
+        "바위",
+        "에스퍼"
+      ],
+      "showdown": "solrock"
+    },
+    {
+      "key": "339",
+      "species": 339,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "barboach"
+    },
+    {
+      "key": "340",
+      "species": 340,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "whiscash"
+    },
+    {
+      "key": "341",
+      "species": 341,
+      "types": [
+        "물"
+      ],
+      "showdown": "corphish"
+    },
+    {
+      "key": "342",
+      "species": 342,
+      "types": [
+        "물",
+        "악"
+      ],
+      "showdown": "crawdaunt"
+    },
+    {
+      "key": "343",
+      "species": 343,
+      "types": [
+        "땅",
+        "에스퍼"
+      ],
+      "showdown": "baltoy"
+    },
+    {
+      "key": "344",
+      "species": 344,
+      "types": [
+        "땅",
+        "에스퍼"
+      ],
+      "showdown": "claydol"
+    },
+    {
+      "key": "345",
+      "species": 345,
+      "types": [
+        "바위",
+        "풀"
+      ],
+      "showdown": "lileep"
+    },
+    {
+      "key": "346",
+      "species": 346,
+      "types": [
+        "바위",
+        "풀"
+      ],
+      "showdown": "cradily"
+    },
+    {
+      "key": "347",
+      "species": 347,
+      "types": [
+        "바위",
+        "벌레"
+      ],
+      "showdown": "anorith"
+    },
+    {
+      "key": "348",
+      "species": 348,
+      "types": [
+        "바위",
+        "벌레"
+      ],
+      "showdown": "armaldo"
+    },
+    {
+      "key": "349",
+      "species": 349,
+      "types": [
+        "물"
+      ],
+      "showdown": "feebas"
+    },
+    {
+      "key": "350",
+      "species": 350,
+      "types": [
+        "물"
+      ],
+      "showdown": "milotic"
+    },
+    {
+      "key": "351",
+      "species": 351,
+      "types": [
+        "노말"
+      ],
+      "showdown": "castform"
+    },
+    {
+      "key": "352",
+      "species": 352,
+      "types": [
+        "노말"
+      ],
+      "showdown": "kecleon"
+    },
+    {
+      "key": "353",
+      "species": 353,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "shuppet"
+    },
+    {
+      "key": "354",
+      "species": 354,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "banette"
+    },
+    {
+      "key": "355",
+      "species": 355,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "duskull"
+    },
+    {
+      "key": "356",
+      "species": 356,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "dusclops"
+    },
+    {
+      "key": "357",
+      "species": 357,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "tropius"
+    },
+    {
+      "key": "358",
+      "species": 358,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "chimecho"
+    },
+    {
+      "key": "359",
+      "species": 359,
+      "types": [
+        "악"
+      ],
+      "showdown": "absol"
+    },
+    {
+      "key": "360",
+      "species": 360,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "wynaut"
+    },
+    {
+      "key": "361",
+      "species": 361,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "snorunt"
+    },
+    {
+      "key": "362",
+      "species": 362,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "glalie"
+    },
+    {
+      "key": "363",
+      "species": 363,
+      "types": [
+        "얼음",
+        "물"
+      ],
+      "showdown": "spheal"
+    },
+    {
+      "key": "364",
+      "species": 364,
+      "types": [
+        "얼음",
+        "물"
+      ],
+      "showdown": "sealeo"
+    },
+    {
+      "key": "365",
+      "species": 365,
+      "types": [
+        "얼음",
+        "물"
+      ],
+      "showdown": "walrein"
+    },
+    {
+      "key": "366",
+      "species": 366,
+      "types": [
+        "물"
+      ],
+      "showdown": "clamperl"
+    },
+    {
+      "key": "367",
+      "species": 367,
+      "types": [
+        "물"
+      ],
+      "showdown": "huntail"
+    },
+    {
+      "key": "368",
+      "species": 368,
+      "types": [
+        "물"
+      ],
+      "showdown": "gorebyss"
+    },
+    {
+      "key": "369",
+      "species": 369,
+      "types": [
+        "물",
+        "바위"
+      ],
+      "showdown": "relicanth"
+    },
+    {
+      "key": "370",
+      "species": 370,
+      "types": [
+        "물"
+      ],
+      "showdown": "luvdisc"
+    },
+    {
+      "key": "371",
+      "species": 371,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "bagon"
+    },
+    {
+      "key": "372",
+      "species": 372,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "shelgon"
+    },
+    {
+      "key": "373",
+      "species": 373,
+      "types": [
+        "드래곤",
+        "비행"
+      ],
+      "showdown": "salamence"
+    },
+    {
+      "key": "374",
+      "species": 374,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "beldum"
+    },
+    {
+      "key": "375",
+      "species": 375,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "metang"
+    },
+    {
+      "key": "376",
+      "species": 376,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "metagross"
+    },
+    {
+      "key": "377",
+      "species": 377,
+      "types": [
+        "바위"
+      ],
+      "showdown": "regirock"
+    },
+    {
+      "key": "378",
+      "species": 378,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "regice"
+    },
+    {
+      "key": "379",
+      "species": 379,
+      "types": [
+        "강철"
+      ],
+      "showdown": "registeel"
+    },
+    {
+      "key": "380",
+      "species": 380,
+      "types": [
+        "드래곤",
+        "에스퍼"
+      ],
+      "showdown": "latias"
+    },
+    {
+      "key": "381",
+      "species": 381,
+      "types": [
+        "드래곤",
+        "에스퍼"
+      ],
+      "showdown": "latios"
+    },
+    {
+      "key": "382",
+      "species": 382,
+      "types": [
+        "물"
+      ],
+      "showdown": "kyogre"
+    },
+    {
+      "key": "383",
+      "species": 383,
+      "types": [
+        "땅"
+      ],
+      "showdown": "groudon"
+    },
+    {
+      "key": "384",
+      "species": 384,
+      "types": [
+        "드래곤",
+        "비행"
+      ],
+      "showdown": "rayquaza"
+    },
+    {
+      "key": "385",
+      "species": 385,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "jirachi"
+    },
+    {
+      "key": "386",
+      "species": 386,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "deoxys"
+    },
+    {
+      "key": "387",
+      "species": 387,
+      "types": [
+        "풀"
+      ],
+      "showdown": "turtwig"
+    },
+    {
+      "key": "388",
+      "species": 388,
+      "types": [
+        "풀"
+      ],
+      "showdown": "grotle"
+    },
+    {
+      "key": "389",
+      "species": 389,
+      "types": [
+        "풀",
+        "땅"
+      ],
+      "showdown": "torterra"
+    },
+    {
+      "key": "390",
+      "species": 390,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "chimchar"
+    },
+    {
+      "key": "391",
+      "species": 391,
+      "types": [
+        "불꽃",
+        "격투"
+      ],
+      "showdown": "monferno"
+    },
+    {
+      "key": "392",
+      "species": 392,
+      "types": [
+        "불꽃",
+        "격투"
+      ],
+      "showdown": "infernape"
+    },
+    {
+      "key": "393",
+      "species": 393,
+      "types": [
+        "물"
+      ],
+      "showdown": "piplup"
+    },
+    {
+      "key": "394",
+      "species": 394,
+      "types": [
+        "물"
+      ],
+      "showdown": "prinplup"
+    },
+    {
+      "key": "395",
+      "species": 395,
+      "types": [
+        "물",
+        "강철"
+      ],
+      "showdown": "empoleon"
+    },
+    {
+      "key": "396",
+      "species": 396,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "starly"
+    },
+    {
+      "key": "397",
+      "species": 397,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "staravia"
+    },
+    {
+      "key": "398",
+      "species": 398,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "staraptor"
+    },
+    {
+      "key": "399",
+      "species": 399,
+      "types": [
+        "노말"
+      ],
+      "showdown": "bidoof"
+    },
+    {
+      "key": "400",
+      "species": 400,
+      "types": [
+        "노말",
+        "물"
+      ],
+      "showdown": "bibarel"
+    },
+    {
+      "key": "401",
+      "species": 401,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "kricketot"
+    },
+    {
+      "key": "402",
+      "species": 402,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "kricketune"
+    },
+    {
+      "key": "403",
+      "species": 403,
+      "types": [
+        "전기"
+      ],
+      "showdown": "shinx"
+    },
+    {
+      "key": "404",
+      "species": 404,
+      "types": [
+        "전기"
+      ],
+      "showdown": "luxio"
+    },
+    {
+      "key": "405",
+      "species": 405,
+      "types": [
+        "전기"
+      ],
+      "showdown": "luxray"
+    },
+    {
+      "key": "406",
+      "species": 406,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "budew"
+    },
+    {
+      "key": "407",
+      "species": 407,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "roserade"
+    },
+    {
+      "key": "408",
+      "species": 408,
+      "types": [
+        "바위"
+      ],
+      "showdown": "cranidos"
+    },
+    {
+      "key": "409",
+      "species": 409,
+      "types": [
+        "바위"
+      ],
+      "showdown": "rampardos"
+    },
+    {
+      "key": "410",
+      "species": 410,
+      "types": [
+        "바위",
+        "강철"
+      ],
+      "showdown": "shieldon"
+    },
+    {
+      "key": "411",
+      "species": 411,
+      "types": [
+        "바위",
+        "강철"
+      ],
+      "showdown": "bastiodon"
+    },
+    {
+      "key": "412",
+      "species": 412,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "burmy"
+    },
+    {
+      "key": "413",
+      "species": 413,
+      "types": [
+        "벌레",
+        "풀"
+      ],
+      "showdown": "wormadam"
+    },
+    {
+      "key": "414",
+      "species": 414,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "mothim"
+    },
+    {
+      "key": "415",
+      "species": 415,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "combee"
+    },
+    {
+      "key": "416",
+      "species": 416,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "vespiquen"
+    },
+    {
+      "key": "417",
+      "species": 417,
+      "types": [
+        "전기"
+      ],
+      "showdown": "pachirisu"
+    },
+    {
+      "key": "418",
+      "species": 418,
+      "types": [
+        "물"
+      ],
+      "showdown": "buizel"
+    },
+    {
+      "key": "419",
+      "species": 419,
+      "types": [
+        "물"
+      ],
+      "showdown": "floatzel"
+    },
+    {
+      "key": "420",
+      "species": 420,
+      "types": [
+        "풀"
+      ],
+      "showdown": "cherubi"
+    },
+    {
+      "key": "421",
+      "species": 421,
+      "types": [
+        "풀"
+      ],
+      "showdown": "cherrim"
+    },
+    {
+      "key": "422",
+      "species": 422,
+      "types": [
+        "물"
+      ],
+      "showdown": "shellos"
+    },
+    {
+      "key": "423",
+      "species": 423,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "gastrodon"
+    },
+    {
+      "key": "424",
+      "species": 424,
+      "types": [
+        "노말"
+      ],
+      "showdown": "ambipom"
+    },
+    {
+      "key": "425",
+      "species": 425,
+      "types": [
+        "고스트",
+        "비행"
+      ],
+      "showdown": "drifloon"
+    },
+    {
+      "key": "426",
+      "species": 426,
+      "types": [
+        "고스트",
+        "비행"
+      ],
+      "showdown": "drifblim"
+    },
+    {
+      "key": "427",
+      "species": 427,
+      "types": [
+        "노말"
+      ],
+      "showdown": "buneary"
+    },
+    {
+      "key": "428",
+      "species": 428,
+      "types": [
+        "노말"
+      ],
+      "showdown": "lopunny"
+    },
+    {
+      "key": "429",
+      "species": 429,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "mismagius"
+    },
+    {
+      "key": "430",
+      "species": 430,
+      "types": [
+        "악",
+        "비행"
+      ],
+      "showdown": "honchkrow"
+    },
+    {
+      "key": "431",
+      "species": 431,
+      "types": [
+        "노말"
+      ],
+      "showdown": "glameow"
+    },
+    {
+      "key": "432",
+      "species": 432,
+      "types": [
+        "노말"
+      ],
+      "showdown": "purugly"
+    },
+    {
+      "key": "433",
+      "species": 433,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "chingling"
+    },
+    {
+      "key": "434",
+      "species": 434,
+      "types": [
+        "독",
+        "악"
+      ],
+      "showdown": "stunky"
+    },
+    {
+      "key": "435",
+      "species": 435,
+      "types": [
+        "독",
+        "악"
+      ],
+      "showdown": "skuntank"
+    },
+    {
+      "key": "436",
+      "species": 436,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "bronzor"
+    },
+    {
+      "key": "437",
+      "species": 437,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "bronzong"
+    },
+    {
+      "key": "438",
+      "species": 438,
+      "types": [
+        "바위"
+      ],
+      "showdown": "bonsly"
+    },
+    {
+      "key": "439",
+      "species": 439,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "mimejr"
+    },
+    {
+      "key": "440",
+      "species": 440,
+      "types": [
+        "노말"
+      ],
+      "showdown": "happiny"
+    },
+    {
+      "key": "441",
+      "species": 441,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "chatot"
+    },
+    {
+      "key": "442",
+      "species": 442,
+      "types": [
+        "고스트",
+        "악"
+      ],
+      "showdown": "spiritomb"
+    },
+    {
+      "key": "443",
+      "species": 443,
+      "types": [
+        "드래곤",
+        "땅"
+      ],
+      "showdown": "gible"
+    },
+    {
+      "key": "444",
+      "species": 444,
+      "types": [
+        "드래곤",
+        "땅"
+      ],
+      "showdown": "gabite"
+    },
+    {
+      "key": "445",
+      "species": 445,
+      "types": [
+        "드래곤",
+        "땅"
+      ],
+      "showdown": "garchomp"
+    },
+    {
+      "key": "446",
+      "species": 446,
+      "types": [
+        "노말"
+      ],
+      "showdown": "munchlax"
+    },
+    {
+      "key": "447",
+      "species": 447,
+      "types": [
+        "격투"
+      ],
+      "showdown": "riolu"
+    },
+    {
+      "key": "448",
+      "species": 448,
+      "types": [
+        "격투",
+        "강철"
+      ],
+      "showdown": "lucario"
+    },
+    {
+      "key": "449",
+      "species": 449,
+      "types": [
+        "땅"
+      ],
+      "showdown": "hippopotas"
+    },
+    {
+      "key": "450",
+      "species": 450,
+      "types": [
+        "땅"
+      ],
+      "showdown": "hippowdon"
+    },
+    {
+      "key": "451",
+      "species": 451,
+      "types": [
+        "독",
+        "벌레"
+      ],
+      "showdown": "skorupi"
+    },
+    {
+      "key": "452",
+      "species": 452,
+      "types": [
+        "독",
+        "악"
+      ],
+      "showdown": "drapion"
+    },
+    {
+      "key": "453",
+      "species": 453,
+      "types": [
+        "독",
+        "격투"
+      ],
+      "showdown": "croagunk"
+    },
+    {
+      "key": "454",
+      "species": 454,
+      "types": [
+        "독",
+        "격투"
+      ],
+      "showdown": "toxicroak"
+    },
+    {
+      "key": "455",
+      "species": 455,
+      "types": [
+        "풀"
+      ],
+      "showdown": "carnivine"
+    },
+    {
+      "key": "456",
+      "species": 456,
+      "types": [
+        "물"
+      ],
+      "showdown": "finneon"
+    },
+    {
+      "key": "457",
+      "species": 457,
+      "types": [
+        "물"
+      ],
+      "showdown": "lumineon"
+    },
+    {
+      "key": "458",
+      "species": 458,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "mantyke"
+    },
+    {
+      "key": "459",
+      "species": 459,
+      "types": [
+        "풀",
+        "얼음"
+      ],
+      "showdown": "snover"
+    },
+    {
+      "key": "460",
+      "species": 460,
+      "types": [
+        "풀",
+        "얼음"
+      ],
+      "showdown": "abomasnow"
+    },
+    {
+      "key": "461",
+      "species": 461,
+      "types": [
+        "악",
+        "얼음"
+      ],
+      "showdown": "weavile"
+    },
+    {
+      "key": "462",
+      "species": 462,
+      "types": [
+        "전기",
+        "강철"
+      ],
+      "showdown": "magnezone"
+    },
+    {
+      "key": "463",
+      "species": 463,
+      "types": [
+        "노말"
+      ],
+      "showdown": "lickilicky"
+    },
+    {
+      "key": "464",
+      "species": 464,
+      "types": [
+        "땅",
+        "바위"
+      ],
+      "showdown": "rhyperior"
+    },
+    {
+      "key": "465",
+      "species": 465,
+      "types": [
+        "풀"
+      ],
+      "showdown": "tangrowth"
+    },
+    {
+      "key": "466",
+      "species": 466,
+      "types": [
+        "전기"
+      ],
+      "showdown": "electivire"
+    },
+    {
+      "key": "467",
+      "species": 467,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "magmortar"
+    },
+    {
+      "key": "468",
+      "species": 468,
+      "types": [
+        "페어리",
+        "비행"
+      ],
+      "showdown": "togekiss"
+    },
+    {
+      "key": "469",
+      "species": 469,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "yanmega"
+    },
+    {
+      "key": "470",
+      "species": 470,
+      "types": [
+        "풀"
+      ],
+      "showdown": "leafeon"
+    },
+    {
+      "key": "471",
+      "species": 471,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "glaceon"
+    },
+    {
+      "key": "472",
+      "species": 472,
+      "types": [
+        "땅",
+        "비행"
+      ],
+      "showdown": "gliscor"
+    },
+    {
+      "key": "473",
+      "species": 473,
+      "types": [
+        "얼음",
+        "땅"
+      ],
+      "showdown": "mamoswine"
+    },
+    {
+      "key": "474",
+      "species": 474,
+      "types": [
+        "노말"
+      ],
+      "showdown": "porygonz"
+    },
+    {
+      "key": "475",
+      "species": 475,
+      "types": [
+        "에스퍼",
+        "격투"
+      ],
+      "showdown": "gallade"
+    },
+    {
+      "key": "476",
+      "species": 476,
+      "types": [
+        "바위",
+        "강철"
+      ],
+      "showdown": "probopass"
+    },
+    {
+      "key": "477",
+      "species": 477,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "dusknoir"
+    },
+    {
+      "key": "478",
+      "species": 478,
+      "types": [
+        "얼음",
+        "고스트"
+      ],
+      "showdown": "froslass"
+    },
+    {
+      "key": "479",
+      "species": 479,
+      "types": [
+        "전기",
+        "고스트"
+      ],
+      "showdown": "rotom"
+    },
+    {
+      "key": "480",
+      "species": 480,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "uxie"
+    },
+    {
+      "key": "481",
+      "species": 481,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "mesprit"
+    },
+    {
+      "key": "482",
+      "species": 482,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "azelf"
+    },
+    {
+      "key": "483",
+      "species": 483,
+      "types": [
+        "강철",
+        "드래곤"
+      ],
+      "showdown": "dialga"
+    },
+    {
+      "key": "484",
+      "species": 484,
+      "types": [
+        "물",
+        "드래곤"
+      ],
+      "showdown": "palkia"
+    },
+    {
+      "key": "485",
+      "species": 485,
+      "types": [
+        "불꽃",
+        "강철"
+      ],
+      "showdown": "heatran"
+    },
+    {
+      "key": "486",
+      "species": 486,
+      "types": [
+        "노말"
+      ],
+      "showdown": "regigigas"
+    },
+    {
+      "key": "487",
+      "species": 487,
+      "types": [
+        "고스트",
+        "드래곤"
+      ],
+      "showdown": "giratina"
+    },
+    {
+      "key": "488",
+      "species": 488,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "cresselia"
+    },
+    {
+      "key": "489",
+      "species": 489,
+      "types": [
+        "물"
+      ],
+      "showdown": "phione"
+    },
+    {
+      "key": "490",
+      "species": 490,
+      "types": [
+        "물"
+      ],
+      "showdown": "manaphy"
+    },
+    {
+      "key": "491",
+      "species": 491,
+      "types": [
+        "악"
+      ],
+      "showdown": "darkrai"
+    },
+    {
+      "key": "492",
+      "species": 492,
+      "types": [
+        "풀"
+      ],
+      "showdown": "shaymin"
+    },
+    {
+      "key": "493",
+      "species": 493,
+      "types": [
+        "노말"
+      ],
+      "showdown": "arceus"
+    },
+    {
+      "key": "494",
+      "species": 494,
+      "types": [
+        "에스퍼",
+        "불꽃"
+      ],
+      "showdown": "victini"
+    },
+    {
+      "key": "495",
+      "species": 495,
+      "types": [
+        "풀"
+      ],
+      "showdown": "snivy"
+    },
+    {
+      "key": "496",
+      "species": 496,
+      "types": [
+        "풀"
+      ],
+      "showdown": "servine"
+    },
+    {
+      "key": "497",
+      "species": 497,
+      "types": [
+        "풀"
+      ],
+      "showdown": "serperior"
+    },
+    {
+      "key": "498",
+      "species": 498,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "tepig"
+    },
+    {
+      "key": "499",
+      "species": 499,
+      "types": [
+        "불꽃",
+        "격투"
+      ],
+      "showdown": "pignite"
+    },
+    {
+      "key": "500",
+      "species": 500,
+      "types": [
+        "불꽃",
+        "격투"
+      ],
+      "showdown": "emboar"
+    },
+    {
+      "key": "501",
+      "species": 501,
+      "types": [
+        "물"
+      ],
+      "showdown": "oshawott"
+    },
+    {
+      "key": "502",
+      "species": 502,
+      "types": [
+        "물"
+      ],
+      "showdown": "dewott"
+    },
+    {
+      "key": "503",
+      "species": 503,
+      "types": [
+        "물"
+      ],
+      "showdown": "samurott"
+    },
+    {
+      "key": "504",
+      "species": 504,
+      "types": [
+        "노말"
+      ],
+      "showdown": "patrat"
+    },
+    {
+      "key": "505",
+      "species": 505,
+      "types": [
+        "노말"
+      ],
+      "showdown": "watchog"
+    },
+    {
+      "key": "506",
+      "species": 506,
+      "types": [
+        "노말"
+      ],
+      "showdown": "lillipup"
+    },
+    {
+      "key": "507",
+      "species": 507,
+      "types": [
+        "노말"
+      ],
+      "showdown": "herdier"
+    },
+    {
+      "key": "508",
+      "species": 508,
+      "types": [
+        "노말"
+      ],
+      "showdown": "stoutland"
+    },
+    {
+      "key": "509",
+      "species": 509,
+      "types": [
+        "악"
+      ],
+      "showdown": "purrloin"
+    },
+    {
+      "key": "510",
+      "species": 510,
+      "types": [
+        "악"
+      ],
+      "showdown": "liepard"
+    },
+    {
+      "key": "511",
+      "species": 511,
+      "types": [
+        "풀"
+      ],
+      "showdown": "pansage"
+    },
+    {
+      "key": "512",
+      "species": 512,
+      "types": [
+        "풀"
+      ],
+      "showdown": "simisage"
+    },
+    {
+      "key": "513",
+      "species": 513,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "pansear"
+    },
+    {
+      "key": "514",
+      "species": 514,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "simisear"
+    },
+    {
+      "key": "515",
+      "species": 515,
+      "types": [
+        "물"
+      ],
+      "showdown": "panpour"
+    },
+    {
+      "key": "516",
+      "species": 516,
+      "types": [
+        "물"
+      ],
+      "showdown": "simipour"
+    },
+    {
+      "key": "517",
+      "species": 517,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "munna"
+    },
+    {
+      "key": "518",
+      "species": 518,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "musharna"
+    },
+    {
+      "key": "519",
+      "species": 519,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "pidove"
+    },
+    {
+      "key": "520",
+      "species": 520,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "tranquill"
+    },
+    {
+      "key": "521",
+      "species": 521,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "unfezant"
+    },
+    {
+      "key": "522",
+      "species": 522,
+      "types": [
+        "전기"
+      ],
+      "showdown": "blitzle"
+    },
+    {
+      "key": "523",
+      "species": 523,
+      "types": [
+        "전기"
+      ],
+      "showdown": "zebstrika"
+    },
+    {
+      "key": "524",
+      "species": 524,
+      "types": [
+        "바위"
+      ],
+      "showdown": "roggenrola"
+    },
+    {
+      "key": "525",
+      "species": 525,
+      "types": [
+        "바위"
+      ],
+      "showdown": "boldore"
+    },
+    {
+      "key": "526",
+      "species": 526,
+      "types": [
+        "바위"
+      ],
+      "showdown": "gigalith"
+    },
+    {
+      "key": "527",
+      "species": 527,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "woobat"
+    },
+    {
+      "key": "528",
+      "species": 528,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "swoobat"
+    },
+    {
+      "key": "529",
+      "species": 529,
+      "types": [
+        "땅"
+      ],
+      "showdown": "drilbur"
+    },
+    {
+      "key": "530",
+      "species": 530,
+      "types": [
+        "땅",
+        "강철"
+      ],
+      "showdown": "excadrill"
+    },
+    {
+      "key": "531",
+      "species": 531,
+      "types": [
+        "노말"
+      ],
+      "showdown": "audino"
+    },
+    {
+      "key": "532",
+      "species": 532,
+      "types": [
+        "격투"
+      ],
+      "showdown": "timburr"
+    },
+    {
+      "key": "533",
+      "species": 533,
+      "types": [
+        "격투"
+      ],
+      "showdown": "gurdurr"
+    },
+    {
+      "key": "534",
+      "species": 534,
+      "types": [
+        "격투"
+      ],
+      "showdown": "conkeldurr"
+    },
+    {
+      "key": "535",
+      "species": 535,
+      "types": [
+        "물"
+      ],
+      "showdown": "tympole"
+    },
+    {
+      "key": "536",
+      "species": 536,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "palpitoad"
+    },
+    {
+      "key": "537",
+      "species": 537,
+      "types": [
+        "물",
+        "땅"
+      ],
+      "showdown": "seismitoad"
+    },
+    {
+      "key": "538",
+      "species": 538,
+      "types": [
+        "격투"
+      ],
+      "showdown": "throh"
+    },
+    {
+      "key": "539",
+      "species": 539,
+      "types": [
+        "격투"
+      ],
+      "showdown": "sawk"
+    },
+    {
+      "key": "540",
+      "species": 540,
+      "types": [
+        "벌레",
+        "풀"
+      ],
+      "showdown": "sewaddle"
+    },
+    {
+      "key": "541",
+      "species": 541,
+      "types": [
+        "벌레",
+        "풀"
+      ],
+      "showdown": "swadloon"
+    },
+    {
+      "key": "542",
+      "species": 542,
+      "types": [
+        "벌레",
+        "풀"
+      ],
+      "showdown": "leavanny"
+    },
+    {
+      "key": "543",
+      "species": 543,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "venipede"
+    },
+    {
+      "key": "544",
+      "species": 544,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "whirlipede"
+    },
+    {
+      "key": "545",
+      "species": 545,
+      "types": [
+        "벌레",
+        "독"
+      ],
+      "showdown": "scolipede"
+    },
+    {
+      "key": "546",
+      "species": 546,
+      "types": [
+        "풀",
+        "페어리"
+      ],
+      "showdown": "cottonee"
+    },
+    {
+      "key": "547",
+      "species": 547,
+      "types": [
+        "풀",
+        "페어리"
+      ],
+      "showdown": "whimsicott"
+    },
+    {
+      "key": "548",
+      "species": 548,
+      "types": [
+        "풀"
+      ],
+      "showdown": "petilil"
+    },
+    {
+      "key": "549",
+      "species": 549,
+      "types": [
+        "풀"
+      ],
+      "showdown": "lilligant"
+    },
+    {
+      "key": "550",
+      "species": 550,
+      "types": [
+        "물"
+      ],
+      "showdown": "basculin"
+    },
+    {
+      "key": "551",
+      "species": 551,
+      "types": [
+        "땅",
+        "악"
+      ],
+      "showdown": "sandile"
+    },
+    {
+      "key": "552",
+      "species": 552,
+      "types": [
+        "땅",
+        "악"
+      ],
+      "showdown": "krokorok"
+    },
+    {
+      "key": "553",
+      "species": 553,
+      "types": [
+        "땅",
+        "악"
+      ],
+      "showdown": "krookodile"
+    },
+    {
+      "key": "554",
+      "species": 554,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "darumaka"
+    },
+    {
+      "key": "555",
+      "species": 555,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "darmanitan"
+    },
+    {
+      "key": "556",
+      "species": 556,
+      "types": [
+        "풀"
+      ],
+      "showdown": "maractus"
+    },
+    {
+      "key": "557",
+      "species": 557,
+      "types": [
+        "벌레",
+        "바위"
+      ],
+      "showdown": "dwebble"
+    },
+    {
+      "key": "558",
+      "species": 558,
+      "types": [
+        "벌레",
+        "바위"
+      ],
+      "showdown": "crustle"
+    },
+    {
+      "key": "559",
+      "species": 559,
+      "types": [
+        "악",
+        "격투"
+      ],
+      "showdown": "scraggy"
+    },
+    {
+      "key": "560",
+      "species": 560,
+      "types": [
+        "악",
+        "격투"
+      ],
+      "showdown": "scrafty"
+    },
+    {
+      "key": "561",
+      "species": 561,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "sigilyph"
+    },
+    {
+      "key": "562",
+      "species": 562,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "yamask"
+    },
+    {
+      "key": "563",
+      "species": 563,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "cofagrigus"
+    },
+    {
+      "key": "564",
+      "species": 564,
+      "types": [
+        "물",
+        "바위"
+      ],
+      "showdown": "tirtouga"
+    },
+    {
+      "key": "565",
+      "species": 565,
+      "types": [
+        "물",
+        "바위"
+      ],
+      "showdown": "carracosta"
+    },
+    {
+      "key": "566",
+      "species": 566,
+      "types": [
+        "바위",
+        "비행"
+      ],
+      "showdown": "archen"
+    },
+    {
+      "key": "567",
+      "species": 567,
+      "types": [
+        "바위",
+        "비행"
+      ],
+      "showdown": "archeops"
+    },
+    {
+      "key": "568",
+      "species": 568,
+      "types": [
+        "독"
+      ],
+      "showdown": "trubbish"
+    },
+    {
+      "key": "569",
+      "species": 569,
+      "types": [
+        "독"
+      ],
+      "showdown": "garbodor"
+    },
+    {
+      "key": "570",
+      "species": 570,
+      "types": [
+        "악"
+      ],
+      "showdown": "zorua"
+    },
+    {
+      "key": "571",
+      "species": 571,
+      "types": [
+        "악"
+      ],
+      "showdown": "zoroark"
+    },
+    {
+      "key": "572",
+      "species": 572,
+      "types": [
+        "노말"
+      ],
+      "showdown": "minccino"
+    },
+    {
+      "key": "573",
+      "species": 573,
+      "types": [
+        "노말"
+      ],
+      "showdown": "cinccino"
+    },
+    {
+      "key": "574",
+      "species": 574,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "gothita"
+    },
+    {
+      "key": "575",
+      "species": 575,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "gothorita"
+    },
+    {
+      "key": "576",
+      "species": 576,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "gothitelle"
+    },
+    {
+      "key": "577",
+      "species": 577,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "solosis"
+    },
+    {
+      "key": "578",
+      "species": 578,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "duosion"
+    },
+    {
+      "key": "579",
+      "species": 579,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "reuniclus"
+    },
+    {
+      "key": "580",
+      "species": 580,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "ducklett"
+    },
+    {
+      "key": "581",
+      "species": 581,
+      "types": [
+        "물",
+        "비행"
+      ],
+      "showdown": "swanna"
+    },
+    {
+      "key": "582",
+      "species": 582,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "vanillite"
+    },
+    {
+      "key": "583",
+      "species": 583,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "vanillish"
+    },
+    {
+      "key": "584",
+      "species": 584,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "vanilluxe"
+    },
+    {
+      "key": "585",
+      "species": 585,
+      "types": [
+        "노말",
+        "풀"
+      ],
+      "showdown": "deerling"
+    },
+    {
+      "key": "586",
+      "species": 586,
+      "types": [
+        "노말",
+        "풀"
+      ],
+      "showdown": "sawsbuck"
+    },
+    {
+      "key": "587",
+      "species": 587,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "emolga"
+    },
+    {
+      "key": "588",
+      "species": 588,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "karrablast"
+    },
+    {
+      "key": "589",
+      "species": 589,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "escavalier"
+    },
+    {
+      "key": "590",
+      "species": 590,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "foongus"
+    },
+    {
+      "key": "591",
+      "species": 591,
+      "types": [
+        "풀",
+        "독"
+      ],
+      "showdown": "amoonguss"
+    },
+    {
+      "key": "592",
+      "species": 592,
+      "types": [
+        "물",
+        "고스트"
+      ],
+      "showdown": "frillish"
+    },
+    {
+      "key": "593",
+      "species": 593,
+      "types": [
+        "물",
+        "고스트"
+      ],
+      "showdown": "jellicent"
+    },
+    {
+      "key": "594",
+      "species": 594,
+      "types": [
+        "물"
+      ],
+      "showdown": "alomomola"
+    },
+    {
+      "key": "595",
+      "species": 595,
+      "types": [
+        "벌레",
+        "전기"
+      ],
+      "showdown": "joltik"
+    },
+    {
+      "key": "596",
+      "species": 596,
+      "types": [
+        "벌레",
+        "전기"
+      ],
+      "showdown": "galvantula"
+    },
+    {
+      "key": "597",
+      "species": 597,
+      "types": [
+        "풀",
+        "강철"
+      ],
+      "showdown": "ferroseed"
+    },
+    {
+      "key": "598",
+      "species": 598,
+      "types": [
+        "풀",
+        "강철"
+      ],
+      "showdown": "ferrothorn"
+    },
+    {
+      "key": "599",
+      "species": 599,
+      "types": [
+        "강철"
+      ],
+      "showdown": "klink"
+    },
+    {
+      "key": "600",
+      "species": 600,
+      "types": [
+        "강철"
+      ],
+      "showdown": "klang"
+    },
+    {
+      "key": "601",
+      "species": 601,
+      "types": [
+        "강철"
+      ],
+      "showdown": "klinklang"
+    },
+    {
+      "key": "602",
+      "species": 602,
+      "types": [
+        "전기"
+      ],
+      "showdown": "tynamo"
+    },
+    {
+      "key": "603",
+      "species": 603,
+      "types": [
+        "전기"
+      ],
+      "showdown": "eelektrik"
+    },
+    {
+      "key": "604",
+      "species": 604,
+      "types": [
+        "전기"
+      ],
+      "showdown": "eelektross"
+    },
+    {
+      "key": "605",
+      "species": 605,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "elgyem"
+    },
+    {
+      "key": "606",
+      "species": 606,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "beheeyem"
+    },
+    {
+      "key": "607",
+      "species": 607,
+      "types": [
+        "고스트",
+        "불꽃"
+      ],
+      "showdown": "litwick"
+    },
+    {
+      "key": "608",
+      "species": 608,
+      "types": [
+        "고스트",
+        "불꽃"
+      ],
+      "showdown": "lampent"
+    },
+    {
+      "key": "609",
+      "species": 609,
+      "types": [
+        "고스트",
+        "불꽃"
+      ],
+      "showdown": "chandelure"
+    },
+    {
+      "key": "610",
+      "species": 610,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "axew"
+    },
+    {
+      "key": "611",
+      "species": 611,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "fraxure"
+    },
+    {
+      "key": "612",
+      "species": 612,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "haxorus"
+    },
+    {
+      "key": "613",
+      "species": 613,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "cubchoo"
+    },
+    {
+      "key": "614",
+      "species": 614,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "beartic"
+    },
+    {
+      "key": "615",
+      "species": 615,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "cryogonal"
+    },
+    {
+      "key": "616",
+      "species": 616,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "shelmet"
+    },
+    {
+      "key": "617",
+      "species": 617,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "accelgor"
+    },
+    {
+      "key": "618",
+      "species": 618,
+      "types": [
+        "땅",
+        "전기"
+      ],
+      "showdown": "stunfisk"
+    },
+    {
+      "key": "619",
+      "species": 619,
+      "types": [
+        "격투"
+      ],
+      "showdown": "mienfoo"
+    },
+    {
+      "key": "620",
+      "species": 620,
+      "types": [
+        "격투"
+      ],
+      "showdown": "mienshao"
+    },
+    {
+      "key": "621",
+      "species": 621,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "druddigon"
+    },
+    {
+      "key": "622",
+      "species": 622,
+      "types": [
+        "땅",
+        "고스트"
+      ],
+      "showdown": "golett"
+    },
+    {
+      "key": "623",
+      "species": 623,
+      "types": [
+        "땅",
+        "고스트"
+      ],
+      "showdown": "golurk"
+    },
+    {
+      "key": "624",
+      "species": 624,
+      "types": [
+        "악",
+        "강철"
+      ],
+      "showdown": "pawniard"
+    },
+    {
+      "key": "625",
+      "species": 625,
+      "types": [
+        "악",
+        "강철"
+      ],
+      "showdown": "bisharp"
+    },
+    {
+      "key": "626",
+      "species": 626,
+      "types": [
+        "노말"
+      ],
+      "showdown": "bouffalant"
+    },
+    {
+      "key": "627",
+      "species": 627,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "rufflet"
+    },
+    {
+      "key": "628",
+      "species": 628,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "braviary"
+    },
+    {
+      "key": "629",
+      "species": 629,
+      "types": [
+        "악",
+        "비행"
+      ],
+      "showdown": "vullaby"
+    },
+    {
+      "key": "630",
+      "species": 630,
+      "types": [
+        "악",
+        "비행"
+      ],
+      "showdown": "mandibuzz"
+    },
+    {
+      "key": "631",
+      "species": 631,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "heatmor"
+    },
+    {
+      "key": "632",
+      "species": 632,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "durant"
+    },
+    {
+      "key": "633",
+      "species": 633,
+      "types": [
+        "악",
+        "드래곤"
+      ],
+      "showdown": "deino"
+    },
+    {
+      "key": "634",
+      "species": 634,
+      "types": [
+        "악",
+        "드래곤"
+      ],
+      "showdown": "zweilous"
+    },
+    {
+      "key": "635",
+      "species": 635,
+      "types": [
+        "악",
+        "드래곤"
+      ],
+      "showdown": "hydreigon"
+    },
+    {
+      "key": "636",
+      "species": 636,
+      "types": [
+        "벌레",
+        "불꽃"
+      ],
+      "showdown": "larvesta"
+    },
+    {
+      "key": "637",
+      "species": 637,
+      "types": [
+        "벌레",
+        "불꽃"
+      ],
+      "showdown": "volcarona"
+    },
+    {
+      "key": "638",
+      "species": 638,
+      "types": [
+        "강철",
+        "격투"
+      ],
+      "showdown": "cobalion"
+    },
+    {
+      "key": "639",
+      "species": 639,
+      "types": [
+        "바위",
+        "격투"
+      ],
+      "showdown": "terrakion"
+    },
+    {
+      "key": "640",
+      "species": 640,
+      "types": [
+        "풀",
+        "격투"
+      ],
+      "showdown": "virizion"
+    },
+    {
+      "key": "641",
+      "species": 641,
+      "types": [
+        "비행"
+      ],
+      "showdown": "tornadus"
+    },
+    {
+      "key": "642",
+      "species": 642,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "thundurus"
+    },
+    {
+      "key": "643",
+      "species": 643,
+      "types": [
+        "드래곤",
+        "불꽃"
+      ],
+      "showdown": "reshiram"
+    },
+    {
+      "key": "644",
+      "species": 644,
+      "types": [
+        "드래곤",
+        "전기"
+      ],
+      "showdown": "zekrom"
+    },
+    {
+      "key": "645",
+      "species": 645,
+      "types": [
+        "땅",
+        "비행"
+      ],
+      "showdown": "landorus"
+    },
+    {
+      "key": "646",
+      "species": 646,
+      "types": [
+        "드래곤",
+        "얼음"
+      ],
+      "showdown": "kyurem"
+    },
+    {
+      "key": "647",
+      "species": 647,
+      "types": [
+        "물",
+        "격투"
+      ],
+      "showdown": "keldeo"
+    },
+    {
+      "key": "648",
+      "species": 648,
+      "types": [
+        "노말",
+        "에스퍼"
+      ],
+      "showdown": "meloetta"
+    },
+    {
+      "key": "649",
+      "species": 649,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "genesect"
+    },
+    {
+      "key": "650",
+      "species": 650,
+      "types": [
+        "풀"
+      ],
+      "showdown": "chespin"
+    },
+    {
+      "key": "651",
+      "species": 651,
+      "types": [
+        "풀"
+      ],
+      "showdown": "quilladin"
+    },
+    {
+      "key": "652",
+      "species": 652,
+      "types": [
+        "풀",
+        "격투"
+      ],
+      "showdown": "chesnaught"
+    },
+    {
+      "key": "653",
+      "species": 653,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "fennekin"
+    },
+    {
+      "key": "654",
+      "species": 654,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "braixen"
+    },
+    {
+      "key": "655",
+      "species": 655,
+      "types": [
+        "불꽃",
+        "에스퍼"
+      ],
+      "showdown": "delphox"
+    },
+    {
+      "key": "656",
+      "species": 656,
+      "types": [
+        "물"
+      ],
+      "showdown": "froakie"
+    },
+    {
+      "key": "657",
+      "species": 657,
+      "types": [
+        "물"
+      ],
+      "showdown": "frogadier"
+    },
+    {
+      "key": "658",
+      "species": 658,
+      "types": [
+        "물",
+        "악"
+      ],
+      "showdown": "greninja"
+    },
+    {
+      "key": "659",
+      "species": 659,
+      "types": [
+        "노말"
+      ],
+      "showdown": "bunnelby"
+    },
+    {
+      "key": "660",
+      "species": 660,
+      "types": [
+        "노말",
+        "땅"
+      ],
+      "showdown": "diggersby"
+    },
+    {
+      "key": "661",
+      "species": 661,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "fletchling"
+    },
+    {
+      "key": "662",
+      "species": 662,
+      "types": [
+        "불꽃",
+        "비행"
+      ],
+      "showdown": "fletchinder"
+    },
+    {
+      "key": "663",
+      "species": 663,
+      "types": [
+        "불꽃",
+        "비행"
+      ],
+      "showdown": "talonflame"
+    },
+    {
+      "key": "664",
+      "species": 664,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "scatterbug"
+    },
+    {
+      "key": "665",
+      "species": 665,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "spewpa"
+    },
+    {
+      "key": "666",
+      "species": 666,
+      "types": [
+        "벌레",
+        "비행"
+      ],
+      "showdown": "vivillon"
+    },
+    {
+      "key": "667",
+      "species": 667,
+      "types": [
+        "불꽃",
+        "노말"
+      ],
+      "showdown": "litleo"
+    },
+    {
+      "key": "668",
+      "species": 668,
+      "types": [
+        "불꽃",
+        "노말"
+      ],
+      "showdown": "pyroar"
+    },
+    {
+      "key": "669",
+      "species": 669,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "flabebe"
+    },
+    {
+      "key": "670",
+      "species": 670,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "floette"
+    },
+    {
+      "key": "671",
+      "species": 671,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "florges"
+    },
+    {
+      "key": "672",
+      "species": 672,
+      "types": [
+        "풀"
+      ],
+      "showdown": "skiddo"
+    },
+    {
+      "key": "673",
+      "species": 673,
+      "types": [
+        "풀"
+      ],
+      "showdown": "gogoat"
+    },
+    {
+      "key": "674",
+      "species": 674,
+      "types": [
+        "격투"
+      ],
+      "showdown": "pancham"
+    },
+    {
+      "key": "675",
+      "species": 675,
+      "types": [
+        "격투",
+        "악"
+      ],
+      "showdown": "pangoro"
+    },
+    {
+      "key": "676",
+      "species": 676,
+      "types": [
+        "노말"
+      ],
+      "showdown": "furfrou"
+    },
+    {
+      "key": "677",
+      "species": 677,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "espurr"
+    },
+    {
+      "key": "678",
+      "species": 678,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "meowstic"
+    },
+    {
+      "key": "679",
+      "species": 679,
+      "types": [
+        "강철",
+        "고스트"
+      ],
+      "showdown": "honedge"
+    },
+    {
+      "key": "680",
+      "species": 680,
+      "types": [
+        "강철",
+        "고스트"
+      ],
+      "showdown": "doublade"
+    },
+    {
+      "key": "681",
+      "species": 681,
+      "types": [
+        "강철",
+        "고스트"
+      ],
+      "showdown": "aegislash"
+    },
+    {
+      "key": "682",
+      "species": 682,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "spritzee"
+    },
+    {
+      "key": "683",
+      "species": 683,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "aromatisse"
+    },
+    {
+      "key": "684",
+      "species": 684,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "swirlix"
+    },
+    {
+      "key": "685",
+      "species": 685,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "slurpuff"
+    },
+    {
+      "key": "686",
+      "species": 686,
+      "types": [
+        "악",
+        "에스퍼"
+      ],
+      "showdown": "inkay"
+    },
+    {
+      "key": "687",
+      "species": 687,
+      "types": [
+        "악",
+        "에스퍼"
+      ],
+      "showdown": "malamar"
+    },
+    {
+      "key": "688",
+      "species": 688,
+      "types": [
+        "바위",
+        "물"
+      ],
+      "showdown": "binacle"
+    },
+    {
+      "key": "689",
+      "species": 689,
+      "types": [
+        "바위",
+        "물"
+      ],
+      "showdown": "barbaracle"
+    },
+    {
+      "key": "690",
+      "species": 690,
+      "types": [
+        "독",
+        "물"
+      ],
+      "showdown": "skrelp"
+    },
+    {
+      "key": "691",
+      "species": 691,
+      "types": [
+        "독",
+        "드래곤"
+      ],
+      "showdown": "dragalge"
+    },
+    {
+      "key": "692",
+      "species": 692,
+      "types": [
+        "물"
+      ],
+      "showdown": "clauncher"
+    },
+    {
+      "key": "693",
+      "species": 693,
+      "types": [
+        "물"
+      ],
+      "showdown": "clawitzer"
+    },
+    {
+      "key": "694",
+      "species": 694,
+      "types": [
+        "전기",
+        "노말"
+      ],
+      "showdown": "helioptile"
+    },
+    {
+      "key": "695",
+      "species": 695,
+      "types": [
+        "전기",
+        "노말"
+      ],
+      "showdown": "heliolisk"
+    },
+    {
+      "key": "696",
+      "species": 696,
+      "types": [
+        "바위",
+        "드래곤"
+      ],
+      "showdown": "tyrunt"
+    },
+    {
+      "key": "697",
+      "species": 697,
+      "types": [
+        "바위",
+        "드래곤"
+      ],
+      "showdown": "tyrantrum"
+    },
+    {
+      "key": "698",
+      "species": 698,
+      "types": [
+        "바위",
+        "얼음"
+      ],
+      "showdown": "amaura"
+    },
+    {
+      "key": "699",
+      "species": 699,
+      "types": [
+        "바위",
+        "얼음"
+      ],
+      "showdown": "aurorus"
+    },
+    {
+      "key": "700",
+      "species": 700,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "sylveon"
+    },
+    {
+      "key": "701",
+      "species": 701,
+      "types": [
+        "격투",
+        "비행"
+      ],
+      "showdown": "hawlucha"
+    },
+    {
+      "key": "702",
+      "species": 702,
+      "types": [
+        "전기",
+        "페어리"
+      ],
+      "showdown": "dedenne"
+    },
+    {
+      "key": "703",
+      "species": 703,
+      "types": [
+        "바위",
+        "페어리"
+      ],
+      "showdown": "carbink"
+    },
+    {
+      "key": "704",
+      "species": 704,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "goomy"
+    },
+    {
+      "key": "705",
+      "species": 705,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "sliggoo"
+    },
+    {
+      "key": "706",
+      "species": 706,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "goodra"
+    },
+    {
+      "key": "707",
+      "species": 707,
+      "types": [
+        "강철",
+        "페어리"
+      ],
+      "showdown": "klefki"
+    },
+    {
+      "key": "708",
+      "species": 708,
+      "types": [
+        "고스트",
+        "풀"
+      ],
+      "showdown": "phantump"
+    },
+    {
+      "key": "709",
+      "species": 709,
+      "types": [
+        "고스트",
+        "풀"
+      ],
+      "showdown": "trevenant"
+    },
+    {
+      "key": "710",
+      "species": 710,
+      "types": [
+        "고스트",
+        "풀"
+      ],
+      "showdown": "pumpkaboo"
+    },
+    {
+      "key": "711",
+      "species": 711,
+      "types": [
+        "고스트",
+        "풀"
+      ],
+      "showdown": "gourgeist"
+    },
+    {
+      "key": "712",
+      "species": 712,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "bergmite"
+    },
+    {
+      "key": "713",
+      "species": 713,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "avalugg"
+    },
+    {
+      "key": "714",
+      "species": 714,
+      "types": [
+        "비행",
+        "드래곤"
+      ],
+      "showdown": "noibat"
+    },
+    {
+      "key": "715",
+      "species": 715,
+      "types": [
+        "비행",
+        "드래곤"
+      ],
+      "showdown": "noivern"
+    },
+    {
+      "key": "716",
+      "species": 716,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "xerneas"
+    },
+    {
+      "key": "717",
+      "species": 717,
+      "types": [
+        "악",
+        "비행"
+      ],
+      "showdown": "yveltal"
+    },
+    {
+      "key": "718",
+      "species": 718,
+      "types": [
+        "드래곤",
+        "땅"
+      ],
+      "showdown": "zygarde"
+    },
+    {
+      "key": "719",
+      "species": 719,
+      "types": [
+        "바위",
+        "페어리"
+      ],
+      "showdown": "diancie"
+    },
+    {
+      "key": "720",
+      "species": 720,
+      "types": [
+        "에스퍼",
+        "고스트"
+      ],
+      "showdown": "hoopa"
+    },
+    {
+      "key": "721",
+      "species": 721,
+      "types": [
+        "불꽃",
+        "물"
+      ],
+      "showdown": "volcanion"
+    },
+    {
+      "key": "722",
+      "species": 722,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "rowlet"
+    },
+    {
+      "key": "723",
+      "species": 723,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "dartrix"
+    },
+    {
+      "key": "724",
+      "species": 724,
+      "types": [
+        "풀",
+        "고스트"
+      ],
+      "showdown": "decidueye"
+    },
+    {
+      "key": "725",
+      "species": 725,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "litten"
+    },
+    {
+      "key": "726",
+      "species": 726,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "torracat"
+    },
+    {
+      "key": "727",
+      "species": 727,
+      "types": [
+        "불꽃",
+        "악"
+      ],
+      "showdown": "incineroar"
+    },
+    {
+      "key": "728",
+      "species": 728,
+      "types": [
+        "물"
+      ],
+      "showdown": "popplio"
+    },
+    {
+      "key": "729",
+      "species": 729,
+      "types": [
+        "물"
+      ],
+      "showdown": "brionne"
+    },
+    {
+      "key": "730",
+      "species": 730,
+      "types": [
+        "물",
+        "페어리"
+      ],
+      "showdown": "primarina"
+    },
+    {
+      "key": "731",
+      "species": 731,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "pikipek"
+    },
+    {
+      "key": "732",
+      "species": 732,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "trumbeak"
+    },
+    {
+      "key": "733",
+      "species": 733,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "toucannon"
+    },
+    {
+      "key": "734",
+      "species": 734,
+      "types": [
+        "노말"
+      ],
+      "showdown": "yungoos"
+    },
+    {
+      "key": "735",
+      "species": 735,
+      "types": [
+        "노말"
+      ],
+      "showdown": "gumshoos"
+    },
+    {
+      "key": "736",
+      "species": 736,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "grubbin"
+    },
+    {
+      "key": "737",
+      "species": 737,
+      "types": [
+        "벌레",
+        "전기"
+      ],
+      "showdown": "charjabug"
+    },
+    {
+      "key": "738",
+      "species": 738,
+      "types": [
+        "벌레",
+        "전기"
+      ],
+      "showdown": "vikavolt"
+    },
+    {
+      "key": "739",
+      "species": 739,
+      "types": [
+        "격투"
+      ],
+      "showdown": "crabrawler"
+    },
+    {
+      "key": "740",
+      "species": 740,
+      "types": [
+        "격투",
+        "얼음"
+      ],
+      "showdown": "crabominable"
+    },
+    {
+      "key": "741",
+      "species": 741,
+      "types": [
+        "불꽃",
+        "비행"
+      ],
+      "showdown": "oricorio"
+    },
+    {
+      "key": "742",
+      "species": 742,
+      "types": [
+        "벌레",
+        "페어리"
+      ],
+      "showdown": "cutiefly"
+    },
+    {
+      "key": "743",
+      "species": 743,
+      "types": [
+        "벌레",
+        "페어리"
+      ],
+      "showdown": "ribombee"
+    },
+    {
+      "key": "744",
+      "species": 744,
+      "types": [
+        "바위"
+      ],
+      "showdown": "rockruff"
+    },
+    {
+      "key": "745",
+      "species": 745,
+      "types": [
+        "바위"
+      ],
+      "showdown": "lycanroc"
+    },
+    {
+      "key": "746",
+      "species": 746,
+      "types": [
+        "물"
+      ],
+      "showdown": "wishiwashi"
+    },
+    {
+      "key": "747",
+      "species": 747,
+      "types": [
+        "독",
+        "물"
+      ],
+      "showdown": "mareanie"
+    },
+    {
+      "key": "748",
+      "species": 748,
+      "types": [
+        "독",
+        "물"
+      ],
+      "showdown": "toxapex"
+    },
+    {
+      "key": "749",
+      "species": 749,
+      "types": [
+        "땅"
+      ],
+      "showdown": "mudbray"
+    },
+    {
+      "key": "750",
+      "species": 750,
+      "types": [
+        "땅"
+      ],
+      "showdown": "mudsdale"
+    },
+    {
+      "key": "751",
+      "species": 751,
+      "types": [
+        "물",
+        "벌레"
+      ],
+      "showdown": "dewpider"
+    },
+    {
+      "key": "752",
+      "species": 752,
+      "types": [
+        "물",
+        "벌레"
+      ],
+      "showdown": "araquanid"
+    },
+    {
+      "key": "753",
+      "species": 753,
+      "types": [
+        "풀"
+      ],
+      "showdown": "fomantis"
+    },
+    {
+      "key": "754",
+      "species": 754,
+      "types": [
+        "풀"
+      ],
+      "showdown": "lurantis"
+    },
+    {
+      "key": "755",
+      "species": 755,
+      "types": [
+        "풀",
+        "페어리"
+      ],
+      "showdown": "morelull"
+    },
+    {
+      "key": "756",
+      "species": 756,
+      "types": [
+        "풀",
+        "페어리"
+      ],
+      "showdown": "shiinotic"
+    },
+    {
+      "key": "757",
+      "species": 757,
+      "types": [
+        "독",
+        "불꽃"
+      ],
+      "showdown": "salandit"
+    },
+    {
+      "key": "758",
+      "species": 758,
+      "types": [
+        "독",
+        "불꽃"
+      ],
+      "showdown": "salazzle"
+    },
+    {
+      "key": "759",
+      "species": 759,
+      "types": [
+        "노말",
+        "격투"
+      ],
+      "showdown": "stufful"
+    },
+    {
+      "key": "760",
+      "species": 760,
+      "types": [
+        "노말",
+        "격투"
+      ],
+      "showdown": "bewear"
+    },
+    {
+      "key": "761",
+      "species": 761,
+      "types": [
+        "풀"
+      ],
+      "showdown": "bounsweet"
+    },
+    {
+      "key": "762",
+      "species": 762,
+      "types": [
+        "풀"
+      ],
+      "showdown": "steenee"
+    },
+    {
+      "key": "763",
+      "species": 763,
+      "types": [
+        "풀"
+      ],
+      "showdown": "tsareena"
+    },
+    {
+      "key": "764",
+      "species": 764,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "comfey"
+    },
+    {
+      "key": "765",
+      "species": 765,
+      "types": [
+        "노말",
+        "에스퍼"
+      ],
+      "showdown": "oranguru"
+    },
+    {
+      "key": "766",
+      "species": 766,
+      "types": [
+        "격투"
+      ],
+      "showdown": "passimian"
+    },
+    {
+      "key": "767",
+      "species": 767,
+      "types": [
+        "벌레",
+        "물"
+      ],
+      "showdown": "wimpod"
+    },
+    {
+      "key": "768",
+      "species": 768,
+      "types": [
+        "벌레",
+        "물"
+      ],
+      "showdown": "golisopod"
+    },
+    {
+      "key": "769",
+      "species": 769,
+      "types": [
+        "고스트",
+        "땅"
+      ],
+      "showdown": "sandygast"
+    },
+    {
+      "key": "770",
+      "species": 770,
+      "types": [
+        "고스트",
+        "땅"
+      ],
+      "showdown": "palossand"
+    },
+    {
+      "key": "771",
+      "species": 771,
+      "types": [
+        "물"
+      ],
+      "showdown": "pyukumuku"
+    },
+    {
+      "key": "772",
+      "species": 772,
+      "types": [
+        "노말"
+      ],
+      "showdown": "typenull"
+    },
+    {
+      "key": "773",
+      "species": 773,
+      "types": [
+        "노말"
+      ],
+      "showdown": "silvally"
+    },
+    {
+      "key": "774",
+      "species": 774,
+      "types": [
+        "바위",
+        "비행"
+      ],
+      "showdown": "miniormeteor"
+    },
+    {
+      "key": "775",
+      "species": 775,
+      "types": [
+        "노말"
+      ],
+      "showdown": "komala"
+    },
+    {
+      "key": "776",
+      "species": 776,
+      "types": [
+        "불꽃",
+        "드래곤"
+      ],
+      "showdown": "turtonator"
+    },
+    {
+      "key": "777",
+      "species": 777,
+      "types": [
+        "전기",
+        "강철"
+      ],
+      "showdown": "togedemaru"
+    },
+    {
+      "key": "778",
+      "species": 778,
+      "types": [
+        "고스트",
+        "페어리"
+      ],
+      "showdown": "mimikyu"
+    },
+    {
+      "key": "779",
+      "species": 779,
+      "types": [
+        "물",
+        "에스퍼"
+      ],
+      "showdown": "bruxish"
+    },
+    {
+      "key": "780",
+      "species": 780,
+      "types": [
+        "노말",
+        "드래곤"
+      ],
+      "showdown": "drampa"
+    },
+    {
+      "key": "781",
+      "species": 781,
+      "types": [
+        "고스트",
+        "풀"
+      ],
+      "showdown": "dhelmise"
+    },
+    {
+      "key": "782",
+      "species": 782,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "jangmoo"
+    },
+    {
+      "key": "783",
+      "species": 783,
+      "types": [
+        "드래곤",
+        "격투"
+      ],
+      "showdown": "hakamoo"
+    },
+    {
+      "key": "784",
+      "species": 784,
+      "types": [
+        "드래곤",
+        "격투"
+      ],
+      "showdown": "kommoo"
+    },
+    {
+      "key": "785",
+      "species": 785,
+      "types": [
+        "전기",
+        "페어리"
+      ],
+      "showdown": "tapukoko"
+    },
+    {
+      "key": "786",
+      "species": 786,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "tapulele"
+    },
+    {
+      "key": "787",
+      "species": 787,
+      "types": [
+        "풀",
+        "페어리"
+      ],
+      "showdown": "tapubulu"
+    },
+    {
+      "key": "788",
+      "species": 788,
+      "types": [
+        "물",
+        "페어리"
+      ],
+      "showdown": "tapufini"
+    },
+    {
+      "key": "789",
+      "species": 789,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "cosmog"
+    },
+    {
+      "key": "790",
+      "species": 790,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "cosmoem"
+    },
+    {
+      "key": "791",
+      "species": 791,
+      "types": [
+        "에스퍼",
+        "강철"
+      ],
+      "showdown": "solgaleo"
+    },
+    {
+      "key": "792",
+      "species": 792,
+      "types": [
+        "에스퍼",
+        "고스트"
+      ],
+      "showdown": "lunala"
+    },
+    {
+      "key": "793",
+      "species": 793,
+      "types": [
+        "바위",
+        "독"
+      ],
+      "showdown": "nihilego"
+    },
+    {
+      "key": "794",
+      "species": 794,
+      "types": [
+        "벌레",
+        "격투"
+      ],
+      "showdown": "buzzwole"
+    },
+    {
+      "key": "795",
+      "species": 795,
+      "types": [
+        "벌레",
+        "격투"
+      ],
+      "showdown": "pheromosa"
+    },
+    {
+      "key": "796",
+      "species": 796,
+      "types": [
+        "전기"
+      ],
+      "showdown": "xurkitree"
+    },
+    {
+      "key": "797",
+      "species": 797,
+      "types": [
+        "강철",
+        "비행"
+      ],
+      "showdown": "celesteela"
+    },
+    {
+      "key": "798",
+      "species": 798,
+      "types": [
+        "풀",
+        "강철"
+      ],
+      "showdown": "kartana"
+    },
+    {
+      "key": "799",
+      "species": 799,
+      "types": [
+        "악",
+        "드래곤"
+      ],
+      "showdown": "guzzlord"
+    },
+    {
+      "key": "800",
+      "species": 800,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "necrozma"
+    },
+    {
+      "key": "801",
+      "species": 801,
+      "types": [
+        "강철",
+        "페어리"
+      ],
+      "showdown": "magearna"
+    },
+    {
+      "key": "802",
+      "species": 802,
+      "types": [
+        "격투",
+        "고스트"
+      ],
+      "showdown": "marshadow"
+    },
+    {
+      "key": "803",
+      "species": 803,
+      "types": [
+        "독"
+      ],
+      "showdown": "poipole"
+    },
+    {
+      "key": "804",
+      "species": 804,
+      "types": [
+        "독",
+        "드래곤"
+      ],
+      "showdown": "naganadel"
+    },
+    {
+      "key": "805",
+      "species": 805,
+      "types": [
+        "바위",
+        "강철"
+      ],
+      "showdown": "stakataka"
+    },
+    {
+      "key": "806",
+      "species": 806,
+      "types": [
+        "불꽃",
+        "고스트"
+      ],
+      "showdown": "blacephalon"
+    },
+    {
+      "key": "807",
+      "species": 807,
+      "types": [
+        "전기"
+      ],
+      "showdown": "zeraora"
+    },
+    {
+      "key": "808",
+      "species": 808,
+      "types": [
+        "강철"
+      ],
+      "showdown": "meltan"
+    },
+    {
+      "key": "809",
+      "species": 809,
+      "types": [
+        "강철"
+      ],
+      "showdown": "melmetal"
+    },
+    {
+      "key": "810",
+      "species": 810,
+      "types": [
+        "풀"
+      ],
+      "showdown": "grookey"
+    },
+    {
+      "key": "811",
+      "species": 811,
+      "types": [
+        "풀"
+      ],
+      "showdown": "thwackey"
+    },
+    {
+      "key": "812",
+      "species": 812,
+      "types": [
+        "풀"
+      ],
+      "showdown": "rillaboom"
+    },
+    {
+      "key": "813",
+      "species": 813,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "scorbunny"
+    },
+    {
+      "key": "814",
+      "species": 814,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "raboot"
+    },
+    {
+      "key": "815",
+      "species": 815,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "cinderace"
+    },
+    {
+      "key": "816",
+      "species": 816,
+      "types": [
+        "물"
+      ],
+      "showdown": "sobble"
+    },
+    {
+      "key": "817",
+      "species": 817,
+      "types": [
+        "물"
+      ],
+      "showdown": "drizzile"
+    },
+    {
+      "key": "818",
+      "species": 818,
+      "types": [
+        "물"
+      ],
+      "showdown": "inteleon"
+    },
+    {
+      "key": "819",
+      "species": 819,
+      "types": [
+        "노말"
+      ],
+      "showdown": "skwovet"
+    },
+    {
+      "key": "820",
+      "species": 820,
+      "types": [
+        "노말"
+      ],
+      "showdown": "greedent"
+    },
+    {
+      "key": "821",
+      "species": 821,
+      "types": [
+        "비행"
+      ],
+      "showdown": "rookidee"
+    },
+    {
+      "key": "822",
+      "species": 822,
+      "types": [
+        "비행"
+      ],
+      "showdown": "corvisquire"
+    },
+    {
+      "key": "823",
+      "species": 823,
+      "types": [
+        "비행",
+        "강철"
+      ],
+      "showdown": "corviknight"
+    },
+    {
+      "key": "824",
+      "species": 824,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "blipbug"
+    },
+    {
+      "key": "825",
+      "species": 825,
+      "types": [
+        "벌레",
+        "에스퍼"
+      ],
+      "showdown": "dottler"
+    },
+    {
+      "key": "826",
+      "species": 826,
+      "types": [
+        "벌레",
+        "에스퍼"
+      ],
+      "showdown": "orbeetle"
+    },
+    {
+      "key": "827",
+      "species": 827,
+      "types": [
+        "악"
+      ],
+      "showdown": "nickit"
+    },
+    {
+      "key": "828",
+      "species": 828,
+      "types": [
+        "악"
+      ],
+      "showdown": "thievul"
+    },
+    {
+      "key": "829",
+      "species": 829,
+      "types": [
+        "풀"
+      ],
+      "showdown": "gossifleur"
+    },
+    {
+      "key": "830",
+      "species": 830,
+      "types": [
+        "풀"
+      ],
+      "showdown": "eldegoss"
+    },
+    {
+      "key": "831",
+      "species": 831,
+      "types": [
+        "노말"
+      ],
+      "showdown": "wooloo"
+    },
+    {
+      "key": "832",
+      "species": 832,
+      "types": [
+        "노말"
+      ],
+      "showdown": "dubwool"
+    },
+    {
+      "key": "833",
+      "species": 833,
+      "types": [
+        "물"
+      ],
+      "showdown": "chewtle"
+    },
+    {
+      "key": "834",
+      "species": 834,
+      "types": [
+        "물",
+        "바위"
+      ],
+      "showdown": "drednaw"
+    },
+    {
+      "key": "835",
+      "species": 835,
+      "types": [
+        "전기"
+      ],
+      "showdown": "yamper"
+    },
+    {
+      "key": "836",
+      "species": 836,
+      "types": [
+        "전기"
+      ],
+      "showdown": "boltund"
+    },
+    {
+      "key": "837",
+      "species": 837,
+      "types": [
+        "바위"
+      ],
+      "showdown": "rolycoly"
+    },
+    {
+      "key": "838",
+      "species": 838,
+      "types": [
+        "바위",
+        "불꽃"
+      ],
+      "showdown": "carkol"
+    },
+    {
+      "key": "839",
+      "species": 839,
+      "types": [
+        "바위",
+        "불꽃"
+      ],
+      "showdown": "coalossal"
+    },
+    {
+      "key": "840",
+      "species": 840,
+      "types": [
+        "풀",
+        "드래곤"
+      ],
+      "showdown": "applin"
+    },
+    {
+      "key": "841",
+      "species": 841,
+      "types": [
+        "풀",
+        "드래곤"
+      ],
+      "showdown": "flapple"
+    },
+    {
+      "key": "842",
+      "species": 842,
+      "types": [
+        "풀",
+        "드래곤"
+      ],
+      "showdown": "appletun"
+    },
+    {
+      "key": "843",
+      "species": 843,
+      "types": [
+        "땅"
+      ],
+      "showdown": "silicobra"
+    },
+    {
+      "key": "844",
+      "species": 844,
+      "types": [
+        "땅"
+      ],
+      "showdown": "sandaconda"
+    },
+    {
+      "key": "845",
+      "species": 845,
+      "types": [
+        "비행",
+        "물"
+      ],
+      "showdown": "cramorant"
+    },
+    {
+      "key": "846",
+      "species": 846,
+      "types": [
+        "물"
+      ],
+      "showdown": "arrokuda"
+    },
+    {
+      "key": "847",
+      "species": 847,
+      "types": [
+        "물"
+      ],
+      "showdown": "barraskewda"
+    },
+    {
+      "key": "848",
+      "species": 848,
+      "types": [
+        "전기",
+        "독"
+      ],
+      "showdown": "toxel"
+    },
+    {
+      "key": "849",
+      "species": 849,
+      "types": [
+        "전기",
+        "독"
+      ],
+      "showdown": "toxtricity"
+    },
+    {
+      "key": "850",
+      "species": 850,
+      "types": [
+        "불꽃",
+        "벌레"
+      ],
+      "showdown": "sizzlipede"
+    },
+    {
+      "key": "851",
+      "species": 851,
+      "types": [
+        "불꽃",
+        "벌레"
+      ],
+      "showdown": "centiskorch"
+    },
+    {
+      "key": "852",
+      "species": 852,
+      "types": [
+        "격투"
+      ],
+      "showdown": "clobbopus"
+    },
+    {
+      "key": "853",
+      "species": 853,
+      "types": [
+        "격투"
+      ],
+      "showdown": "grapploct"
+    },
+    {
+      "key": "854",
+      "species": 854,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "sinistea"
+    },
+    {
+      "key": "855",
+      "species": 855,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "polteageist"
+    },
+    {
+      "key": "856",
+      "species": 856,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "hatenna"
+    },
+    {
+      "key": "857",
+      "species": 857,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "hattrem"
+    },
+    {
+      "key": "858",
+      "species": 858,
+      "types": [
+        "에스퍼",
+        "페어리"
+      ],
+      "showdown": "hatterene"
+    },
+    {
+      "key": "859",
+      "species": 859,
+      "types": [
+        "악",
+        "페어리"
+      ],
+      "showdown": "impidimp"
+    },
+    {
+      "key": "860",
+      "species": 860,
+      "types": [
+        "악",
+        "페어리"
+      ],
+      "showdown": "morgrem"
+    },
+    {
+      "key": "861",
+      "species": 861,
+      "types": [
+        "악",
+        "페어리"
+      ],
+      "showdown": "grimmsnarl"
+    },
+    {
+      "key": "862",
+      "species": 862,
+      "types": [
+        "악",
+        "노말"
+      ],
+      "showdown": "obstagoon"
+    },
+    {
+      "key": "863",
+      "species": 863,
+      "types": [
+        "강철"
+      ],
+      "showdown": "perrserker"
+    },
+    {
+      "key": "864",
+      "species": 864,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "cursola"
+    },
+    {
+      "key": "865",
+      "species": 865,
+      "types": [
+        "격투"
+      ],
+      "showdown": "sirfetchd"
+    },
+    {
+      "key": "866",
+      "species": 866,
+      "types": [
+        "얼음",
+        "에스퍼"
+      ],
+      "showdown": "mrrime"
+    },
+    {
+      "key": "867",
+      "species": 867,
+      "types": [
+        "땅",
+        "고스트"
+      ],
+      "showdown": "runerigus"
+    },
+    {
+      "key": "868",
+      "species": 868,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "milcery"
+    },
+    {
+      "key": "869",
+      "species": 869,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "alcremie"
+    },
+    {
+      "key": "870",
+      "species": 870,
+      "types": [
+        "격투"
+      ],
+      "showdown": "falinks"
+    },
+    {
+      "key": "871",
+      "species": 871,
+      "types": [
+        "전기"
+      ],
+      "showdown": "pincurchin"
+    },
+    {
+      "key": "872",
+      "species": 872,
+      "types": [
+        "얼음",
+        "벌레"
+      ],
+      "showdown": "snom"
+    },
+    {
+      "key": "873",
+      "species": 873,
+      "types": [
+        "얼음",
+        "벌레"
+      ],
+      "showdown": "frosmoth"
+    },
+    {
+      "key": "874",
+      "species": 874,
+      "types": [
+        "바위"
+      ],
+      "showdown": "stonjourner"
+    },
+    {
+      "key": "875",
+      "species": 875,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "eiscue"
+    },
+    {
+      "key": "876",
+      "species": 876,
+      "types": [
+        "에스퍼",
+        "노말"
+      ],
+      "showdown": "indeedee"
+    },
+    {
+      "key": "877",
+      "species": 877,
+      "types": [
+        "전기",
+        "악"
+      ],
+      "showdown": "morpeko"
+    },
+    {
+      "key": "878",
+      "species": 878,
+      "types": [
+        "강철"
+      ],
+      "showdown": "cufant"
+    },
+    {
+      "key": "879",
+      "species": 879,
+      "types": [
+        "강철"
+      ],
+      "showdown": "copperajah"
+    },
+    {
+      "key": "880",
+      "species": 880,
+      "types": [
+        "전기",
+        "드래곤"
+      ],
+      "showdown": "dracozolt"
+    },
+    {
+      "key": "881",
+      "species": 881,
+      "types": [
+        "전기",
+        "얼음"
+      ],
+      "showdown": "arctozolt"
+    },
+    {
+      "key": "882",
+      "species": 882,
+      "types": [
+        "물",
+        "드래곤"
+      ],
+      "showdown": "dracovish"
+    },
+    {
+      "key": "883",
+      "species": 883,
+      "types": [
+        "물",
+        "얼음"
+      ],
+      "showdown": "arctovish"
+    },
+    {
+      "key": "884",
+      "species": 884,
+      "types": [
+        "강철",
+        "드래곤"
+      ],
+      "showdown": "duraludon"
+    },
+    {
+      "key": "885",
+      "species": 885,
+      "types": [
+        "드래곤",
+        "고스트"
+      ],
+      "showdown": "dreepy"
+    },
+    {
+      "key": "886",
+      "species": 886,
+      "types": [
+        "드래곤",
+        "고스트"
+      ],
+      "showdown": "drakloak"
+    },
+    {
+      "key": "887",
+      "species": 887,
+      "types": [
+        "드래곤",
+        "고스트"
+      ],
+      "showdown": "dragapult"
+    },
+    {
+      "key": "888",
+      "species": 888,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "zacian"
+    },
+    {
+      "key": "889",
+      "species": 889,
+      "types": [
+        "격투"
+      ],
+      "showdown": "zamazenta"
+    },
+    {
+      "key": "890",
+      "species": 890,
+      "types": [
+        "독",
+        "드래곤"
+      ],
+      "showdown": "eternatus"
+    },
+    {
+      "key": "891",
+      "species": 891,
+      "types": [
+        "격투"
+      ],
+      "showdown": "kubfu"
+    },
+    {
+      "key": "892",
+      "species": 892,
+      "types": [
+        "격투",
+        "악"
+      ],
+      "showdown": "urshifu"
+    },
+    {
+      "key": "893",
+      "species": 893,
+      "types": [
+        "악",
+        "풀"
+      ],
+      "showdown": "zarude"
+    },
+    {
+      "key": "894",
+      "species": 894,
+      "types": [
+        "전기"
+      ],
+      "showdown": "regieleki"
+    },
+    {
+      "key": "895",
+      "species": 895,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "regidrago"
+    },
+    {
+      "key": "896",
+      "species": 896,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "glastrier"
+    },
+    {
+      "key": "897",
+      "species": 897,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "spectrier"
+    },
+    {
+      "key": "898",
+      "species": 898,
+      "types": [
+        "에스퍼",
+        "풀"
+      ],
+      "showdown": "calyrex"
+    },
+    {
+      "key": "899",
+      "species": 899,
+      "types": [
+        "노말",
+        "에스퍼"
+      ],
+      "showdown": "wyrdeer"
+    },
+    {
+      "key": "900",
+      "species": 900,
+      "types": [
+        "벌레",
+        "바위"
+      ],
+      "showdown": "kleavor"
+    },
+    {
+      "key": "901",
+      "species": 901,
+      "types": [
+        "땅",
+        "노말"
+      ],
+      "showdown": "ursaluna"
+    },
+    {
+      "key": "902",
+      "species": 902,
+      "types": [
+        "물",
+        "고스트"
+      ],
+      "showdown": "basculegion"
+    },
+    {
+      "key": "903",
+      "species": 903,
+      "types": [
+        "격투",
+        "독"
+      ],
+      "showdown": "sneasler"
+    },
+    {
+      "key": "904",
+      "species": 904,
+      "types": [
+        "악",
+        "독"
+      ],
+      "showdown": "overqwil"
+    },
+    {
+      "key": "905",
+      "species": 905,
+      "types": [
+        "페어리",
+        "비행"
+      ],
+      "showdown": "enamorus"
+    },
+    {
+      "key": "906",
+      "species": 906,
+      "types": [
+        "풀"
+      ],
+      "showdown": "sprigatito"
+    },
+    {
+      "key": "907",
+      "species": 907,
+      "types": [
+        "풀"
+      ],
+      "showdown": "floragato"
+    },
+    {
+      "key": "908",
+      "species": 908,
+      "types": [
+        "풀",
+        "악"
+      ],
+      "showdown": "meowscarada"
+    },
+    {
+      "key": "909",
+      "species": 909,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "fuecoco"
+    },
+    {
+      "key": "910",
+      "species": 910,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "crocalor"
+    },
+    {
+      "key": "911",
+      "species": 911,
+      "types": [
+        "불꽃",
+        "고스트"
+      ],
+      "showdown": "skeledirge"
+    },
+    {
+      "key": "912",
+      "species": 912,
+      "types": [
+        "물"
+      ],
+      "showdown": "quaxly"
+    },
+    {
+      "key": "913",
+      "species": 913,
+      "types": [
+        "물"
+      ],
+      "showdown": "quaxwell"
+    },
+    {
+      "key": "914",
+      "species": 914,
+      "types": [
+        "물",
+        "격투"
+      ],
+      "showdown": "quaquaval"
+    },
+    {
+      "key": "915",
+      "species": 915,
+      "types": [
+        "노말"
+      ],
+      "showdown": "lechonk"
+    },
+    {
+      "key": "916",
+      "species": 916,
+      "types": [
+        "노말"
+      ],
+      "showdown": "oinkologne"
+    },
+    {
+      "key": "917",
+      "species": 917,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "tarountula"
+    },
+    {
+      "key": "918",
+      "species": 918,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "spidops"
+    },
+    {
+      "key": "919",
+      "species": 919,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "nymble"
+    },
+    {
+      "key": "920",
+      "species": 920,
+      "types": [
+        "벌레",
+        "악"
+      ],
+      "showdown": "lokix"
+    },
+    {
+      "key": "921",
+      "species": 921,
+      "types": [
+        "전기"
+      ],
+      "showdown": "pawmi"
+    },
+    {
+      "key": "922",
+      "species": 922,
+      "types": [
+        "전기",
+        "격투"
+      ],
+      "showdown": "pawmo"
+    },
+    {
+      "key": "923",
+      "species": 923,
+      "types": [
+        "전기",
+        "격투"
+      ],
+      "showdown": "pawmot"
+    },
+    {
+      "key": "924",
+      "species": 924,
+      "types": [
+        "노말"
+      ],
+      "showdown": "tandemaus"
+    },
+    {
+      "key": "925",
+      "species": 925,
+      "types": [
+        "노말"
+      ],
+      "showdown": "maushold"
+    },
+    {
+      "key": "926",
+      "species": 926,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "fidough"
+    },
+    {
+      "key": "927",
+      "species": 927,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "dachsbun"
+    },
+    {
+      "key": "928",
+      "species": 928,
+      "types": [
+        "풀",
+        "노말"
+      ],
+      "showdown": "smoliv"
+    },
+    {
+      "key": "929",
+      "species": 929,
+      "types": [
+        "풀",
+        "노말"
+      ],
+      "showdown": "dolliv"
+    },
+    {
+      "key": "930",
+      "species": 930,
+      "types": [
+        "풀",
+        "노말"
+      ],
+      "showdown": "arboliva"
+    },
+    {
+      "key": "931",
+      "species": 931,
+      "types": [
+        "노말",
+        "비행"
+      ],
+      "showdown": "squawkabilly"
+    },
+    {
+      "key": "932",
+      "species": 932,
+      "types": [
+        "바위"
+      ],
+      "showdown": "nacli"
+    },
+    {
+      "key": "933",
+      "species": 933,
+      "types": [
+        "바위"
+      ],
+      "showdown": "naclstack"
+    },
+    {
+      "key": "934",
+      "species": 934,
+      "types": [
+        "바위"
+      ],
+      "showdown": "garganacl"
+    },
+    {
+      "key": "935",
+      "species": 935,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "charcadet"
+    },
+    {
+      "key": "936",
+      "species": 936,
+      "types": [
+        "불꽃",
+        "에스퍼"
+      ],
+      "showdown": "armarouge"
+    },
+    {
+      "key": "937",
+      "species": 937,
+      "types": [
+        "불꽃",
+        "고스트"
+      ],
+      "showdown": "ceruledge"
+    },
+    {
+      "key": "938",
+      "species": 938,
+      "types": [
+        "전기"
+      ],
+      "showdown": "tadbulb"
+    },
+    {
+      "key": "939",
+      "species": 939,
+      "types": [
+        "전기"
+      ],
+      "showdown": "bellibolt"
+    },
+    {
+      "key": "940",
+      "species": 940,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "wattrel"
+    },
+    {
+      "key": "941",
+      "species": 941,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "kilowattrel"
+    },
+    {
+      "key": "942",
+      "species": 942,
+      "types": [
+        "악"
+      ],
+      "showdown": "maschiff"
+    },
+    {
+      "key": "943",
+      "species": 943,
+      "types": [
+        "악"
+      ],
+      "showdown": "mabosstiff"
+    },
+    {
+      "key": "944",
+      "species": 944,
+      "types": [
+        "독",
+        "노말"
+      ],
+      "showdown": "shroodle"
+    },
+    {
+      "key": "945",
+      "species": 945,
+      "types": [
+        "독",
+        "노말"
+      ],
+      "showdown": "grafaiai"
+    },
+    {
+      "key": "946",
+      "species": 946,
+      "types": [
+        "풀",
+        "고스트"
+      ],
+      "showdown": "bramblin"
+    },
+    {
+      "key": "947",
+      "species": 947,
+      "types": [
+        "풀",
+        "고스트"
+      ],
+      "showdown": "brambleghast"
+    },
+    {
+      "key": "948",
+      "species": 948,
+      "types": [
+        "땅",
+        "풀"
+      ],
+      "showdown": "toedscool"
+    },
+    {
+      "key": "949",
+      "species": 949,
+      "types": [
+        "땅",
+        "풀"
+      ],
+      "showdown": "toedscruel"
+    },
+    {
+      "key": "950",
+      "species": 950,
+      "types": [
+        "바위"
+      ],
+      "showdown": "klawf"
+    },
+    {
+      "key": "951",
+      "species": 951,
+      "types": [
+        "풀"
+      ],
+      "showdown": "capsakid"
+    },
+    {
+      "key": "952",
+      "species": 952,
+      "types": [
+        "풀",
+        "불꽃"
+      ],
+      "showdown": "scovillain"
+    },
+    {
+      "key": "953",
+      "species": 953,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "rellor"
+    },
+    {
+      "key": "954",
+      "species": 954,
+      "types": [
+        "벌레",
+        "에스퍼"
+      ],
+      "showdown": "rabsca"
+    },
+    {
+      "key": "955",
+      "species": 955,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "flittle"
+    },
+    {
+      "key": "956",
+      "species": 956,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "espathra"
+    },
+    {
+      "key": "957",
+      "species": 957,
+      "types": [
+        "페어리",
+        "강철"
+      ],
+      "showdown": "tinkatink"
+    },
+    {
+      "key": "958",
+      "species": 958,
+      "types": [
+        "페어리",
+        "강철"
+      ],
+      "showdown": "tinkatuff"
+    },
+    {
+      "key": "959",
+      "species": 959,
+      "types": [
+        "페어리",
+        "강철"
+      ],
+      "showdown": "tinkaton"
+    },
+    {
+      "key": "960",
+      "species": 960,
+      "types": [
+        "물"
+      ],
+      "showdown": "wiglett"
+    },
+    {
+      "key": "961",
+      "species": 961,
+      "types": [
+        "물"
+      ],
+      "showdown": "wugtrio"
+    },
+    {
+      "key": "962",
+      "species": 962,
+      "types": [
+        "비행",
+        "악"
+      ],
+      "showdown": "bombirdier"
+    },
+    {
+      "key": "963",
+      "species": 963,
+      "types": [
+        "물"
+      ],
+      "showdown": "finizen"
+    },
+    {
+      "key": "964",
+      "species": 964,
+      "types": [
+        "물"
+      ],
+      "showdown": "palafin"
+    },
+    {
+      "key": "965",
+      "species": 965,
+      "types": [
+        "강철",
+        "독"
+      ],
+      "showdown": "varoom"
+    },
+    {
+      "key": "966",
+      "species": 966,
+      "types": [
+        "강철",
+        "독"
+      ],
+      "showdown": "revavroom"
+    },
+    {
+      "key": "967",
+      "species": 967,
+      "types": [
+        "드래곤",
+        "노말"
+      ],
+      "showdown": "cyclizar"
+    },
+    {
+      "key": "968",
+      "species": 968,
+      "types": [
+        "강철"
+      ],
+      "showdown": "orthworm"
+    },
+    {
+      "key": "969",
+      "species": 969,
+      "types": [
+        "바위",
+        "독"
+      ],
+      "showdown": "glimmet"
+    },
+    {
+      "key": "970",
+      "species": 970,
+      "types": [
+        "바위",
+        "독"
+      ],
+      "showdown": "glimmora"
+    },
+    {
+      "key": "971",
+      "species": 971,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "greavard"
+    },
+    {
+      "key": "972",
+      "species": 972,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "houndstone"
+    },
+    {
+      "key": "973",
+      "species": 973,
+      "types": [
+        "비행",
+        "격투"
+      ],
+      "showdown": "flamigo"
+    },
+    {
+      "key": "974",
+      "species": 974,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "cetoddle"
+    },
+    {
+      "key": "975",
+      "species": 975,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "cetitan"
+    },
+    {
+      "key": "976",
+      "species": 976,
+      "types": [
+        "물",
+        "에스퍼"
+      ],
+      "showdown": "veluza"
+    },
+    {
+      "key": "977",
+      "species": 977,
+      "types": [
+        "물"
+      ],
+      "showdown": "dondozo"
+    },
+    {
+      "key": "978",
+      "species": 978,
+      "types": [
+        "드래곤",
+        "물"
+      ],
+      "showdown": "tatsugiri"
+    },
+    {
+      "key": "979",
+      "species": 979,
+      "types": [
+        "격투",
+        "고스트"
+      ],
+      "showdown": "annihilape"
+    },
+    {
+      "key": "980",
+      "species": 980,
+      "types": [
+        "독",
+        "땅"
+      ],
+      "showdown": "clodsire"
+    },
+    {
+      "key": "981",
+      "species": 981,
+      "types": [
+        "노말",
+        "에스퍼"
+      ],
+      "showdown": "farigiraf"
+    },
+    {
+      "key": "982",
+      "species": 982,
+      "types": [
+        "노말"
+      ],
+      "showdown": "dudunsparce"
+    },
+    {
+      "key": "983",
+      "species": 983,
+      "types": [
+        "악",
+        "강철"
+      ],
+      "showdown": "kingambit"
+    },
+    {
+      "key": "984",
+      "species": 984,
+      "types": [
+        "땅",
+        "격투"
+      ],
+      "showdown": "greattusk"
+    },
+    {
+      "key": "985",
+      "species": 985,
+      "types": [
+        "페어리",
+        "에스퍼"
+      ],
+      "showdown": "screamtail"
+    },
+    {
+      "key": "986",
+      "species": 986,
+      "types": [
+        "풀",
+        "악"
+      ],
+      "showdown": "brutebonnet"
+    },
+    {
+      "key": "987",
+      "species": 987,
+      "types": [
+        "고스트",
+        "페어리"
+      ],
+      "showdown": "fluttermane"
+    },
+    {
+      "key": "988",
+      "species": 988,
+      "types": [
+        "벌레",
+        "격투"
+      ],
+      "showdown": "slitherwing"
+    },
+    {
+      "key": "989",
+      "species": 989,
+      "types": [
+        "전기",
+        "땅"
+      ],
+      "showdown": "sandyshocks"
+    },
+    {
+      "key": "990",
+      "species": 990,
+      "types": [
+        "땅",
+        "강철"
+      ],
+      "showdown": "irontreads"
+    },
+    {
+      "key": "991",
+      "species": 991,
+      "types": [
+        "얼음",
+        "물"
+      ],
+      "showdown": "ironbundle"
+    },
+    {
+      "key": "992",
+      "species": 992,
+      "types": [
+        "격투",
+        "전기"
+      ],
+      "showdown": "ironhands"
+    },
+    {
+      "key": "993",
+      "species": 993,
+      "types": [
+        "악",
+        "비행"
+      ],
+      "showdown": "ironjugulis"
+    },
+    {
+      "key": "994",
+      "species": 994,
+      "types": [
+        "불꽃",
+        "독"
+      ],
+      "showdown": "ironmoth"
+    },
+    {
+      "key": "995",
+      "species": 995,
+      "types": [
+        "바위",
+        "전기"
+      ],
+      "showdown": "ironthorns"
+    },
+    {
+      "key": "996",
+      "species": 996,
+      "types": [
+        "드래곤",
+        "얼음"
+      ],
+      "showdown": "frigibax"
+    },
+    {
+      "key": "997",
+      "species": 997,
+      "types": [
+        "드래곤",
+        "얼음"
+      ],
+      "showdown": "arctibax"
+    },
+    {
+      "key": "998",
+      "species": 998,
+      "types": [
+        "드래곤",
+        "얼음"
+      ],
+      "showdown": "baxcalibur"
+    },
+    {
+      "key": "999",
+      "species": 999,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "gimmighoul"
+    },
+    {
+      "key": "1000",
+      "species": 1000,
+      "types": [
+        "강철",
+        "고스트"
+      ],
+      "showdown": "gholdengo"
+    },
+    {
+      "key": "1001",
+      "species": 1001,
+      "types": [
+        "악",
+        "풀"
+      ],
+      "showdown": "wochien"
+    },
+    {
+      "key": "1002",
+      "species": 1002,
+      "types": [
+        "악",
+        "얼음"
+      ],
+      "showdown": "chienpao"
+    },
+    {
+      "key": "1003",
+      "species": 1003,
+      "types": [
+        "악",
+        "땅"
+      ],
+      "showdown": "tinglu"
+    },
+    {
+      "key": "1004",
+      "species": 1004,
+      "types": [
+        "악",
+        "불꽃"
+      ],
+      "showdown": "chiyu"
+    },
+    {
+      "key": "1005",
+      "species": 1005,
+      "types": [
+        "드래곤",
+        "악"
+      ],
+      "showdown": "roaringmoon"
+    },
+    {
+      "key": "1006",
+      "species": 1006,
+      "types": [
+        "페어리",
+        "격투"
+      ],
+      "showdown": "ironvaliant"
+    },
+    {
+      "key": "1007",
+      "species": 1007,
+      "types": [
+        "격투",
+        "드래곤"
+      ],
+      "showdown": "koraidon"
+    },
+    {
+      "key": "1008",
+      "species": 1008,
+      "types": [
+        "전기",
+        "드래곤"
+      ],
+      "showdown": "miraidon"
+    },
+    {
+      "key": "1009",
+      "species": 1009,
+      "types": [
+        "물",
+        "드래곤"
+      ],
+      "showdown": "walkingwake"
+    },
+    {
+      "key": "1010",
+      "species": 1010,
+      "types": [
+        "풀",
+        "에스퍼"
+      ],
+      "showdown": "ironleaves"
+    },
+    {
+      "key": "1011",
+      "species": 1011,
+      "types": [
+        "풀",
+        "드래곤"
+      ],
+      "showdown": "dipplin"
+    },
+    {
+      "key": "1012",
+      "species": 1012,
+      "types": [
+        "풀",
+        "고스트"
+      ],
+      "showdown": "poltchageist"
+    },
+    {
+      "key": "1013",
+      "species": 1013,
+      "types": [
+        "풀",
+        "고스트"
+      ],
+      "showdown": "sinistcha"
+    },
+    {
+      "key": "1014",
+      "species": 1014,
+      "types": [
+        "독",
+        "격투"
+      ],
+      "showdown": "okidogi"
+    },
+    {
+      "key": "1015",
+      "species": 1015,
+      "types": [
+        "독",
+        "에스퍼"
+      ],
+      "showdown": "munkidori"
+    },
+    {
+      "key": "1016",
+      "species": 1016,
+      "types": [
+        "독",
+        "페어리"
+      ],
+      "showdown": "fezandipiti"
+    },
+    {
+      "key": "1017",
+      "species": 1017,
+      "types": [
+        "풀"
+      ],
+      "showdown": "ogerpon"
+    },
+    {
+      "key": "1018",
+      "species": 1018,
+      "types": [
+        "강철",
+        "드래곤"
+      ],
+      "showdown": "archaludon"
+    },
+    {
+      "key": "1019",
+      "species": 1019,
+      "types": [
+        "풀",
+        "드래곤"
+      ],
+      "showdown": "hydrapple"
+    },
+    {
+      "key": "1020",
+      "species": 1020,
+      "types": [
+        "불꽃",
+        "드래곤"
+      ],
+      "showdown": "gougingfire"
+    },
+    {
+      "key": "1021",
+      "species": 1021,
+      "types": [
+        "전기",
+        "드래곤"
+      ],
+      "showdown": "ragingbolt"
+    },
+    {
+      "key": "1022",
+      "species": 1022,
+      "types": [
+        "바위",
+        "에스퍼"
+      ],
+      "showdown": "ironboulder"
+    },
+    {
+      "key": "1023",
+      "species": 1023,
+      "types": [
+        "강철",
+        "에스퍼"
+      ],
+      "showdown": "ironcrown"
+    },
+    {
+      "key": "1024",
+      "species": 1024,
+      "types": [
+        "노말"
+      ],
+      "showdown": "terapagos"
+    },
+    {
+      "key": "1025",
+      "species": 1025,
+      "types": [
+        "독",
+        "고스트"
+      ],
+      "showdown": "pecharunt"
+    },
+    {
+      "key": "10001",
+      "species": 386,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "deoxysattack"
+    },
+    {
+      "key": "10002",
+      "species": 386,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "deoxysdefense"
+    },
+    {
+      "key": "10003",
+      "species": 386,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "deoxysspeed"
+    },
+    {
+      "key": "10008",
+      "species": 479,
+      "types": [
+        "전기",
+        "불꽃"
+      ],
+      "showdown": "rotomheat"
+    },
+    {
+      "key": "10009",
+      "species": 479,
+      "types": [
+        "전기",
+        "물"
+      ],
+      "showdown": "rotomwash"
+    },
+    {
+      "key": "10010",
+      "species": 479,
+      "types": [
+        "전기",
+        "얼음"
+      ],
+      "showdown": "rotomfrost"
+    },
+    {
+      "key": "10011",
+      "species": 479,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "rotomfan"
+    },
+    {
+      "key": "10012",
+      "species": 479,
+      "types": [
+        "전기",
+        "풀"
+      ],
+      "showdown": "rotommow"
+    },
+    {
+      "key": "10245",
+      "species": 483,
+      "types": [
+        "강철",
+        "드래곤"
+      ],
+      "showdown": "dialgaorigin"
+    },
+    {
+      "key": "10246",
+      "species": 484,
+      "types": [
+        "물",
+        "드래곤"
+      ],
+      "showdown": "palkiaorigin"
+    },
+    {
+      "key": "10007",
+      "species": 487,
+      "types": [
+        "고스트",
+        "드래곤"
+      ],
+      "showdown": "giratinaorigin"
+    },
+    {
+      "key": "10006",
+      "species": 492,
+      "types": [
+        "풀",
+        "비행"
+      ],
+      "showdown": "shayminsky"
+    },
+    {
+      "key": "10019",
+      "species": 641,
+      "types": [
+        "비행"
+      ],
+      "showdown": "tornadustherian"
+    },
+    {
+      "key": "10020",
+      "species": 642,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "thundurustherian"
+    },
+    {
+      "key": "10021",
+      "species": 645,
+      "types": [
+        "땅",
+        "비행"
+      ],
+      "showdown": "landorustherian"
+    },
+    {
+      "key": "10249",
+      "species": 905,
+      "types": [
+        "페어리",
+        "비행"
+      ],
+      "showdown": "enamorustherian"
+    },
+    {
+      "key": "10022",
+      "species": 646,
+      "types": [
+        "드래곤",
+        "얼음"
+      ],
+      "showdown": "kyuremblack"
+    },
+    {
+      "key": "10023",
+      "species": 646,
+      "types": [
+        "드래곤",
+        "얼음"
+      ],
+      "showdown": "kyuremwhite"
+    },
+    {
+      "key": "10086",
+      "species": 720,
+      "types": [
+        "에스퍼",
+        "악"
+      ],
+      "showdown": "hoopaunbound"
+    },
+    {
+      "key": "10123",
+      "species": 741,
+      "types": [
+        "전기",
+        "비행"
+      ],
+      "showdown": "oricoriopompom"
+    },
+    {
+      "key": "10124",
+      "species": 741,
+      "types": [
+        "에스퍼",
+        "비행"
+      ],
+      "showdown": "oricoriopau"
+    },
+    {
+      "key": "10125",
+      "species": 741,
+      "types": [
+        "고스트",
+        "비행"
+      ],
+      "showdown": "oricoriosensu"
+    },
+    {
+      "key": "10155",
+      "species": 800,
+      "types": [
+        "에스퍼",
+        "강철"
+      ],
+      "showdown": "necrozmaduskmane"
+    },
+    {
+      "key": "10156",
+      "species": 800,
+      "types": [
+        "에스퍼",
+        "고스트"
+      ],
+      "showdown": "necrozmadawnwings"
+    },
+    {
+      "key": "10193",
+      "species": 898,
+      "types": [
+        "에스퍼",
+        "얼음"
+      ],
+      "showdown": "calyrexice"
+    },
+    {
+      "key": "10194",
+      "species": 898,
+      "types": [
+        "에스퍼",
+        "고스트"
+      ],
+      "showdown": "calyrexshadow"
+    },
+    {
+      "key": "10273",
+      "species": 1017,
+      "types": [
+        "풀",
+        "물"
+      ],
+      "showdown": "ogerponwellspring"
+    },
+    {
+      "key": "10274",
+      "species": 1017,
+      "types": [
+        "풀",
+        "불꽃"
+      ],
+      "showdown": "ogerponhearthflame"
+    },
+    {
+      "key": "10275",
+      "species": 1017,
+      "types": [
+        "풀",
+        "바위"
+      ],
+      "showdown": "ogerponcornerstone"
+    },
+    {
+      "key": "210041",
+      "species": 493,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "arceusbug"
+    },
+    {
+      "key": "210042",
+      "species": 493,
+      "types": [
+        "악"
+      ],
+      "showdown": "arceusdark"
+    },
+    {
+      "key": "210043",
+      "species": 493,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "arceusdragon"
+    },
+    {
+      "key": "210044",
+      "species": 493,
+      "types": [
+        "전기"
+      ],
+      "showdown": "arceuselectric"
+    },
+    {
+      "key": "210045",
+      "species": 493,
+      "types": [
+        "격투"
+      ],
+      "showdown": "arceusfighting"
+    },
+    {
+      "key": "210046",
+      "species": 493,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "arceusfire"
+    },
+    {
+      "key": "210047",
+      "species": 493,
+      "types": [
+        "비행"
+      ],
+      "showdown": "arceusflying"
+    },
+    {
+      "key": "210048",
+      "species": 493,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "arceusghost"
+    },
+    {
+      "key": "210049",
+      "species": 493,
+      "types": [
+        "풀"
+      ],
+      "showdown": "arceusgrass"
+    },
+    {
+      "key": "210050",
+      "species": 493,
+      "types": [
+        "땅"
+      ],
+      "showdown": "arceusground"
+    },
+    {
+      "key": "210051",
+      "species": 493,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "arceusice"
+    },
+    {
+      "key": "210052",
+      "species": 493,
+      "types": [
+        "독"
+      ],
+      "showdown": "arceuspoison"
+    },
+    {
+      "key": "210053",
+      "species": 493,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "arceuspsychic"
+    },
+    {
+      "key": "210054",
+      "species": 493,
+      "types": [
+        "바위"
+      ],
+      "showdown": "arceusrock"
+    },
+    {
+      "key": "210055",
+      "species": 493,
+      "types": [
+        "강철"
+      ],
+      "showdown": "arceussteel"
+    },
+    {
+      "key": "210056",
+      "species": 493,
+      "types": [
+        "물"
+      ],
+      "showdown": "arceuswater"
+    },
+    {
+      "key": "210075",
+      "species": 649,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "genesect"
+    },
+    {
+      "key": "210076",
+      "species": 649,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "genesect"
+    },
+    {
+      "key": "210077",
+      "species": 649,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "genesect"
+    },
+    {
+      "key": "210078",
+      "species": 649,
+      "types": [
+        "벌레",
+        "강철"
+      ],
+      "showdown": "genesect"
+    },
+    {
+      "key": "210085",
+      "species": 493,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "arceusfairy"
+    },
+    {
+      "key": "210232",
+      "species": 773,
+      "types": [
+        "격투"
+      ],
+      "showdown": "silvallyfighting"
+    },
+    {
+      "key": "210233",
+      "species": 773,
+      "types": [
+        "비행"
+      ],
+      "showdown": "silvallyflying"
+    },
+    {
+      "key": "210234",
+      "species": 773,
+      "types": [
+        "독"
+      ],
+      "showdown": "silvallypoison"
+    },
+    {
+      "key": "210235",
+      "species": 773,
+      "types": [
+        "땅"
+      ],
+      "showdown": "silvallyground"
+    },
+    {
+      "key": "210236",
+      "species": 773,
+      "types": [
+        "바위"
+      ],
+      "showdown": "silvallyrock"
+    },
+    {
+      "key": "210237",
+      "species": 773,
+      "types": [
+        "벌레"
+      ],
+      "showdown": "silvallybug"
+    },
+    {
+      "key": "210238",
+      "species": 773,
+      "types": [
+        "고스트"
+      ],
+      "showdown": "silvallyghost"
+    },
+    {
+      "key": "210239",
+      "species": 773,
+      "types": [
+        "강철"
+      ],
+      "showdown": "silvallysteel"
+    },
+    {
+      "key": "210240",
+      "species": 773,
+      "types": [
+        "불꽃"
+      ],
+      "showdown": "silvallyfire"
+    },
+    {
+      "key": "210241",
+      "species": 773,
+      "types": [
+        "물"
+      ],
+      "showdown": "silvallywater"
+    },
+    {
+      "key": "210242",
+      "species": 773,
+      "types": [
+        "풀"
+      ],
+      "showdown": "silvallygrass"
+    },
+    {
+      "key": "210243",
+      "species": 773,
+      "types": [
+        "전기"
+      ],
+      "showdown": "silvallyelectric"
+    },
+    {
+      "key": "210244",
+      "species": 773,
+      "types": [
+        "에스퍼"
+      ],
+      "showdown": "silvallypsychic"
+    },
+    {
+      "key": "210245",
+      "species": 773,
+      "types": [
+        "얼음"
+      ],
+      "showdown": "silvallyice"
+    },
+    {
+      "key": "210246",
+      "species": 773,
+      "types": [
+        "드래곤"
+      ],
+      "showdown": "silvallydragon"
+    },
+    {
+      "key": "210247",
+      "species": 773,
+      "types": [
+        "악"
+      ],
+      "showdown": "silvallydark"
+    },
+    {
+      "key": "210248",
+      "species": 773,
+      "types": [
+        "페어리"
+      ],
+      "showdown": "silvallyfairy"
+    }
+  ],
+  "sources": {
+    "pokemon_moves.csv": "22a807cef26891eeac0d0c900bd363e66baf421f7ee795bc7bc3e718f23b939e",
+    "moves.csv": "8aafd37bf78f19471495c05b201545180f50f0a08a2a2a844d69f9837dd39ac9",
+    "pokemon_types.csv": "f1fc4bfd657a034ea3bf6972423b10276424aa068577b304a78a08996425ba05",
+    "learnsets.ts": "cdab542e58b6d276122cce4ee2ff5597123f773cd1d053ecbfd4b81a54d1bafb",
+    "pokedex.ts": "5e572601f4700f99835845eee5cd3e53362e43d885e2753fcc32418f636b83ed",
+    "moves.ts": "19d96eac13d7d89f13b42a975672ee75b8ad4dac011c66898ea811f2e3ef7681"
+  }
+}
