@@ -28,9 +28,9 @@ run(`S.mons.push(enrich({uid:'rider',id:898,lv:60,form:10194}));adventureGen=8;v
 assert.ok(run(`html.includes('src="assets/898.png" alt="버드렉스"')`));
 assert.deepEqual(value(`regionalRareEntries(LOCATIONS.find(l=>l.id==='galar-shrine')).filter(e=>e.id===898).map(e=>e.form)`),[0,10193,10194]);
 // Actual mythical entry and completion use the same common exploration/capture flow.
-run(`S.xp=5900;S.battle=null;S.pending=null;S.energy=12;S.tickets=5;var ace=enrich({uid:'myth-ace',id:445,lv:60});S.mons.push(ace);S.party=[ace.uid];combatStartLocation('gen-1-mythical')`);
+run(`S.xp=5800;S.battle=null;S.pending=null;S.energy=12;S.tickets=5;var ace=enrich({uid:'myth-ace',id:445,lv:60});S.mons.push(ace);S.party=[ace.uid];combatStartLocation('gen-1-mythical')`);
 assert.equal(run('S.battle'),null);assert.equal(run('S.tickets'),5);
-run(`S.xp=6000;combatStartLocation('gen-1-mythical');var b=S.battle;b.step=4;prepareEnemy(b)`);
+run(`S.xp=5900;combatStartLocation('gen-1-mythical');var b=S.battle;b.step=4;prepareEnemy(b)`);
 assert.equal(run('b.rareSpecies'),151);assert.equal(run('b.foe.id'),151);assert.equal(run('S.energy'),10);assert.equal(run('S.tickets'),4);
 run('finishLocation(b)');assert.equal(run('b.rewardPokemon'),151);
 console.log('PASS: independent all-generation sublegend/legend/mythical lists, visible full rosters, base/rider portraits, supported stages and mythical 59/60 gate/ticket/capture flow.');
