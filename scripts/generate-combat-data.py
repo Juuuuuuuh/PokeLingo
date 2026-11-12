@@ -77,7 +77,15 @@ for d in db+forms:
   levelChanges=[{'move':mid,'api':api['level'][mid],'sv':levels[mid]} for mid in levels.keys()&api['level'].keys() if max(1,api['level'][mid])!=levels[mid]]
   if dl or dm or extraL or extraM or levelChanges:learnDiff.append({'key':recordKey,'species':species,'showdown':key,'missingInAPILevel':dl,'missingInAPIMachine':dm,'apiOnlyLevel':extraL,'apiOnlyMachine':extraM,'levelDifferences':levelChanges})
 # TM catalogue uses move identity, avoiding different TM numbers across games.
-TM=sorted({mid for l in L.values() for mid in l['machine']});catalog=[{'move':mid,'number':SV_TM[mid],'price':max(30,min(100,round((30+M[mid].get('basePower',0)*.35)/5)*5))} for mid in TM]
+TM=sorted({mid for l in L.values() for mid in l['machine']})
+TM_COST_DATA=json.loads((root/'data/sv-tm-lp-costs.json').read_text());TM_COSTS={t['number']:t for t in TM_COST_DATA['tms']}
+assert set(TM_COSTS)==set(range(1,230)), 'SV TM LP source must cover exactly TM001..229'
+catalog=[]
+for mid in TM:
+ number=SV_TM[mid];cost=TM_COSTS[number]
+ assert norm(cost['key'])==norm(M[mid]['key']), (number,cost['key'],M[mid]['key'])
+ lp=cost['lp'];catalog.append({'move':mid,'number':number,'price':20+5*((lp+499)//500),'lpCost':lp})
+catalog.sort(key=lambda t:t['number'])
 # Persist primary/reference types and hashes to allow exhaustive offline verification.
 audit={'standard':'Scarlet/Violet including The Teal Mask and The Indigo Disk only','generatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'primaryLearnsets':'Pokemon Showdown Gen9 L/M/R entries; no Gen1-8 moves merged','secondary':'PokeAPI version groups 25/26/27, Pokemon types and move types','species':len(db),'supportedForms':len(forms),'typeChecks':len(typeAudit),'unavailableSV':unavailable,'svLearnsets':sum(l['available'] for l in L.values()),'moves':len(M),'battleSupportedMoves':sum(m['supported'] for m in M.values()),'tmCount':len(TM),'sourceDifferences':learnDiff,'moveTypeDifferences':diff,'typeReference':typeAudit,'sources':{f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in [p/'pokemon_moves.csv',p/'moves.csv',p/'pokemon_types.csv',sd/'learnsets.ts',sd/'pokedex.ts',sd/'moves.ts']}}
 (out/'moves-data.js').write_text('const MOVES='+json.dumps(M,ensure_ascii=False,separators=(',',':'))+';\nconst LEARNSETS='+json.dumps(L,ensure_ascii=False,separators=(',',':'))+';\nconst TM_CATALOG='+json.dumps(catalog,separators=(',',':'))+';\n')

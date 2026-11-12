@@ -1,0 +1,1157 @@
+{
+  "game": "Scarlet/Violet + The Teal Mask + The Indigo Disk",
+  "source": "https://www.serebii.net/scarletviolet/tm.shtml",
+  "verified": "2026-11-12",
+  "conversion": {
+    "baseCoins": 20,
+    "lpPerStep": 500,
+    "coinsPerStep": 5
+  },
+  "tms": [
+    {
+      "number": 1,
+      "key": "takedown",
+      "lp": 400
+    },
+    {
+      "number": 2,
+      "key": "charm",
+      "lp": 400
+    },
+    {
+      "number": 3,
+      "key": "faketears",
+      "lp": 400
+    },
+    {
+      "number": 4,
+      "key": "agility",
+      "lp": 800
+    },
+    {
+      "number": 5,
+      "key": "mudslap",
+      "lp": 200
+    },
+    {
+      "number": 6,
+      "key": "scaryface",
+      "lp": 400
+    },
+    {
+      "number": 7,
+      "key": "protect",
+      "lp": 400
+    },
+    {
+      "number": 8,
+      "key": "firefang",
+      "lp": 800
+    },
+    {
+      "number": 9,
+      "key": "thunderfang",
+      "lp": 800
+    },
+    {
+      "number": 10,
+      "key": "icefang",
+      "lp": 800
+    },
+    {
+      "number": 11,
+      "key": "waterpulse",
+      "lp": 1500
+    },
+    {
+      "number": 12,
+      "key": "lowkick",
+      "lp": 400
+    },
+    {
+      "number": 13,
+      "key": "acidspray",
+      "lp": 800
+    },
+    {
+      "number": 14,
+      "key": "acrobatics",
+      "lp": 3000
+    },
+    {
+      "number": 15,
+      "key": "strugglebug",
+      "lp": 400
+    },
+    {
+      "number": 16,
+      "key": "psybeam",
+      "lp": 800
+    },
+    {
+      "number": 17,
+      "key": "confuseray",
+      "lp": 400
+    },
+    {
+      "number": 18,
+      "key": "thief",
+      "lp": 3000
+    },
+    {
+      "number": 19,
+      "key": "disarmingvoice",
+      "lp": 200
+    },
+    {
+      "number": 20,
+      "key": "trailblaze",
+      "lp": 800
+    },
+    {
+      "number": 21,
+      "key": "pounce",
+      "lp": 800
+    },
+    {
+      "number": 22,
+      "key": "chillingwater",
+      "lp": 3000
+    },
+    {
+      "number": 23,
+      "key": "chargebeam",
+      "lp": 800
+    },
+    {
+      "number": 24,
+      "key": "firespin",
+      "lp": 800
+    },
+    {
+      "number": 25,
+      "key": "facade",
+      "lp": 5000
+    },
+    {
+      "number": 26,
+      "key": "poisontail",
+      "lp": 800
+    },
+    {
+      "number": 27,
+      "key": "aerialace",
+      "lp": 800
+    },
+    {
+      "number": 28,
+      "key": "bulldoze",
+      "lp": 1500
+    },
+    {
+      "number": 29,
+      "key": "hex",
+      "lp": 3000
+    },
+    {
+      "number": 30,
+      "key": "snarl",
+      "lp": 800
+    },
+    {
+      "number": 31,
+      "key": "metalclaw",
+      "lp": 400
+    },
+    {
+      "number": 32,
+      "key": "swift",
+      "lp": 200
+    },
+    {
+      "number": 33,
+      "key": "magicalleaf",
+      "lp": 1500
+    },
+    {
+      "number": 34,
+      "key": "icywind",
+      "lp": 800
+    },
+    {
+      "number": 35,
+      "key": "mudshot",
+      "lp": 800
+    },
+    {
+      "number": 36,
+      "key": "rocktomb",
+      "lp": 1500
+    },
+    {
+      "number": 37,
+      "key": "drainingkiss",
+      "lp": 800
+    },
+    {
+      "number": 38,
+      "key": "flamecharge",
+      "lp": 800
+    },
+    {
+      "number": 39,
+      "key": "lowsweep",
+      "lp": 3000
+    },
+    {
+      "number": 40,
+      "key": "aircutter",
+      "lp": 400
+    },
+    {
+      "number": 41,
+      "key": "storedpower",
+      "lp": 800
+    },
+    {
+      "number": 42,
+      "key": "nightshade",
+      "lp": 400
+    },
+    {
+      "number": 43,
+      "key": "fling",
+      "lp": 3000
+    },
+    {
+      "number": 44,
+      "key": "dragontail",
+      "lp": 1500
+    },
+    {
+      "number": 45,
+      "key": "venoshock",
+      "lp": 3000
+    },
+    {
+      "number": 46,
+      "key": "avalanche",
+      "lp": 1500
+    },
+    {
+      "number": 47,
+      "key": "endure",
+      "lp": 200
+    },
+    {
+      "number": 48,
+      "key": "voltswitch",
+      "lp": 3000
+    },
+    {
+      "number": 49,
+      "key": "sunnyday",
+      "lp": 3000
+    },
+    {
+      "number": 50,
+      "key": "raindance",
+      "lp": 3000
+    },
+    {
+      "number": 51,
+      "key": "sandstorm",
+      "lp": 3000
+    },
+    {
+      "number": 52,
+      "key": "snowscape",
+      "lp": 3000
+    },
+    {
+      "number": 53,
+      "key": "smartstrike",
+      "lp": 3000
+    },
+    {
+      "number": 54,
+      "key": "psyshock",
+      "lp": 5000
+    },
+    {
+      "number": 55,
+      "key": "dig",
+      "lp": 5000
+    },
+    {
+      "number": 56,
+      "key": "bulletseed",
+      "lp": 3000
+    },
+    {
+      "number": 57,
+      "key": "falseswipe",
+      "lp": 400
+    },
+    {
+      "number": 58,
+      "key": "brickbreak",
+      "lp": 5000
+    },
+    {
+      "number": 59,
+      "key": "zenheadbutt",
+      "lp": 5000
+    },
+    {
+      "number": 60,
+      "key": "uturn",
+      "lp": 3000
+    },
+    {
+      "number": 61,
+      "key": "shadowclaw",
+      "lp": 3000
+    },
+    {
+      "number": 62,
+      "key": "foulplay",
+      "lp": 3000
+    },
+    {
+      "number": 63,
+      "key": "psychicfangs",
+      "lp": 10000
+    },
+    {
+      "number": 64,
+      "key": "bulkup",
+      "lp": 3000
+    },
+    {
+      "number": 65,
+      "key": "airslash",
+      "lp": 5000
+    },
+    {
+      "number": 66,
+      "key": "bodyslam",
+      "lp": 5000
+    },
+    {
+      "number": 67,
+      "key": "firepunch",
+      "lp": 5000
+    },
+    {
+      "number": 68,
+      "key": "thunderpunch",
+      "lp": 5000
+    },
+    {
+      "number": 69,
+      "key": "icepunch",
+      "lp": 5000
+    },
+    {
+      "number": 70,
+      "key": "sleeptalk",
+      "lp": 400
+    },
+    {
+      "number": 71,
+      "key": "seedbomb",
+      "lp": 8000
+    },
+    {
+      "number": 72,
+      "key": "electroball",
+      "lp": 5000
+    },
+    {
+      "number": 73,
+      "key": "drainpunch",
+      "lp": 8000
+    },
+    {
+      "number": 74,
+      "key": "reflect",
+      "lp": 800
+    },
+    {
+      "number": 75,
+      "key": "lightscreen",
+      "lp": 800
+    },
+    {
+      "number": 76,
+      "key": "rockblast",
+      "lp": 3000
+    },
+    {
+      "number": 77,
+      "key": "waterfall",
+      "lp": 8000
+    },
+    {
+      "number": 78,
+      "key": "dragonclaw",
+      "lp": 8000
+    },
+    {
+      "number": 79,
+      "key": "dazzlinggleam",
+      "lp": 8000
+    },
+    {
+      "number": 80,
+      "key": "metronome",
+      "lp": 400
+    },
+    {
+      "number": 81,
+      "key": "grassknot",
+      "lp": 3000
+    },
+    {
+      "number": 82,
+      "key": "thunderwave",
+      "lp": 400
+    },
+    {
+      "number": 83,
+      "key": "poisonjab",
+      "lp": 5000
+    },
+    {
+      "number": 84,
+      "key": "stompingtantrum",
+      "lp": 5000
+    },
+    {
+      "number": 85,
+      "key": "rest",
+      "lp": 400
+    },
+    {
+      "number": 86,
+      "key": "rockslide",
+      "lp": 5000
+    },
+    {
+      "number": 87,
+      "key": "taunt",
+      "lp": 3000
+    },
+    {
+      "number": 88,
+      "key": "swordsdance",
+      "lp": 5000
+    },
+    {
+      "number": 89,
+      "key": "bodypress",
+      "lp": 8000
+    },
+    {
+      "number": 90,
+      "key": "spikes",
+      "lp": 3000
+    },
+    {
+      "number": 91,
+      "key": "toxicspikes",
+      "lp": 3000
+    },
+    {
+      "number": 92,
+      "key": "imprison",
+      "lp": 3000
+    },
+    {
+      "number": 93,
+      "key": "flashcannon",
+      "lp": 8000
+    },
+    {
+      "number": 94,
+      "key": "darkpulse",
+      "lp": 8000
+    },
+    {
+      "number": 95,
+      "key": "leechlife",
+      "lp": 8000
+    },
+    {
+      "number": 96,
+      "key": "eerieimpulse",
+      "lp": 400
+    },
+    {
+      "number": 97,
+      "key": "fly",
+      "lp": 5000
+    },
+    {
+      "number": 98,
+      "key": "skillswap",
+      "lp": 3000
+    },
+    {
+      "number": 99,
+      "key": "ironhead",
+      "lp": 8000
+    },
+    {
+      "number": 100,
+      "key": "dragondance",
+      "lp": 5000
+    },
+    {
+      "number": 101,
+      "key": "powergem",
+      "lp": 8000
+    },
+    {
+      "number": 102,
+      "key": "gunkshot",
+      "lp": 5000
+    },
+    {
+      "number": 103,
+      "key": "substitute",
+      "lp": 5000
+    },
+    {
+      "number": 104,
+      "key": "irondefense",
+      "lp": 1500
+    },
+    {
+      "number": 105,
+      "key": "xscissor",
+      "lp": 5000
+    },
+    {
+      "number": 106,
+      "key": "drillrun",
+      "lp": 8000
+    },
+    {
+      "number": 107,
+      "key": "willowisp",
+      "lp": 3000
+    },
+    {
+      "number": 108,
+      "key": "crunch",
+      "lp": 8000
+    },
+    {
+      "number": 109,
+      "key": "trick",
+      "lp": 5000
+    },
+    {
+      "number": 110,
+      "key": "liquidation",
+      "lp": 10000
+    },
+    {
+      "number": 111,
+      "key": "gigadrain",
+      "lp": 8000
+    },
+    {
+      "number": 112,
+      "key": "aurasphere",
+      "lp": 8000
+    },
+    {
+      "number": 113,
+      "key": "tailwind",
+      "lp": 5000
+    },
+    {
+      "number": 114,
+      "key": "shadowball",
+      "lp": 8000
+    },
+    {
+      "number": 115,
+      "key": "dragonpulse",
+      "lp": 8000
+    },
+    {
+      "number": 116,
+      "key": "stealthrock",
+      "lp": 5000
+    },
+    {
+      "number": 117,
+      "key": "hypervoice",
+      "lp": 8000
+    },
+    {
+      "number": 118,
+      "key": "heatwave",
+      "lp": 10000
+    },
+    {
+      "number": 119,
+      "key": "energyball",
+      "lp": 10000
+    },
+    {
+      "number": 120,
+      "key": "psychic",
+      "lp": 10000
+    },
+    {
+      "number": 121,
+      "key": "heavyslam",
+      "lp": 5000
+    },
+    {
+      "number": 122,
+      "key": "encore",
+      "lp": 3000
+    },
+    {
+      "number": 123,
+      "key": "surf",
+      "lp": 10000
+    },
+    {
+      "number": 124,
+      "key": "icespinner",
+      "lp": 8000
+    },
+    {
+      "number": 125,
+      "key": "flamethrower",
+      "lp": 10000
+    },
+    {
+      "number": 126,
+      "key": "thunderbolt",
+      "lp": 10000
+    },
+    {
+      "number": 127,
+      "key": "playrough",
+      "lp": 10000
+    },
+    {
+      "number": 128,
+      "key": "amnesia",
+      "lp": 1500
+    },
+    {
+      "number": 129,
+      "key": "calmmind",
+      "lp": 3000
+    },
+    {
+      "number": 130,
+      "key": "helpinghand",
+      "lp": 400
+    },
+    {
+      "number": 131,
+      "key": "pollenpuff",
+      "lp": 10000
+    },
+    {
+      "number": 132,
+      "key": "batonpass",
+      "lp": 3000
+    },
+    {
+      "number": 133,
+      "key": "earthpower",
+      "lp": 10000
+    },
+    {
+      "number": 134,
+      "key": "reversal",
+      "lp": 3000
+    },
+    {
+      "number": 135,
+      "key": "icebeam",
+      "lp": 10000
+    },
+    {
+      "number": 136,
+      "key": "electricterrain",
+      "lp": 3000
+    },
+    {
+      "number": 137,
+      "key": "grassyterrain",
+      "lp": 3000
+    },
+    {
+      "number": 138,
+      "key": "psychicterrain",
+      "lp": 3000
+    },
+    {
+      "number": 139,
+      "key": "mistyterrain",
+      "lp": 3000
+    },
+    {
+      "number": 140,
+      "key": "nastyplot",
+      "lp": 5000
+    },
+    {
+      "number": 141,
+      "key": "fireblast",
+      "lp": 12000
+    },
+    {
+      "number": 142,
+      "key": "hydropump",
+      "lp": 12000
+    },
+    {
+      "number": 143,
+      "key": "blizzard",
+      "lp": 12000
+    },
+    {
+      "number": 144,
+      "key": "firepledge",
+      "lp": 8000
+    },
+    {
+      "number": 145,
+      "key": "waterpledge",
+      "lp": 8000
+    },
+    {
+      "number": 146,
+      "key": "grasspledge",
+      "lp": 8000
+    },
+    {
+      "number": 147,
+      "key": "wildcharge",
+      "lp": 10000
+    },
+    {
+      "number": 148,
+      "key": "sludgebomb",
+      "lp": 10000
+    },
+    {
+      "number": 149,
+      "key": "earthquake",
+      "lp": 12000
+    },
+    {
+      "number": 150,
+      "key": "stoneedge",
+      "lp": 12000
+    },
+    {
+      "number": 151,
+      "key": "phantomforce",
+      "lp": 10000
+    },
+    {
+      "number": 152,
+      "key": "gigaimpact",
+      "lp": 14000
+    },
+    {
+      "number": 153,
+      "key": "blastburn",
+      "lp": 14000
+    },
+    {
+      "number": 154,
+      "key": "hydrocannon",
+      "lp": 14000
+    },
+    {
+      "number": 155,
+      "key": "frenzyplant",
+      "lp": 14000
+    },
+    {
+      "number": 156,
+      "key": "outrage",
+      "lp": 12000
+    },
+    {
+      "number": 157,
+      "key": "overheat",
+      "lp": 12000
+    },
+    {
+      "number": 158,
+      "key": "focusblast",
+      "lp": 12000
+    },
+    {
+      "number": 159,
+      "key": "leafstorm",
+      "lp": 12000
+    },
+    {
+      "number": 160,
+      "key": "hurricane",
+      "lp": 12000
+    },
+    {
+      "number": 161,
+      "key": "trickroom",
+      "lp": 5000
+    },
+    {
+      "number": 162,
+      "key": "bugbuzz",
+      "lp": 10000
+    },
+    {
+      "number": 163,
+      "key": "hyperbeam",
+      "lp": 14000
+    },
+    {
+      "number": 164,
+      "key": "bravebird",
+      "lp": 12000
+    },
+    {
+      "number": 165,
+      "key": "flareblitz",
+      "lp": 12000
+    },
+    {
+      "number": 166,
+      "key": "thunder",
+      "lp": 12000
+    },
+    {
+      "number": 167,
+      "key": "closecombat",
+      "lp": 12000
+    },
+    {
+      "number": 168,
+      "key": "solarbeam",
+      "lp": 12000
+    },
+    {
+      "number": 169,
+      "key": "dracometeor",
+      "lp": 14000
+    },
+    {
+      "number": 170,
+      "key": "steelbeam",
+      "lp": 14000
+    },
+    {
+      "number": 171,
+      "key": "terablast",
+      "lp": 8000
+    },
+    {
+      "number": 172,
+      "key": "roar",
+      "lp": 200
+    },
+    {
+      "number": 173,
+      "key": "charge",
+      "lp": 400
+    },
+    {
+      "number": 174,
+      "key": "haze",
+      "lp": 400
+    },
+    {
+      "number": 175,
+      "key": "toxic",
+      "lp": 800
+    },
+    {
+      "number": 176,
+      "key": "sandtomb",
+      "lp": 400
+    },
+    {
+      "number": 177,
+      "key": "spite",
+      "lp": 200
+    },
+    {
+      "number": 178,
+      "key": "gravity",
+      "lp": 400
+    },
+    {
+      "number": 179,
+      "key": "smackdown",
+      "lp": 800
+    },
+    {
+      "number": 180,
+      "key": "gyroball",
+      "lp": 10000
+    },
+    {
+      "number": 181,
+      "key": "knockoff",
+      "lp": 14000
+    },
+    {
+      "number": 182,
+      "key": "bugbite",
+      "lp": 3000
+    },
+    {
+      "number": 183,
+      "key": "superfang",
+      "lp": 5000
+    },
+    {
+      "number": 184,
+      "key": "vacuumwave",
+      "lp": 3000
+    },
+    {
+      "number": 185,
+      "key": "lunge",
+      "lp": 5000
+    },
+    {
+      "number": 186,
+      "key": "highhorsepower",
+      "lp": 5000
+    },
+    {
+      "number": 187,
+      "key": "iciclespear",
+      "lp": 10000
+    },
+    {
+      "number": 188,
+      "key": "scald",
+      "lp": 8000
+    },
+    {
+      "number": 189,
+      "key": "heatcrash",
+      "lp": 8000
+    },
+    {
+      "number": 190,
+      "key": "solarblade",
+      "lp": 12000
+    },
+    {
+      "number": 191,
+      "key": "uproar",
+      "lp": 5000
+    },
+    {
+      "number": 192,
+      "key": "focuspunch",
+      "lp": 8000
+    },
+    {
+      "number": 193,
+      "key": "weatherball",
+      "lp": 1500
+    },
+    {
+      "number": 194,
+      "key": "grassyglide",
+      "lp": 10000
+    },
+    {
+      "number": 195,
+      "key": "burningjealousy",
+      "lp": 8000
+    },
+    {
+      "number": 196,
+      "key": "flipturn",
+      "lp": 5000
+    },
+    {
+      "number": 197,
+      "key": "dualwingbeat",
+      "lp": 5000
+    },
+    {
+      "number": 198,
+      "key": "poltergeist",
+      "lp": 14000
+    },
+    {
+      "number": 199,
+      "key": "lashout",
+      "lp": 5000
+    },
+    {
+      "number": 200,
+      "key": "scaleshot",
+      "lp": 10000
+    },
+    {
+      "number": 201,
+      "key": "mistyexplosion",
+      "lp": 14000
+    },
+    {
+      "number": 202,
+      "key": "painsplit",
+      "lp": 3000
+    },
+    {
+      "number": 203,
+      "key": "psychup",
+      "lp": 400
+    },
+    {
+      "number": 204,
+      "key": "doubleedge",
+      "lp": 10000
+    },
+    {
+      "number": 205,
+      "key": "endeavor",
+      "lp": 5000
+    },
+    {
+      "number": 206,
+      "key": "petalblizzard",
+      "lp": 5000
+    },
+    {
+      "number": 207,
+      "key": "temperflare",
+      "lp": 3000
+    },
+    {
+      "number": 208,
+      "key": "whirlpool",
+      "lp": 800
+    },
+    {
+      "number": 209,
+      "key": "muddywater",
+      "lp": 10000
+    },
+    {
+      "number": 210,
+      "key": "supercellslam",
+      "lp": 5000
+    },
+    {
+      "number": 211,
+      "key": "electroweb",
+      "lp": 800
+    },
+    {
+      "number": 212,
+      "key": "tripleaxel",
+      "lp": 8000
+    },
+    {
+      "number": 213,
+      "key": "coaching",
+      "lp": 800
+    },
+    {
+      "number": 214,
+      "key": "sludgewave",
+      "lp": 10000
+    },
+    {
+      "number": 215,
+      "key": "scorchingsands",
+      "lp": 10000
+    },
+    {
+      "number": 216,
+      "key": "featherdance",
+      "lp": 400
+    },
+    {
+      "number": 217,
+      "key": "futuresight",
+      "lp": 5000
+    },
+    {
+      "number": 218,
+      "key": "expandingforce",
+      "lp": 10000
+    },
+    {
+      "number": 219,
+      "key": "skittersmack",
+      "lp": 3000
+    },
+    {
+      "number": 220,
+      "key": "meteorbeam",
+      "lp": 15000
+    },
+    {
+      "number": 221,
+      "key": "throatchop",
+      "lp": 5000
+    },
+    {
+      "number": 222,
+      "key": "breakingswipe",
+      "lp": 3000
+    },
+    {
+      "number": 223,
+      "key": "metalsound",
+      "lp": 800
+    },
+    {
+      "number": 224,
+      "key": "curse",
+      "lp": 400
+    },
+    {
+      "number": 225,
+      "key": "hardpress",
+      "lp": 5000
+    },
+    {
+      "number": 226,
+      "key": "dragoncheer",
+      "lp": 1500
+    },
+    {
+      "number": 227,
+      "key": "alluringvoice",
+      "lp": 3000
+    },
+    {
+      "number": 228,
+      "key": "psychicnoise",
+      "lp": 3000
+    },
+    {
+      "number": 229,
+      "key": "upperhand",
+      "lp": 1500
+    }
+  ]
+}
