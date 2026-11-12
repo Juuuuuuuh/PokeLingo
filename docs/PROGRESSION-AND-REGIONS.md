@@ -101,7 +101,7 @@ The Regigigas party condition and Landorus capture condition also apply to direc
 
 Stage 8 Split-Decision Ruins uses [894,895]; stage 9 Training Falls uses [891,892]; stage 10 Snowslide Slope uses [896,897,905]. Stage 13 Crown Shrine only offers base Calyrex [898], form 0. All wild entries are base forms; direct recruitment also normalizes Calyrex rider requests to base. Existing owned forms are preserved, while invalid unfinished rider expeditions use the normal one-time refund migration.
 
-Calyrex form application always requires the permanent Reins of Unity item (`reins`, 유대의고삐, existing shop price 25 coins) and the matching currently owned horse: Glastrier [896] for Ice Rider, Spectrier [897] for Shadow Rider. Prior discovery alone cannot bypass these requirements. Applying/separating preserves both horses, item quantity, species identity and move memory. Base separation is free. Other species' form rules remain unchanged.
+Calyrex form application always requires the permanent Reins of Unity item (`reins`, 유대의고삐, shop price 400 coins (premium fusion tier)) and the matching currently owned horse: Glastrier [896] for Ice Rider, Spectrier [897] for Shadow Rider. Prior discovery alone cannot bypass these requirements. Applying/separating preserves both horses, item quantity, species identity and move memory. Base separation is free. Other species' form rules remain unchanged.
 
 ## Paldea stages 7–16
 
