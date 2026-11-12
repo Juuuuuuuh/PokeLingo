@@ -34,8 +34,8 @@
 | 칼로스 | 11 |
 | 알로라 | 12 |
 | 가라르 | 14 |
-| 팔데아 | 14 |
-| 합계 | 109 |
+| 팔데아 | 16 |
+| 합계 | 111 |
 
 도시 목록 대신 도로·숲·산·호수·동굴·유적 등 탐험 장소로 구성했습니다. 순서는 일반 지역 → 패러독스 전용 지역(Lv.45, 팔데아) → 준전설(Lv.55) → 초전설(Lv.60) → 환상(Lv.60)입니다. 대표 이미지에는 그 세대에서 처음 등장한 포켓몬만 씁니다. 실제 지역 후보에 새 세대 포켓몬이 없으면 지방 대표 이미지임을 표시하고, 기존 세대 후보로 일반 조우를 구성합니다.
 
@@ -81,7 +81,7 @@ Storage remains browser-local. Linux hosting with persistent account saves, data
 
 ## Complete visible special rosters
 
-All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and only base Calyrex is encountered; Ice Rider and Shadow Rider require fusion. Sublegend coverage is complete across stages at Lv.55, with Sinnoh’s mixed Fullmoon Island pool at Lv.60. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 109. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
+All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and only base Calyrex is encountered; Ice Rider and Shadow Rider require fusion. Sublegend coverage is complete across stages at Lv.55, with Sinnoh’s mixed Fullmoon Island pool at Lv.60. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 111. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
 
 ## Paired and dedicated legendary encounter pools
 
@@ -102,3 +102,7 @@ The Regigigas party condition and Landorus capture condition also apply to direc
 Stage 8 Split-Decision Ruins uses [894,895]; stage 9 Training Falls uses [891,892]; stage 10 Snowslide Slope uses [896,897,905]. Stage 13 Crown Shrine only offers base Calyrex [898], form 0. All wild entries are base forms; direct recruitment also normalizes Calyrex rider requests to base. Existing owned forms are preserved, while invalid unfinished rider expeditions use the normal one-time refund migration.
 
 Calyrex form application always requires the permanent Reins of Unity item (`reins`, 유대의고삐, existing shop price 25 coins) and the matching currently owned horse: Glastrier [896] for Ice Rider, Spectrier [897] for Shadow Rider. Prior discovery alone cannot bypass these requirements. Applying/separating preserves both horses, item quantity, species identity and move memory. Base separation is free. Other species' form rules remain unchanged.
+
+## Paldea stages 7–16
+
+Paldea uses explicit stage numbers like Sinnoh. Stages 1–6 retain their IDs and pools. Stage 7 Ancient Area [984,985,986,987,988,989,1005,1009,1020,1021] and stage 8 Research Area [990,991,992,993,994,995,1006,1010,1022,1023] are disjoint level-45 normal expeditions, with native SV-supported paradox encounters only (including DLC species). Stage 9 Grasswither Shrine [1001,1014,1015], 10 Groundblight Shrine [1003,1014,1015], 11 Firescourge Shrine [1004,1014,1015], 12 Icerend Shrine [1002,1014,1015] use level 55. Stage 13 Terastal Cave [1017,970] is an explicitly mixed special/ordinary final-encounter pool at level 55, requiring the usual special ticket and energy. Stage 14 Zero Depths [1007,1008], 15 Deepest Zero [1024] and 16 Toxic Chain [1025] require level 60. Final encounter rosters are exact user-specified subsets; Fezandipiti [1016] remains available via special recruitment, but is not silently inserted into these requested exploration pools. Existing IDs/clears remain, with new Ancient Area and Terastal Cave receiving separate clear IDs.

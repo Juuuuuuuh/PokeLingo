@@ -46,3 +46,31 @@ assert.equal(run('applyOwnedForm(cal,0).ok'),true);assert.equal(run('cal.form'),
 run(`S.pending=null;receive(898,10194)`);assert.equal(run('S.pending.form'),0);
 run(`S.pending=null;adventureGen=8;var galarHtml=regionalExplore()`);assert.ok(!run(`galarHtml.includes('data-encounter-form="10193"')||galarHtml.includes('data-encounter-form="10194"')`));
 console.log('PASS: Galar 8/9/10/13 exact pools, no wild riders, fusion requires permanent reins plus captured horse even with legacy discoveries, and free separation preserves inventory.');
+// Paldea's requested 16-stage layout, complete DLC paradox partitions and actual encounter draws.
+const paldea=[
+ ['에리어 제로 고대구역',[984,985,986,987,988,989,1005,1009,1020,1021]],
+ ['에리어 제로 연구구역',[990,991,992,993,994,995,1006,1010,1022,1023]],
+ ['후목의 사당',[1001,1014,1015]],['진토의 사당',[1003,1014,1015]],
+ ['화마의 사당',[1004,1014,1015]],['동파의 사당',[1002,1014,1015]],
+ ['테라스탈동굴',[1017,970]],['에리어 제로 깊은곳',[1007,1008]],
+ ['에리어 제로 최심부',[1024]],['악독한사슬',[1025]]
+];
+assert.deepEqual(value(`LOCATIONS.filter(l=>l.gen===9).slice(6).map(l=>[l.name,l.paradox?svEncounterPool(l):regionalRarePool(l)])`),paldea);
+assert.equal(paldea[0][1].filter(id=>paldea[1][1].includes(id)).length,0);
+const paldeaIds=value('LOCATIONS.filter(l=>l.gen===9).slice(6).map(l=>l.id)');
+run(`S.battle=null;S.pending=null;S.party=['ace'];S.xp=6000;S.energy=12;S.tickets=10`);
+for(const [stage,[name,ids]] of paldea.entries()){
+ const key=paldeaIds[stage];
+ for(const [i,id] of ids.entries()){
+  run(`S.battle=null;S.energy=12;S.tickets=10;Math.random=()=>${(i+.1)/ids.length};combatStartLocation('${key}')`);
+  assert.equal(run('S.energy'),stage<2?11:10);assert.equal(run('S.tickets'),stage<2?10:9);
+  if(stage<2){for(const step of [0,2,4]){run(`S.battle.step=${step};prepareEnemy(S.battle)`);assert.equal(run('S.battle.foe.id'),id,name);}}
+  else{assert.equal(run('S.battle.rareSpecies'),id,name);run('S.battle.step=4;prepareEnemy(S.battle)');assert.equal(run('S.battle.foe.id'),id,name);run('finishLocation(S.battle)');assert.equal(run('S.battle.rewardPokemon'),id,name);}
+ }
+}
+for(const [key,xp] of [['paldea-zero-ancient',4300],['paldea-zero-research',4300],['paldea-terastal-cave',5300],['paldea-zero',5800]]){
+ run(`S.battle=null;S.energy=12;S.tickets=10;S.xp=${xp};combatStartLocation('${key}')`);assert.equal(run('S.battle'),null);assert.equal(run('S.energy'),12);assert.equal(run('S.tickets'),10);
+}
+run(`S.xp=6000;S.battle=null;adventureGen=9;var paldeaHtml=regionalExplore()`);
+for(const [i,[name]] of paldea.entries())assert.ok(run(`paldeaHtml.includes('${i+7}. ${name}')`));
+console.log('PASS: Paldea 7–16 exact order/pools, 20 disjoint paradox species through every combat stage, mixed Ogerpon/Glimmora capture rewards and level/ticket/energy gates.');

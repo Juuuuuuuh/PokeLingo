@@ -9,7 +9,7 @@ const expected=[
 [[],[716,717,718],[719,720,721]],
 [[772,773,785,786,787,788,793,794,795,796,797,798,799,803,804,805,806],[791,792,800],[801,802,807,808,809]],
 [[891,892,894,895,896,897,905],[888,889,890,898],[893]],
-[[1001,1002,1003,1004,1014,1015,1016,1017],[1007,1008,1024],[1025]]];
+[[1001,1002,1003,1004,1014,1015,1017],[1007,1008,1024],[1025]]];
 for(let gen=1;gen<=9;gen++){
  run(`adventureGen=${gen};S.battle=null;var html=regionalExplore()`);
  for(const [i,kind] of ['준전설','초전설','환상'].entries()){
@@ -17,7 +17,7 @@ for(let gen=1;gen<=9;gen++){
   if(!wanted.length){assert.equal(sites.length,0);continue}assert.ok(sites.length);
   for(const site of sites){
    assert.deepEqual(value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${site.id}'),true)`),site.encounterSpecies||wanted);
-   assert.equal(site.required,site.rareKind==='준전설'?55:60);
+   assert.equal(site.required,['준전설','준전설·일반'].includes(site.rareKind)?55:60);
    assert.ok(run(`svLocationSupported(LOCATIONS.find(l=>l.id==='${site.id}'))`));
   }
   assert.deepEqual([...new Set(sites.flatMap(site=>value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${site.id}'),true)`).filter(id=>wanted.includes(id))))].sort((a,b)=>a-b),[...wanted].sort((a,b)=>a-b));
