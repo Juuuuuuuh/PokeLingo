@@ -29,13 +29,13 @@
 | 관동 | 10 |
 | 성도 | 11 |
 | 호연 | 11 |
-| 신오 | 12 |
+| 신오 | 14 |
 | 하나 | 12 |
 | 칼로스 | 11 |
 | 알로라 | 12 |
 | 가라르 | 14 |
 | 팔데아 | 14 |
-| 합계 | 107 |
+| 합계 | 109 |
 
 도시 목록 대신 도로·숲·산·호수·동굴·유적 등 탐험 장소로 구성했습니다. 순서는 일반 지역 → 패러독스 전용 지역(Lv.45, 팔데아) → 준전설(Lv.55) → 초전설(Lv.60) → 환상(Lv.60)입니다. 대표 이미지에는 그 세대에서 처음 등장한 포켓몬만 씁니다. 실제 지역 후보에 새 세대 포켓몬이 없으면 지방 대표 이미지임을 표시하고, 기존 세대 후보로 일반 조우를 구성합니다.
 
@@ -45,7 +45,7 @@
 
 ### 특별 조우
 
-준전설 지역은 그 세대의 준전설 전체를 사용합니다. 초전설은 주역 두 마리의 공통 지역과 추가 초전설의 전용 지역으로 분리합니다. 신오 환상은 꽃의낙원(피오네·마나피·다크라이·쉐이미)과 시작의 방(아르세우스)으로 분리하며 다른 세대 환상 탐사는 유지합니다. 일반 포켓몬은 앞선 탐험 구간에서 만납니다. 특별 탐험은 매번 티켓 한 장을 사용하고 성공 시 다시 영입할 수 있습니다. 실패·중단 시 티켓을 반환합니다. 코인·트레이너 EXP의 최초 클리어 보상은 지역별 한 번만 지급합니다.
+준전설은 지정된 지역별 후보를 사용합니다. 신오 예지호수는 유크시·엠라이트·아그놈, 하드마운틴은 히드런, 고대 신전은 레지기가스이며, 하나 궐수의동굴은 코바르온·테라키온·비리디온, 풍요의사당은 토네로스·볼트로스·조건부 랜드로스입니다. 초전설은 주역 두 마리의 공통 지역과 추가 초전설의 전용 지역으로 분리합니다. 신오는 꽃의 낙원(쉐이미·마나피·피오네), 만월섬(크레세리아·다크라이), 시작의방(아르세우스)으로 분리하며 다른 세대 환상 탐사는 유지합니다. 일반 포켓몬은 앞선 탐험 구간에서 만납니다. 특별 탐험은 매번 티켓 한 장을 사용하고 성공 시 다시 영입할 수 있습니다. 실패·중단 시 티켓을 반환합니다. 코인·트레이너 EXP의 최초 클리어 보상은 지역별 한 번만 지급합니다.
 
 이는 요청에 따른 팬게임용 지방·등급 통합 출현표입니다. 원작의 특정 장소에서 원래 모든 전설이 나온다는 뜻은 아닙니다. 원작의 개별 버전·날씨·시간·출현률을 완전히 복제하지 않습니다.
 
@@ -81,10 +81,18 @@ Storage remains browser-local. Linux hosting with persistent account saves, data
 
 ## Complete visible special rosters
 
-All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and Calyrex is available in base, Ice Rider and Shadow Rider forms. Sublegend stages retain full same-generation coverage at Lv.55. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 107. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
+All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and Calyrex is available in base, Ice Rider and Shadow Rider forms. Sublegend coverage is complete across stages at Lv.55, with Sinnoh’s mixed Fullmoon Island pool at Lv.60. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 109. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
 
 ## Paired and dedicated legendary encounter pools
 
 The location `encounterSpecies` field is the authoritative regional subset for both visible rosters and actual encounter sampling; omitted subsets use the same-generation rarity group. Cover pairs: Groudon/Kyogre, Dialga/Palkia, Reshiram/Zekrom, Xerneas/Yveltal, Solgaleo/Lunala, Zacian/Zamazenta, Koraidon/Miraidon. Extras have separate pools: Rayquaza, Giratina, Kyurem, Zygarde, Necrozma, Eternatus, Calyrex and Terapagos. Mewtwo remains alone; Johto stage 9 (Whirl Islands) offers only Lugia; stage 10 (Bell Tower) offers only Ho-Oh. Added Dragonspiral Tower, Ultra Megalopolis and Hall of Origin. Pair stages sort before extras. Existing location IDs/clears remain; unfinished encounters made invalid by these subsets refund ticket and charged energy once. Completed rewards remain claimable. All special stages retain their existing level, ticket, energy and manual-clear-auto rules.
 
 Kanto has exactly ten stages. Stage 7 reuses `kanto-victory` as Indigo Plateau with the Dragonite family [149,147,148]; stage 8 Seafoam Islands unifies all three birds; stages 9/10 remain Mewtwo/Mew. Removed Power Plant clear IDs map once to Seafoam, preserving manual-clear auto unlocks and active bird encounters. Other regions retain their rosters except the requested Johto split.
+
+## Regional encounter conditions
+
+Sinnoh uses explicit stage numbers 1–14 to preserve the requested order across rarity groups. Fullmoon Island is a mixed sublegend/mythical pool [488,491] at level 60. Ancient Temple requires all three Regis [378,379,377] in the current three-member party, rather than only owning them. The same requirement is enforced for manual and automatic entry and persisted active expeditions. Failure to meet entry requirements consumes no energy or ticket.
+
+Unova stage 8 is Mistralton Cave [638,639,640]; stage 9 is Abundant Shrine [641,642,645]. Landorus is omitted from the actual sampler until Tornadus and Thundurus have both been captured (registered or currently owned). The visible roster shows locked Landorus and the requirement; odds use only currently eligible entries. Alola stage 9 keeps its existing ID/pool/clears but is renamed Ultra Wormhole.
+
+The Regigigas party condition and Landorus capture condition also apply to direct special recruitment and reward collection; a blocked claim stays available until the requirement is met. Other species recruitment remains unchanged.

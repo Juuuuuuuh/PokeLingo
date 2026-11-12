@@ -117,7 +117,7 @@ regionalExplore = function () {
     /(<button class="primary" data-location="([^"]+)"[\s\S]*?<\/button>)/g,
     (all, button, id) =>
       button +
-      `<button class="secondary full" data-auto-location="${id}" ${!S.manualClears.includes(id) || !S.locationClears.includes(id) || S.energy < explorationCost(LOCATIONS.find((l) => l.id === id)) ? "disabled" : ""}>${S.manualClears.includes(id) ? "자동 전투" : "직접 클리어 후 자동 전투 해금"}</button>`,
+      `<button class="secondary full" data-auto-location="${id}" ${!locationPartyAllowed(LOCATIONS.find((l) => l.id === id)) || !S.manualClears.includes(id) || !S.locationClears.includes(id) || S.energy < explorationCost(LOCATIONS.find((l) => l.id === id)) ? "disabled" : ""}>${S.manualClears.includes(id) ? "자동 전투" : "직접 클리어 후 자동 전투 해금"}</button>`,
   );
 };
 function arenaUnlocked(mode) {

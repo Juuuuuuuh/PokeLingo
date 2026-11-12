@@ -13,14 +13,14 @@ const expected=[
 for(let gen=1;gen<=9;gen++){
  run(`adventureGen=${gen};S.battle=null;var html=regionalExplore()`);
  for(const [i,kind] of ['준전설','초전설','환상'].entries()){
-  const wanted=expected[gen-1][i];const sites=value(`LOCATIONS.filter(l=>l.gen===${gen}&&l.rareKind==='${kind}')`);
+  const wanted=expected[gen-1][i];const sites=value(`LOCATIONS.filter(l=>l.gen===${gen}&&(l.rareKind==='${kind}'||l.encounterSpecies?.some(id=>mon(id).rarity==='${kind}')))`);
   if(!wanted.length){assert.equal(sites.length,0);continue}assert.ok(sites.length);
   for(const site of sites){
-   assert.deepEqual(value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${site.id}'))`),site.encounterSpecies||wanted);
-   assert.equal(site.required,i===0?55:60);
+   assert.deepEqual(value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${site.id}'),true)`),site.encounterSpecies||wanted);
+   assert.equal(site.required,site.rareKind==='준전설'?55:60);
    assert.ok(run(`svLocationSupported(LOCATIONS.find(l=>l.id==='${site.id}'))`));
   }
-  assert.deepEqual([...new Set(sites.flatMap(site=>value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${site.id}'))`)))].sort((a,b)=>a-b),[...wanted].sort((a,b)=>a-b));
+  assert.deepEqual([...new Set(sites.flatMap(site=>value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${site.id}'),true)`).filter(id=>wanted.includes(id))))].sort((a,b)=>a-b),[...wanted].sort((a,b)=>a-b));
   for(const id of wanted)assert.ok(run(`html.includes('data-encounter-species="${id}"')`),`gen ${gen}: ${id} not visible`);
  }
 }
@@ -46,7 +46,7 @@ const split={
  'alola-altar':[791,792],'alola-megalopolis':[800],
  'galar-deep-weald':[888,889],'galar-energy':[890],'galar-shrine':[898],
  'paldea-zero':[1007,1008],'paldea-zero-depths':[1024],
- 'gen-4-mythical':[489,490,491,492],'sinnoh-hall-origin':[493]
+ 'gen-4-mythical':[492,490,489],'sinnoh-hall-origin':[493]
 };
 for(const [key,ids] of Object.entries(split)){
  assert.deepEqual(value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${key}'))`),ids);
