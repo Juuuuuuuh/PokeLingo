@@ -27,7 +27,7 @@ for(let gen=1;gen<=9;gen++){
 // A collected rider must not replace the base Calyrex portrait in the public encounter list.
 run(`S.mons.push(enrich({uid:'rider',id:898,lv:60,form:10194}));adventureGen=8;var html=regionalExplore()`);
 assert.ok(run(`html.includes('src="assets/898.png" alt="버드렉스"')`));
-assert.deepEqual(value(`regionalRareEntries(LOCATIONS.find(l=>l.id==='galar-shrine')).filter(e=>e.id===898).map(e=>e.form)`),[0,10193,10194]);
+assert.deepEqual(value(`regionalRareEntries(LOCATIONS.find(l=>l.id==='galar-shrine')).filter(e=>e.id===898).map(e=>e.form)`),[0]);
 // Actual mythical entry and completion use the same common exploration/capture flow.
 run(`S.xp=5800;S.battle=null;S.pending=null;S.energy=12;S.tickets=5;var ace=enrich({uid:'myth-ace',id:445,lv:60});S.mons.push(ace);S.party=[ace.uid];combatStartLocation('gen-1-mythical')`);
 assert.equal(run('S.battle'),null);assert.equal(run('S.tickets'),5);

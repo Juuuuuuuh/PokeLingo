@@ -24,3 +24,25 @@ run(`S.battle=null;S.registered=[];S.mons=S.mons.filter(m=>![641,642].includes(m
 run(`S.battle=null;adventureGen=5;var html=regionalExplore()`);assert.ok(run(`html.includes('랜드로스')`));assert.ok(run(`html.includes('포획 조건 미충족')&&html.includes('2종/폼 현재 출현')`));
 assert.equal(run(`LOCATIONS.filter(l=>l.gen===7)[8].name`),'울트라홀');
 console.log('PASS: Sinnoh 7–14 exact pools, party-only Regigigas requirements for manual/auto/direct capture, mixed Moon Island Lv60, Unova 8/9, capture-gated Landorus sampling and Alola 9 rename.');
+// Galar's exact slots partition all sublegends; riders can only be produced by fusion.
+assert.deepEqual(value(`LOCATIONS.filter(l=>l.gen===8).slice(7,10).map(l=>[l.name,regionalRarePool(l)])`),[
+ ['갈림길의 유적',[894,895]],['수련의 폭포',[891,892]],['설중계곡',[896,897,905]]]);
+assert.equal(run(`LOCATIONS.filter(l=>l.gen===8)[12].name`),'왕관신전');
+assert.deepEqual(value(`regionalRareEntries(LOCATIONS.find(l=>l.id==='galar-shrine'))`),[{id:898,form:0,name:'버드렉스'}]);
+for(const [location,ids] of [['galar-decision',[894,895]],['galar-snowslide',[891,892]],['galar-cemetery',[896,897,905]],['galar-shrine',[898]]]){
+ for(const [i,id] of ids.entries()){
+  run(`S.battle=null;S.pending=null;S.party=['ace'];S.energy=12;S.tickets=10;Math.random=()=>${(i+.1)/ids.length};combatStartLocation('${location}');S.battle.step=4;prepareEnemy(S.battle)`);
+  assert.equal(run('S.battle.foe.id'),id);assert.equal(run('S.battle.foe.form'),0);
+ }
+}
+run(`S.battle=null;var cal=enrich({uid:'cal',id:898,lv:60});S.mons.push(cal);S.items.reins=0;S.discoveredForms.push(10193,10194)`);
+assert.equal(run('applyOwnedForm(cal,10193).ok'),false);assert.equal(run('cal.form'),0);
+run('S.items.reins=1');assert.equal(run('applyOwnedForm(cal,10193).ok'),false); // old discovery cannot bypass horse ownership
+run(`S.mons.push(enrich({uid:'ice',id:896,lv:55}))`);assert.equal(run('applyOwnedForm(cal,10193).ok'),true);
+assert.deepEqual(value('effectiveStats(cal)'),value(`(()=>{const f=FORMS.find(f=>f.key===10193);return f.stats.map((base,i)=>i===0?Math.floor((2*base+15)*60/100)+60+10:Math.floor((2*base+15)*60/100)+5)})()`));
+assert.equal(run('S.items.reins'),1);assert.equal(run('applyOwnedForm(cal,10194).ok'),false);assert.equal(run('cal.form'),10193);
+run(`S.mons.push(enrich({uid:'shadow',id:897,lv:55}))`);assert.equal(run('applyOwnedForm(cal,10194).ok'),true);assert.equal(run('cal.form'),10194);
+assert.equal(run('applyOwnedForm(cal,0).ok'),true);assert.equal(run('cal.form'),0);assert.equal(run('S.items.reins'),1);
+run(`S.pending=null;receive(898,10194)`);assert.equal(run('S.pending.form'),0);
+run(`S.pending=null;adventureGen=8;var galarHtml=regionalExplore()`);assert.ok(!run(`galarHtml.includes('data-encounter-form="10193"')||galarHtml.includes('data-encounter-form="10194"')`));
+console.log('PASS: Galar 8/9/10/13 exact pools, no wild riders, fusion requires permanent reins plus captured horse even with legacy discoveries, and free separation preserves inventory.');

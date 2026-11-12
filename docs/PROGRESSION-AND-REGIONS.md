@@ -81,7 +81,7 @@ Storage remains browser-local. Linux hosting with persistent account saves, data
 
 ## Complete visible special rosters
 
-All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and Calyrex is available in base, Ice Rider and Shadow Rider forms. Sublegend coverage is complete across stages at Lv.55, with Sinnoh’s mixed Fullmoon Island pool at Lv.60. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 109. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
+All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and only base Calyrex is encountered; Ice Rider and Shadow Rider require fusion. Sublegend coverage is complete across stages at Lv.55, with Sinnoh’s mixed Fullmoon Island pool at Lv.60. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 109. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
 
 ## Paired and dedicated legendary encounter pools
 
@@ -96,3 +96,9 @@ Sinnoh uses explicit stage numbers 1–14 to preserve the requested order across
 Unova stage 8 is Mistralton Cave [638,639,640]; stage 9 is Abundant Shrine [641,642,645]. Landorus is omitted from the actual sampler until Tornadus and Thundurus have both been captured (registered or currently owned). The visible roster shows locked Landorus and the requirement; odds use only currently eligible entries. Alola stage 9 keeps its existing ID/pool/clears but is renamed Ultra Wormhole.
 
 The Regigigas party condition and Landorus capture condition also apply to direct special recruitment and reward collection; a blocked claim stays available until the requirement is met. Other species recruitment remains unchanged.
+
+## Galar encounter split and Calyrex fusion
+
+Stage 8 Split-Decision Ruins uses [894,895]; stage 9 Training Falls uses [891,892]; stage 10 Snowslide Slope uses [896,897,905]. Stage 13 Crown Shrine only offers base Calyrex [898], form 0. All wild entries are base forms; direct recruitment also normalizes Calyrex rider requests to base. Existing owned forms are preserved, while invalid unfinished rider expeditions use the normal one-time refund migration.
+
+Calyrex form application always requires the permanent Reins of Unity item (`reins`, 유대의고삐, existing shop price 25 coins) and the matching currently owned horse: Glastrier [896] for Ice Rider, Spectrier [897] for Shadow Rider. Prior discovery alone cannot bypass these requirements. Applying/separating preserves both horses, item quantity, species identity and move memory. Base separation is free. Other species' form rules remain unchanged.
