@@ -26,7 +26,7 @@
 
 | 지방 | 지역 수 |
 | --- | ---: |
-| 관동 | 11 |
+| 관동 | 10 |
 | 성도 | 11 |
 | 호연 | 11 |
 | 신오 | 12 |
@@ -35,7 +35,7 @@
 | 알로라 | 12 |
 | 가라르 | 14 |
 | 팔데아 | 14 |
-| 합계 | 108 |
+| 합계 | 107 |
 
 도시 목록 대신 도로·숲·산·호수·동굴·유적 등 탐험 장소로 구성했습니다. 순서는 일반 지역 → 패러독스 전용 지역(Lv.45, 팔데아) → 준전설(Lv.55) → 초전설(Lv.60) → 환상(Lv.60)입니다. 대표 이미지에는 그 세대에서 처음 등장한 포켓몬만 씁니다. 실제 지역 후보에 새 세대 포켓몬이 없으면 지방 대표 이미지임을 표시하고, 기존 세대 후보로 일반 조우를 구성합니다.
 
@@ -81,8 +81,10 @@ Storage remains browser-local. Linux hosting with persistent account saves, data
 
 ## Complete visible special rosters
 
-All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and Calyrex is available in base, Ice Rider and Shadow Rider forms. Sublegend stages retain full same-generation coverage at Lv.55. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 108. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
+All special-stage cards now show the entire encounter roster, not only the representative portrait. Every generation has a mythical exploration stage (Lv.60), with full mythical coverage across its stages (Sinnoh separates Arceus into Hall of Origin). Legendary species retain full coverage across paired cover-legend stages and isolated extra-legend stages, and Calyrex is available in base, Ice Rider and Shadow Rider forms. Sublegend stages retain full same-generation coverage at Lv.55. These fan-game pools do not claim original-event distribution or version exclusivity. Mythical stage names designate fan-game exploration themes. The total stage count is 107. Existing clear IDs and saves are preserved. Independent national-dex fixtures verify all nine generations and actual mythical entry/reward flow.
 
 ## Paired and dedicated legendary encounter pools
 
-The location `encounterSpecies` field is the authoritative regional subset for both visible rosters and actual encounter sampling; omitted subsets use the same-generation rarity group. Cover pairs: Groudon/Kyogre, Dialga/Palkia, Reshiram/Zekrom, Xerneas/Yveltal, Solgaleo/Lunala, Zacian/Zamazenta, Koraidon/Miraidon. Extras have separate pools: Rayquaza, Giratina, Kyurem, Zygarde, Necrozma, Eternatus, Calyrex and Terapagos. Mewtwo remains alone; Johto’s two routes both offer Lugia/Ho-Oh. Added Dragonspiral Tower, Ultra Megalopolis and Hall of Origin. Pair stages sort before extras. Existing location IDs/clears remain; unfinished encounters made invalid by these subsets refund ticket and charged energy once. Completed rewards remain claimable. All special stages retain their existing level, ticket, energy and manual-clear-auto rules.
+The location `encounterSpecies` field is the authoritative regional subset for both visible rosters and actual encounter sampling; omitted subsets use the same-generation rarity group. Cover pairs: Groudon/Kyogre, Dialga/Palkia, Reshiram/Zekrom, Xerneas/Yveltal, Solgaleo/Lunala, Zacian/Zamazenta, Koraidon/Miraidon. Extras have separate pools: Rayquaza, Giratina, Kyurem, Zygarde, Necrozma, Eternatus, Calyrex and Terapagos. Mewtwo remains alone; Johto stage 9 (Whirl Islands) offers only Lugia; stage 10 (Bell Tower) offers only Ho-Oh. Added Dragonspiral Tower, Ultra Megalopolis and Hall of Origin. Pair stages sort before extras. Existing location IDs/clears remain; unfinished encounters made invalid by these subsets refund ticket and charged energy once. Completed rewards remain claimable. All special stages retain their existing level, ticket, energy and manual-clear-auto rules.
+
+Kanto has exactly ten stages. Stage 7 reuses `kanto-victory` as Indigo Plateau with the Dragonite family [149,147,148]; stage 8 Seafoam Islands unifies all three birds; stages 9/10 remain Mewtwo/Mew. Removed Power Plant clear IDs map once to Seafoam, preserving manual-clear auto unlocks and active bird encounters. Other regions retain their rosters except the requested Johto split.

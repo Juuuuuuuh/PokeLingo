@@ -38,3 +38,10 @@ function reconcileSpecialExploration(){
  S.battle=null;
  addLog('초전설 출현 지역이 분리되어 진행 중인 탐험을 종료하고 사용한 티켓과 에너지를 돌려드렸어요.');
 }
+
+function migrateKantoLocations(){
+ const remap=id=>id==='kanto-power'?'kanto-seafoam':id;
+ for(const key of ['locationClears','manualClears'])if(Array.isArray(S[key]))S[key]=[...new Set(S[key].map(remap))];
+ if(Array.isArray(S.clears))for(const clear of S.clears)clear.location=remap(clear.location);
+ if(S.battle?.location==='kanto-power')S.battle.location='kanto-seafoam';
+}

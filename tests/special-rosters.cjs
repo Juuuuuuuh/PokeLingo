@@ -38,6 +38,7 @@ console.log('PASS: independent all-generation sublegend/legend/mythical lists, v
 
 // Dedicated extras cannot leak into paired cover-legend maps, and vice versa.
 const split={
+ 'johto-whirl':[249],'johto-bell':[250],
  'hoenn-origin':[382,383],'hoenn-sky':[384],
  'sinnoh-spear':[483,484],'sinnoh-turnback':[487],
  'unova-dragonspiral':[643,644],'unova-chasm':[646],
@@ -66,3 +67,16 @@ run('migrate()');assert.equal(run('S.tickets'),10);
 run(`combatStartLocation('hoenn-sky');S.battle.rareSpecies=382;S.battle.finished=true;S.battle.rewardPokemon=382;migrate()`);
 assert.equal(run('S.battle.rewardPokemon'),382);
 console.log('PASS: changed active encounters refunded once while completed rewards and owned Pokemon remain.');
+
+// Exact numbered UI stages and real ordinary/special sampling for the requested routes.
+assert.deepEqual(value(`LOCATIONS.filter(l=>l.gen===1).slice(6).map(l=>l.name)`),['석영고원','쌍둥이섬','블루시티동굴','머나먼고도']);
+assert.equal(run('LOCATIONS.filter(l=>l.gen===1).length'),10);
+assert.deepEqual(value(`svEncounterPool(LOCATIONS.find(l=>l.id==='kanto-victory'))`),[149,147,148]);
+assert.equal(run(`regionalRepresentative(LOCATIONS.find(l=>l.id==='kanto-victory'))`),149);
+assert.deepEqual(value(`LOCATIONS.filter(l=>l.gen===2).slice(8,10).map(l=>l.name)`),['소용돌이섬','방울탑']);
+assert.deepEqual(value(`regionalRarePool(LOCATIONS.find(l=>l.id==='kanto-seafoam'))`),[144,145,146]);
+for(const random of [0,.4,.999999]){run(`Math.random=()=>${random};S.battle=null;S.pending=null;S.energy=12;S.tickets=10;S.xp=6000;combatStartLocation('kanto-victory')`);assert.ok([149,147,148].includes(run('S.battle.foe.id')));}
+run(`S.battle=null;S.locationClears.push('kanto-power');S.manualClears.push('kanto-power');migrate()`);
+assert.ok(run(`S.locationClears.includes('kanto-seafoam')&&S.manualClears.includes('kanto-seafoam')`));
+assert.ok(!run(`S.locationClears.includes('kanto-power')`));
+console.log('PASS: exact Kanto 7/8/9/10 and Johto 9/10 slots, Dragonite family encounters and merged clear migration.');
