@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');const {createGame}=require('./harness.cjs');
+const real=createGame();real.run(`S.coins=777;S.tasks=[{id:'real',name:'내 실제 목표',size:1,category:'공부',done:false}];save()`);const realSave=real.storage.get('growth-expedition-v1');
+assert.equal(real.el('#nav').hidden,true);real.el('#menu-toggle').onclick();assert.equal(real.el('#nav').hidden,false);real.run(`go('party')`);assert.equal(real.el('#nav').hidden,true);
+real.el('#menu-toggle').onclick();real.c.document.onkeydown({key:'Escape'});assert.equal(real.el('#nav').hidden,true);
+for(const route of ['dex','party','arena'])assert.ok(real.run(`home().includes('data-page="${route}"')`));
+for(const key of ['lab','quests','shop','gate']){real.run(`enterTown('${key}')`);assert.equal(real.el('#nav').hidden,true)}
+let reloads=0;const demo=createGame({location:{search:'?demo=tasks',pathname:'/',reload(){reloads++}},storage:{'growth-expedition-v1':realSave}});
+assert.equal(demo.run('KEY'),'growth-expedition-demo-v1');assert.equal(demo.storage.get('growth-expedition-v1'),realSave);assert.equal(demo.run('page'),'tasks');assert.equal(demo.run('S.tasks.length'),2);assert.equal(demo.run('S.party.length'),3);
+const coins=demo.run('S.coins'),energy=demo.run('S.energy');demo.run(`complete('demo-study')`);demo.el('#confirmdone').onclick();assert.ok(demo.run('S.coins')>coins);assert.ok(demo.run('S.energy')>energy);assert.ok(demo.run(`S.tasks.find(t=>t.id==='demo-study').done`));assert.equal(demo.storage.get('growth-expedition-v1'),realSave);
+const battle=createGame({location:{search:'?demo=explore',pathname:'/'},storage:{'growth-expedition-v1':realSave}});assert.equal(battle.run('S.battle.location'),'kanto-moon');assert.equal(battle.run('page'),'explore');assert.equal(battle.run('S.energy'),5);assert.equal(battle.run('S.battle.phase'),'fight');
+battle.run(`var f=activeFighter(S.battle),move=enemyMove(f,S.battle.foe),oldPP=f.pp[move.id];combatAction('move:'+move.id)`);assert.equal(battle.run('f.pp[move.id]'),battle.run('oldPP')-1);assert.ok(battle.run('S.battle.log.length>0'));assert.equal(battle.storage.get('growth-expedition-v1'),realSave);
+battle.run('render()');battle.el('#demo-reset').onclick=demo.el('#demo-reset').onclick;demo.el('#demo-reset').onclick();assert.equal(reloads,1);assert.equal(demo.storage.has('growth-expedition-demo-v1'),false);assert.equal(demo.storage.get('growth-expedition-v1'),realSave);
+const invalid=createGame({location:{search:'?demo=other',pathname:'/'},storage:{'growth-expedition-v1':realSave}});assert.equal(invalid.run('KEY'),'growth-expedition-v1');assert.equal(invalid.run('S.coins'),777);
+console.log('PASS: hidden-by-default menu, toggle/Escape/navigation close, direct home routes, separate demo storage, real goal rewards and PP-consuming demo combat without changing the real save.');
