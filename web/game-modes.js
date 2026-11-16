@@ -313,18 +313,8 @@ useInventoryItem = function (...args) {
     return { ok: false, message: "PWT에서는 가방 도구를 사용할 수 없어요." };
   return itemBeforeModes(...args);
 };
-function arenaBattleView() {
-  const b = S.battle,
-    a = activeFighter(b);
-  return (
-    intro(
-      "TRAINER BATTLE",
-      b.arenaMode === "gym" ? "나의 체육관 방어전" : "PWT 지방 대회",
-      `${b.trainers[b.trainerIndex].name} · 라운드 ${b.trainerIndex + 1}/${b.trainers.length} · 상대 ${b.foeIndex + 1}/3`,
-    ) +
-    `<div class="battle"><div class="battlefield">${[a, b.foe].map((f) => `<div>${fighterImage(f)}<b>${f.name} Lv.${f.level}</b><p>${fighterTypes(f).join(" / ")}</p><div class="hp"><i style="width:${Math.max(0, (f.hp / f.max) * 100)}%"></i></div><small>HP ${f.hp}/${f.max} ${STATUS_LABELS[f.status] || ""}</small></div>`).join("")}</div><div class="battlelog" role="status">${esc(b.log)}</div><div class="move-grid">${!b.finished && b.phase === "fight" ? (usableMoves(a).length ? a.moves.map((id) => `<button class="move-button" data-type="${MOVES[id].type}" data-action="move:${id}" ${usableMoves(a).some((m) => m.id === id) ? "" : "disabled"}><b>${MOVES[id].name}</b><span>${MOVES[id].type} · PP ${a.pp[id]}/${a.ppMax[id]}</span></button>`).join("") : '<button class="primary" data-action="move:165">발버둥</button>') : ""}</div><div class="actions">${b.finished ? '<button class="primary" id="arena-return">대회 로비로 돌아가기</button>' : `${["arena-next", "arena-round"].includes(b.phase) ? '<button class="primary" data-action="arena-next">다음 상대 ▶</button>' : ""}${b.arenaMode === "gym" ? '<button class="secondary" id="battlebag">가방</button>' : ""}<button class="smalllink" id="arena-forfeit">도전 포기</button>`}</div><div class="battleparty">${!b.finished ? b.party.map((uid, i) => `<button class="secondary" data-action="switch:${uid}" ${i === b.active || b.fighters[uid].hp <= 0 || !["fight", "forced-switch"].includes(b.phase) ? "disabled" : ""}>${b.fighters[uid].name} ${b.fighters[uid].hp}/${b.fighters[uid].max}</button>`).join("") : ""}</div></div>`
-  );
-}
+function arenaBattleView(){return renderMainlineBattle(S.battle)}
+
 function arena() {
   initializeModes();
   if (S.battle)
