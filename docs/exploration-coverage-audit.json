@@ -9,9 +9,9 @@
     "rarity": "환상",
     "svAvailable": true
   },
-  "locationCount": 111,
+  "locationCount": 115,
   "normalLocationCount": 65,
-  "specialLocationCount": 46,
+  "specialLocationCount": 50,
   "ordinaryWildSpecies": 212,
   "specialFinalSpecies": 103,
   "normalAndSpecialOverlap": [
@@ -6582,7 +6582,8 @@
     }
   ],
   "scoutSpecies": 920,
-  "specialRecruitmentSpecies": 105,
+  "specialRecruitmentSpecies": 104,
+  "recruitmentOnlyReachable": 1024,
   "combinedRecruitmentReachable": 1025,
   "missingIncludingRecruitment": [],
   "unknownEvolutionItems": [],
@@ -11319,13 +11320,28 @@
       "id": "hoenn-origin",
       "gen": 3,
       "stage": 9,
-      "name": "각성의사당",
+      "name": "시작의 바다",
       "level": 60,
       "normal": [
         302
       ],
       "final": [
-        382,
+        382
+      ],
+      "partyRequired": [],
+      "captureRequired": {},
+      "firstClearOnlyPokemon": false
+    },
+    {
+      "id": "hoenn-land",
+      "gen": 3,
+      "stage": 10,
+      "name": "끝의 대지",
+      "level": 60,
+      "normal": [
+        302
+      ],
+      "final": [
         383
       ],
       "partyRequired": [],
@@ -11335,7 +11351,7 @@
     {
       "id": "hoenn-sky",
       "gen": 3,
-      "stage": 10,
+      "stage": 11,
       "name": "하늘기둥",
       "level": 60,
       "normal": [
@@ -11353,7 +11369,7 @@
     {
       "id": "gen-3-mythical",
       "gen": 3,
-      "stage": 11,
+      "stage": 12,
       "name": "탄생의섬",
       "level": 60,
       "normal": [
@@ -11529,13 +11545,28 @@
       "id": "sinnoh-spear",
       "gen": 4,
       "stage": 10,
-      "name": "창기둥",
+      "name": "창기둥 - 시간의균열",
       "level": 60,
       "normal": [
         437
       ],
       "final": [
-        483,
+        483
+      ],
+      "partyRequired": [],
+      "captureRequired": {},
+      "firstClearOnlyPokemon": false
+    },
+    {
+      "id": "sinnoh-rift-edge",
+      "gen": 4,
+      "stage": 11,
+      "name": "창기둥 - 균열의 끝자락",
+      "level": 60,
+      "normal": [
+        437
+      ],
+      "final": [
         484
       ],
       "partyRequired": [],
@@ -11545,7 +11576,7 @@
     {
       "id": "sinnoh-turnback",
       "gen": 4,
-      "stage": 11,
+      "stage": 12,
       "name": "귀혼동굴",
       "level": 60,
       "normal": [
@@ -11563,7 +11594,7 @@
     {
       "id": "gen-4-mythical",
       "gen": 4,
-      "stage": 12,
+      "stage": 13,
       "name": "꽃의 낙원",
       "level": 60,
       "normal": [
@@ -11583,7 +11614,7 @@
     {
       "id": "sinnoh-fullmoon",
       "gen": 4,
-      "stage": 13,
+      "stage": 14,
       "name": "만월섬",
       "level": 60,
       "normal": [
@@ -11602,8 +11633,8 @@
     {
       "id": "sinnoh-hall-origin",
       "gen": 4,
-      "stage": 14,
-      "name": "시작의방",
+      "stage": 15,
+      "name": "창기둥 - 시작의방",
       "level": 60,
       "normal": [
         479,
@@ -11778,14 +11809,30 @@
       "id": "unova-dragonspiral",
       "gen": 5,
       "stage": 10,
-      "name": "용나선탑",
+      "name": "용나선탑 - 진실과 현실",
       "level": 60,
       "normal": [
         615,
         221
       ],
       "final": [
-        643,
+        643
+      ],
+      "partyRequired": [],
+      "captureRequired": {},
+      "firstClearOnlyPokemon": false
+    },
+    {
+      "id": "unova-ideals",
+      "gen": 5,
+      "stage": 11,
+      "name": "용나선탑 - 사상과 이상",
+      "level": 60,
+      "normal": [
+        615,
+        221
+      ],
+      "final": [
         644
       ],
       "partyRequired": [],
@@ -11795,7 +11842,7 @@
     {
       "id": "unova-chasm",
       "gen": 5,
-      "stage": 11,
+      "stage": 12,
       "name": "자이언트홀",
       "level": 60,
       "normal": [
@@ -11812,7 +11859,7 @@
     {
       "id": "gen-5-mythical",
       "gen": 5,
-      "stage": 12,
+      "stage": 13,
       "name": "자유의정원",
       "level": 60,
       "normal": [
@@ -12178,7 +12225,7 @@
       "id": "alola-altar",
       "gen": 7,
       "stage": 10,
-      "name": "일륜의제단",
+      "name": "일륜의 제단",
       "level": 60,
       "normal": [
         782,
@@ -12186,7 +12233,24 @@
         703
       ],
       "final": [
-        791,
+        791
+      ],
+      "partyRequired": [],
+      "captureRequired": {},
+      "firstClearOnlyPokemon": false
+    },
+    {
+      "id": "alola-moon-altar",
+      "gen": 7,
+      "stage": 11,
+      "name": "월륜의 제단",
+      "level": 60,
+      "normal": [
+        782,
+        783,
+        703
+      ],
+      "final": [
         792
       ],
       "partyRequired": [],
@@ -12196,8 +12260,8 @@
     {
       "id": "alola-megalopolis",
       "gen": 7,
-      "stage": 11,
-      "name": "울트라메가로폴리스",
+      "stage": 12,
+      "name": "울트라메가폴리스",
       "level": 60,
       "normal": [
         782,
@@ -12214,7 +12278,7 @@
     {
       "id": "gen-7-mythical",
       "gen": 7,
-      "stage": 12,
+      "stage": 13,
       "name": "포니의옛길",
       "level": 60,
       "normal": [

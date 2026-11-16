@@ -11,7 +11,7 @@ const expected=[
 [[891,892,894,895,896,897,905],[888,889,890,898],[893]],
 [[1001,1002,1003,1004,1014,1015,1017],[1007,1008,1024],[1025]]];
 for(let gen=1;gen<=9;gen++){
- run(`adventureGen=${gen};S.battle=null;var html=regionalExplore()`);
+ run(`adventureGen=${gen};S.battle=null;var oldClear=S.locationClears,oldBoss=S.bossPhaseClears;if(${gen}===4){S.locationClears=LOCATIONS.filter(l=>!l.hiddenFinal).map(l=>l.id);S.bossPhaseClears=Object.fromEntries(LOCATIONS.filter(l=>l.bossPhases).map(l=>[l.id,l.bossPhases.length]));}var html=regionalExplore();S.locationClears=oldClear;S.bossPhaseClears=oldBoss`);
  for(const [i,kind] of ['준전설','초전설','환상'].entries()){
   const wanted=expected[gen-1][i];const sites=value(`LOCATIONS.filter(l=>l.gen===${gen}&&(l.rareKind==='${kind}'||l.encounterSpecies?.some(id=>mon(id).rarity==='${kind}')))`);
   if(!wanted.length){assert.equal(sites.length,0);continue}assert.ok(sites.length);
@@ -39,11 +39,11 @@ console.log('PASS: independent all-generation sublegend/legend/mythical lists, v
 // Dedicated extras cannot leak into paired cover-legend maps, and vice versa.
 const split={
  'johto-whirl':[249],'johto-bell':[250],
- 'hoenn-origin':[382,383],'hoenn-sky':[384],
- 'sinnoh-spear':[483,484],'sinnoh-turnback':[487],
- 'unova-dragonspiral':[643,644],'unova-chasm':[646],
+ 'hoenn-origin':[382],'hoenn-land':[383],'hoenn-sky':[384],
+ 'sinnoh-spear':[483],'sinnoh-rift-edge':[484],'sinnoh-turnback':[487],
+ 'unova-dragonspiral':[643],'unova-ideals':[644],'unova-chasm':[646],
  'kalos-unknown':[716,717],'kalos-terminus':[718],
- 'alola-altar':[791,792],'alola-megalopolis':[800],
+ 'alola-altar':[791],'alola-moon-altar':[792],'alola-megalopolis':[800],
  'galar-deep-weald':[888,889],'galar-energy':[890],'galar-shrine':[898],
  'paldea-zero':[1007,1008],'paldea-zero-depths':[1024],
  'gen-4-mythical':[492,490,489],'sinnoh-hall-origin':[493]
@@ -51,6 +51,7 @@ const split={
 for(const [key,ids] of Object.entries(split)){
  assert.deepEqual(value(`regionalRarePool(LOCATIONS.find(l=>l.id==='${key}'))`),ids);
  // Exercise the actual sampler at both ends, not only the displayed list.
+ if(key==='sinnoh-hall-origin')run(`S.locationClears=LOCATIONS.filter(l=>!l.hiddenFinal).map(l=>l.id);S.bossPhaseClears=Object.fromEntries(LOCATIONS.filter(l=>l.bossPhases).map(l=>[l.id,l.bossPhases.length]))`);
  for(const random of [0,.999999]){
   run(`S.battle=null;S.pending=null;S.energy=12;S.tickets=10;S.xp=6000;Math.random=()=>${random};combatStartLocation('${key}')`);
   assert.ok(ids.includes(run('S.battle.rareSpecies')),key);

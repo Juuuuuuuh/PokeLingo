@@ -1,0 +1,356 @@
+{
+  "source": "https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv",
+  "hashes": {
+    "pokemon": "16c81c33188b0eac403aa2f759fcbe9e42c611f722d263f5b5a6a5bff9f8ce6b",
+    "pokemon_stats": "fa2c44263a3706468682fefc3e0b3c4f5487fe9febed7d4ebcd6939c34b16aa8",
+    "pokemon_types": "f1fc4bfd657a034ea3bf6972423b10276424aa068577b304a78a08996425ba05",
+    "pokemon_abilities": "4a79ee53d386a8ad3a89657483ddfd31594e05a5d52400fe131e5e4dfd7ec04a"
+  },
+  "records": {
+    "10077": {
+      "pokemon": {
+        "id": "10077",
+        "identifier": "kyogre-primal",
+        "species_id": "382",
+        "height": "98",
+        "weight": "4300",
+        "base_experience": "347",
+        "order": "508",
+        "is_default": "0"
+      },
+      "stats": [
+        {
+          "pokemon_id": "10077",
+          "stat_id": "1",
+          "base_stat": "100",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10077",
+          "stat_id": "2",
+          "base_stat": "150",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10077",
+          "stat_id": "3",
+          "base_stat": "90",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10077",
+          "stat_id": "4",
+          "base_stat": "180",
+          "effort": "3"
+        },
+        {
+          "pokemon_id": "10077",
+          "stat_id": "5",
+          "base_stat": "160",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10077",
+          "stat_id": "6",
+          "base_stat": "90",
+          "effort": "0"
+        }
+      ],
+      "types": [
+        {
+          "pokemon_id": "10077",
+          "type_id": "11",
+          "slot": "1"
+        }
+      ],
+      "abilities": [
+        {
+          "pokemon_id": "10077",
+          "ability_id": "189",
+          "is_hidden": "0",
+          "slot": "1"
+        }
+      ]
+    },
+    "10078": {
+      "pokemon": {
+        "id": "10078",
+        "identifier": "groudon-primal",
+        "species_id": "383",
+        "height": "50",
+        "weight": "9997",
+        "base_experience": "347",
+        "order": "510",
+        "is_default": "0"
+      },
+      "stats": [
+        {
+          "pokemon_id": "10078",
+          "stat_id": "1",
+          "base_stat": "100",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10078",
+          "stat_id": "2",
+          "base_stat": "180",
+          "effort": "3"
+        },
+        {
+          "pokemon_id": "10078",
+          "stat_id": "3",
+          "base_stat": "160",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10078",
+          "stat_id": "4",
+          "base_stat": "150",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10078",
+          "stat_id": "5",
+          "base_stat": "90",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10078",
+          "stat_id": "6",
+          "base_stat": "90",
+          "effort": "0"
+        }
+      ],
+      "types": [
+        {
+          "pokemon_id": "10078",
+          "type_id": "5",
+          "slot": "1"
+        },
+        {
+          "pokemon_id": "10078",
+          "type_id": "10",
+          "slot": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "pokemon_id": "10078",
+          "ability_id": "190",
+          "is_hidden": "0",
+          "slot": "1"
+        }
+      ]
+    },
+    "10079": {
+      "pokemon": {
+        "id": "10079",
+        "identifier": "rayquaza-mega",
+        "species_id": "384",
+        "height": "108",
+        "weight": "3920",
+        "base_experience": "351",
+        "order": "512",
+        "is_default": "0"
+      },
+      "stats": [
+        {
+          "pokemon_id": "10079",
+          "stat_id": "1",
+          "base_stat": "105",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10079",
+          "stat_id": "2",
+          "base_stat": "180",
+          "effort": "2"
+        },
+        {
+          "pokemon_id": "10079",
+          "stat_id": "3",
+          "base_stat": "100",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10079",
+          "stat_id": "4",
+          "base_stat": "180",
+          "effort": "1"
+        },
+        {
+          "pokemon_id": "10079",
+          "stat_id": "5",
+          "base_stat": "100",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10079",
+          "stat_id": "6",
+          "base_stat": "115",
+          "effort": "0"
+        }
+      ],
+      "types": [
+        {
+          "pokemon_id": "10079",
+          "type_id": "16",
+          "slot": "1"
+        },
+        {
+          "pokemon_id": "10079",
+          "type_id": "3",
+          "slot": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "pokemon_id": "10079",
+          "ability_id": "191",
+          "is_hidden": "0",
+          "slot": "1"
+        }
+      ]
+    },
+    "10157": {
+      "pokemon": {
+        "id": "10157",
+        "identifier": "necrozma-ultra",
+        "species_id": "800",
+        "height": "75",
+        "weight": "2300",
+        "base_experience": "339",
+        "order": "980",
+        "is_default": "0"
+      },
+      "stats": [
+        {
+          "pokemon_id": "10157",
+          "stat_id": "1",
+          "base_stat": "97",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10157",
+          "stat_id": "2",
+          "base_stat": "167",
+          "effort": "1"
+        },
+        {
+          "pokemon_id": "10157",
+          "stat_id": "3",
+          "base_stat": "97",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10157",
+          "stat_id": "4",
+          "base_stat": "167",
+          "effort": "1"
+        },
+        {
+          "pokemon_id": "10157",
+          "stat_id": "5",
+          "base_stat": "97",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10157",
+          "stat_id": "6",
+          "base_stat": "129",
+          "effort": "1"
+        }
+      ],
+      "types": [
+        {
+          "pokemon_id": "10157",
+          "type_id": "14",
+          "slot": "1"
+        },
+        {
+          "pokemon_id": "10157",
+          "type_id": "16",
+          "slot": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "pokemon_id": "10157",
+          "ability_id": "233",
+          "is_hidden": "0",
+          "slot": "1"
+        }
+      ]
+    },
+    "10190": {
+      "pokemon": {
+        "id": "10190",
+        "identifier": "eternatus-eternamax",
+        "species_id": "890",
+        "height": "1000",
+        "weight": "0",
+        "base_experience": "563",
+        "order": "1080",
+        "is_default": "0"
+      },
+      "stats": [
+        {
+          "pokemon_id": "10190",
+          "stat_id": "1",
+          "base_stat": "255",
+          "effort": "3"
+        },
+        {
+          "pokemon_id": "10190",
+          "stat_id": "2",
+          "base_stat": "115",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10190",
+          "stat_id": "3",
+          "base_stat": "250",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10190",
+          "stat_id": "4",
+          "base_stat": "125",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10190",
+          "stat_id": "5",
+          "base_stat": "250",
+          "effort": "0"
+        },
+        {
+          "pokemon_id": "10190",
+          "stat_id": "6",
+          "base_stat": "130",
+          "effort": "0"
+        }
+      ],
+      "types": [
+        {
+          "pokemon_id": "10190",
+          "type_id": "4",
+          "slot": "1"
+        },
+        {
+          "pokemon_id": "10190",
+          "type_id": "16",
+          "slot": "2"
+        }
+      ],
+      "abilities": [
+        {
+          "pokemon_id": "10190",
+          "ability_id": "46",
+          "is_hidden": "0",
+          "slot": "1"
+        }
+      ]
+    }
+  }
+}

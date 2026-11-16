@@ -189,7 +189,7 @@ function startArena(mode, cupId) {
       members.map((m) => {
         const copy = JSON.parse(JSON.stringify(m));
         if (mode === "pwt") copy.lv = 50;
-        return [m.uid, makeFighter(copy)];
+        return [m.uid, makeFighter(copy,false,true)];
       }),
     ),
     log: "트레이너 대결을 시작해요.",

@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict');const {createGame}=require('./harness.cjs');const {run}=createGame();const value=s=>JSON.parse(run(`JSON.stringify(${s})`));
 run(`S.battle=null;S.pending=null;S.xp=6000;S.energy=12;S.tickets=10;S.registered=[];S.mons=[];var ace=enrich({uid:'ace',id:445,lv:60});S.mons.push(ace);S.party=[ace.uid]`);
-const expected=[['예지호수',[480,481,482]],['하드마운틴',[485]],['고대 신전',[486]],['창기둥',[483,484]],['귀혼동굴',[487]],['꽃의 낙원',[492,490,489]],['만월섬',[488,491]],['시작의방',[493]]];
+const expected=[['예지호수',[480,481,482]],['하드마운틴',[485]],['고대 신전',[486]],['창기둥 - 시간의균열',[483]],['창기둥 - 균열의 끝자락',[484]],['귀혼동굴',[487]],['꽃의 낙원',[492,490,489]],['만월섬',[488,491]],['창기둥 - 시작의방',[493]]];
 assert.deepEqual(value(`LOCATIONS.filter(l=>l.gen===4).slice(6).map(l=>[l.name,regionalRarePool(l)])`),expected);
 run(`combatStartLocation('sinnoh-ancient-temple')`);assert.equal(run('S.battle'),null);assert.equal(run('S.energy'),12);assert.equal(run('S.tickets'),10);
 run(`for(var id of [378,379,377])S.mons.push(enrich({uid:'regi-'+id,id,lv:60}));S.registered.push(378,379,377);S.locationClears.push('sinnoh-ancient-temple');S.manualClears.push('sinnoh-ancient-temple');combatStartLocation('sinnoh-ancient-temple','auto')`);
@@ -23,7 +23,7 @@ run(`S.battle=null;S.energy=12;S.tickets=10;Math.random=()=>.99999;combatStartLo
 run(`S.battle=null;S.registered=[];S.mons=S.mons.filter(m=>![641,642].includes(m.id));S.party=['ace'];S.energy=12;S.tickets=10;combatStartLocation('unova-shrine')`);assert.equal(run('S.battle.rareSpecies'),642);
 run(`S.battle=null;adventureGen=5;var html=regionalExplore()`);assert.ok(run(`html.includes('랜드로스')`));assert.ok(run(`html.includes('포획 조건 미충족')&&html.includes('2종/폼 현재 출현')`));
 assert.equal(run(`LOCATIONS.filter(l=>l.gen===7)[8].name`),'울트라홀');
-console.log('PASS: Sinnoh 7–14 exact pools, party-only Regigigas requirements for manual/auto/direct capture, mixed Moon Island Lv60, Unova 8/9, capture-gated Landorus sampling and Alola 9 rename.');
+console.log('PASS: Sinnoh 7–15 exact pools, party-only Regigigas requirements for manual/auto/direct capture, mixed Moon Island Lv60, Unova 8/9, capture-gated Landorus sampling and Alola 9 rename.');
 // Galar's exact slots partition all sublegends; riders can only be produced by fusion.
 assert.deepEqual(value(`LOCATIONS.filter(l=>l.gen===8).slice(7,10).map(l=>[l.name,regionalRarePool(l)])`),[
  ['갈림길의 유적',[894,895]],['수련의 폭포',[891,892]],['설중계곡',[896,897,905]]]);
