@@ -29,7 +29,7 @@ small { font-size: 14px; }
 .game-shell { max-width: 1440px; margin: 22px auto; border: 1px solid #ccdcec; background: #f8fbff; border-radius: 22px; box-shadow: 0 12px 50px #27476c12; overflow: clip; }
 .game-hud { min-height: 98px; height: auto; grid-template-columns: 1.15fr 1fr auto auto; gap: 28px; padding: 20px 32px; background: white; border: 0; border-bottom: 1px solid var(--line); box-shadow: inset 0 5px var(--red); }
 .game-logo { font-family: var(--ui-font); font-size: 25px; font-weight: 900; letter-spacing: -.6px; color: #244569; gap: 12px; }
-.game-logo small { font: 600 13px var(--ui-font); color: #64768b; letter-spacing: .08em; margin-top: 7px; }
+.game-logo small { font: 600 14px var(--ui-font); color: #64768b; letter-spacing: .08em; margin-top: 7px; }
 .pixel-ball { width: 40px; height: 40px; border: 3px solid #25374b; border-radius: 50%; background: linear-gradient(#e2444d 0 44%, #25374b 44% 55%, #fff 55%); box-shadow: none; flex-shrink: 0; }
 .pixel-ball:after { left: 10px; top: 10px; width: 9px; height: 9px; background: white; border: 3px solid #25374b; border-radius: 50%; }
 .trainer-hud { gap: 12px; }
@@ -39,26 +39,26 @@ small { font-size: 14px; }
 .trainer-info>span { font-size: 14px; color: var(--ink); font-weight: 750; }
 .progress { background: #e6eef8; height: 8px; border: 0; box-shadow: none; border-radius: 8px; }
 .progress i { background: #3677d0; border-radius: 8px; box-shadow: none; }
-.trainer-info small { font: 12px var(--ui-font); color: var(--muted); margin-top: 5px; }
+.trainer-info small { font: 14px var(--ui-font); color: var(--muted); margin-top: 5px; }
 .wallet { gap: 10px; }
 .wallet>span { min-width: 90px; padding: 10px 12px; gap: 7px; background: #fffbf0; border: 1px solid #ebdfba; border-radius: 12px; box-shadow: none; }
 .wallet b { font: 800 18px var(--ui-font); color: #644914; }
-.wallet small { font: 13px var(--ui-font); color: #75612f; }
+.wallet small { font: 14px var(--ui-font); color: #75612f; }
 .wallet>span:last-child { background: #f1f4ff; border-color: #d8def2; }
 .wallet>span:last-child b, .wallet>span:last-child small { color: #425780; }
 .coin-icon { border-radius: 50%; background: #ffd15b; border-color: #b88317; box-shadow: inset 2px 0 #ffe697; }
 .ticket-icon { border-radius: 3px; background: #8facdf; border-color: #5374aa; box-shadow: inset 0 0 0 2px #dbe5fb; }
 .hud-controls { gap: 8px; }
 .system-button { background: #f3f7fc; border: 1px solid #cfdded; border-radius: 12px; color: #34567e; box-shadow: none; padding: 9px 12px; font-size: 23px; }
-.system-button span { color: #435f7f; font: 13px var(--ui-font); margin-top: 5px; }
+.system-button span { color: #435f7f; font: 14px var(--ui-font); margin-top: 5px; }
 .system-button:hover { background: #e7f0fc; }
 .game-main { padding: 0 32px 24px; margin: 0; }
-.screenbar { height: 50px; font-size: 13px; color: #4c6682; }
-.screenbar p, .screen-subtitle { color: #586f88; font-size: 13px; }
+.screenbar { height: 50px; font-size: 14px; color: #4c6682; }
+.screenbar p, .screen-subtitle { color: #586f88; font-size: 14px; }
 .screen-dot { width: 7px; height: 7px; border-radius: 50%; background: #3179cf; box-shadow: none; }
 .screen-divider { color: #b5c7da; }
-.game-footer { background: #f0f5fc; color: #5b6e84; padding: 15px 32px; font-size: 12px; border-top: 1px solid var(--line); }
-.game-footer span { font: 12px var(--ui-font); }
+.game-footer { background: #f0f5fc; color: #5b6e84; padding: 15px 32px; font-size: 14px; border-top: 1px solid var(--line); }
+.game-footer span { font: 14px var(--ui-font); }
 .game-dock { background: white; border: 2px solid #b7cde5; border-radius: 20px; box-shadow: 0 10px 45px #17355430; padding: 16px; gap: 10px; max-height: calc(100dvh - 110px); }
 .game-dock button { font: 700 14px var(--ui-font); border: 1px solid #d7e2f0; border-radius: 12px; background: #f4f8fd; box-shadow: none; padding: 13px 6px; color: #35516f; gap: 8px; }
 .game-dock button span { color: #467ab5; font-size: 24px; }
@@ -66,7 +66,7 @@ small { font-size: 14px; }
 .game-dock button.active span { color: #225faa; }
 .game-dock button.active:before { display: none; }
 .game-dock button:hover { background: #e9f2ff; transform: none; }
-.eyebrow { font: 800 12px/1.5 var(--ui-font); letter-spacing: .12em; color: #4b6c90; }
+.eyebrow { font: 800 14px/1.5 var(--ui-font); letter-spacing: .12em; color: #4b6c90; }
 .village-topline { padding: 8px 0 22px; align-items: center; }
 .village-topline h1 { margin: 5px 0 7px; color: #233d59; text-shadow: none; font-size: clamp(28px, 3vw, 38px); }
 .village-topline p { margin: 0; font-size: 15px; color: var(--muted); }
@@ -78,7 +78,7 @@ small { font-size: 14px; }
 .journey-welcome { position: relative; display: flex; align-items: center; justify-content: space-between; padding: 30px 36px; min-height: 210px; border: 1px solid #bad3f4; border-radius: 20px; background: linear-gradient(115deg, #e4f0ff, #f3f9ff); overflow: hidden; }
 .journey-welcome:after { content: ''; position: absolute; width: 250px; height: 250px; right: 4%; top: -50px; border: 38px solid #ccdef875; border-radius: 50%; pointer-events: none; }
 .welcome-copy { position: relative; z-index: 1; }
-.welcome-tag { font-size: 12px; letter-spacing: .08em; color: #285f9e; font-weight: 800; }
+.welcome-tag { font-size: 14px; letter-spacing: .08em; color: #285f9e; font-weight: 800; }
 .welcome-copy h2 { font-size: clamp(24px, 2.5vw, 32px); margin: 8px 0; color: #21466f; }
 .welcome-copy p { font-size: 16px; color: #425f80; margin: 8px 0 20px; }
 .welcome-actions { display: flex; flex-wrap: wrap; gap: 10px; }
@@ -96,25 +96,25 @@ small { font-size: 14px; }
 .destination-icon { width: 58px; height: 58px; display: flex; align-items: center; justify-content: center; background: #edf4ff; border-radius: 13px; flex-shrink: 0; }
 .destination-icon img { width: 53px; height: 53px; object-fit: contain; }
 .destination-grid b { display: block; font-size: 16px; }
-.destination-grid small { display: block; color: var(--muted); font-size: 13px; margin-top: 4px; }
+.destination-grid small { display: block; color: var(--muted); font-size: 14px; margin-top: 4px; }
 .trainer-desk { display: grid; grid-template-columns: minmax(0,1fr) 330px; gap: 24px; align-items: start; }
 .village-map-panel { background: white; border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); margin-bottom: 24px; }
 .map-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px; }
 .map-heading h2 { margin-top: 3px; font-size: 23px; }
-.map-heading>span { font-size: 13px; color: #5e748c; }
+.map-heading>span { font-size: 14px; color: #5e748c; }
 .village-canvas { aspect-ratio: 960/650; border: 0; box-shadow: none; background: #99c971; }
 .village-canvas:after { box-shadow: inset 0 1px 0 #315c2c16; }
-.village-weather { font-size: 12px; color: #385f38; background: #ffffffec; border: 1px solid #c0d8ac; border-radius: 8px; padding: 6px 10px; left: 12px; top: 12px; }
+.village-weather { font-size: 14px; color: #385f38; background: #ffffffec; border: 1px solid #c0d8ac; border-radius: 8px; padding: 6px 10px; left: 12px; top: 12px; }
 .pixel-sun { background: #ffcb55; box-shadow: none; border-radius: 50%; width: 12px; height: 12px; }
 .town-building { width: 22%; }
 .building-quests { width: 19%; }
 .building-gate { width: 23%; }
 .building-name { color: #243e59; background: #fffffff5; border: 1px solid #8faabf; border-radius: 7px; box-shadow: 0 2px 4px #15394e20; font-size: 14px; font-weight: 750; padding: 5px 9px; margin-top: -8px; }
-.building-hint { color: #203e2b; font-size: 12px; background: #ffffffe3; padding: 1px 5px; border-radius: 4px; text-shadow: none; margin-top: 4px; }
+.building-hint { color: #203e2b; font-size: 14px; background: #ffffffe3; padding: 1px 5px; border-radius: 4px; text-shadow: none; margin-top: 4px; }
 .building-spark { color: #d56520; text-shadow: none; }
 .building-quests .building-spark { border-color: #bf7614; background: #ffe094; color: #6e460a; border-radius: 5px; }
-.habitat-edit { background: #fffffff2; color: #285879; border: 1px solid #9ab3c9; border-radius: 8px; font: 700 13px var(--ui-font); padding: 9px 11px; right: 10px; bottom: 10px; }
-.pokemon-nametag { color: #253f59; background: white; border: 1px solid #a5c0d9; border-radius: 6px; font-size: 13px; }
+.habitat-edit { background: #fffffff2; color: #285879; border: 1px solid #9ab3c9; border-radius: 8px; font: 700 14px var(--ui-font); padding: 9px 11px; right: 10px; bottom: 10px; }
+.pokemon-nametag { color: #253f59; background: white; border: 1px solid #a5c0d9; border-radius: 6px; font-size: 14px; }
 .panel, .region, .moncard { background: white; color: var(--ink); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
 .panel { padding: 23px; margin-bottom: 24px; }
 .panelhead { gap: 12px; margin-bottom: 18px; align-items: center; }
@@ -129,7 +129,7 @@ small { font-size: 14px; }
 .daily-gift { width: 100%; padding: 14px 12px; margin-top: 20px; border: 1px solid #e5d4aa; border-radius: 12px; background: #fff7e6; color: #6d501d; box-shadow: none; font-size: 14px; gap: 10px; }
 .daily-gift .gift-pixel { font-size: 25px; color: #ae7818; }
 .daily-gift b { color: #6e4c17; font-size: 14px; }
-.daily-gift small { font-size: 13px; color: #786235; margin-top: 3px; }
+.daily-gift small { font-size: 14px; color: #786235; margin-top: 3px; }
 .daily-gift>span:last-child { margin-left: auto; font-size: 22px; }
 .daily-gift:disabled { opacity: 1; background: #f5f7fa; color: #5a6d80; border-color: #d5dfeb; }
 .daily-gift:disabled b, .daily-gift:disabled small, .daily-gift:disabled .gift-pixel { color: #5b7084; }
@@ -139,14 +139,14 @@ small { font-size: 14px; }
 .minimon { background: #f2f7fe; border: 1px solid #dbe6f2; border-radius: 12px; padding: 8px 4px; }
 .minimon img { width: 76px; height: 76px; object-fit: contain; }
 .minimon b { font: 750 15px var(--ui-font); color: #294c72; }
-.minimon small { font: 13px/1.6 var(--ui-font); color: #546c86; }
+.minimon small { font: 14px/1.6 var(--ui-font); color: #546c86; }
 .home-team .minimon b { font-size: 14px; }
-.home-team .minimon small { font-size: 12px; }
+.home-team .minimon small { font-size: 14px; }
 .empty-slot { color: #667e98; background: #f5f8fd; }
 .center-shortcut { margin-top: 16px; display: flex; align-items: center; gap: 12px; width: 100%; padding: 13px; text-align: left; color: #8a3344; background: #fff1f3; border: 1px solid #edc4cd; border-radius: 12px; }
 .center-cross { width: 35px; height: 35px; display: grid; place-items: center; color: white; background: #d95067; border-radius: 10px; font-size: 28px; flex-shrink: 0; }
 .center-shortcut b { display: block; font-size: 15px; }
-.center-shortcut small { display: block; font-size: 12px; color: #894c5c; }
+.center-shortcut small { display: block; font-size: 14px; color: #894c5c; }
 .starter-tip { color: #586c82; font-size: 14px; background: #eef5ff; padding: 12px; border-radius: 10px; }
 .home-content-links { grid-template-columns: 1fr; gap: 8px; margin: 0 0 24px; }
 .home-content-links button { display: flex; align-items: center; text-align: left; gap: 8px; background: white; border: 1px solid var(--line); border-radius: 12px; color: #355879; box-shadow: none; padding: 13px 17px; font: 750 15px var(--ui-font); }
@@ -158,12 +158,12 @@ small { font-size: 14px; }
 .first-goal-reward img { width: 40px; height: 40px; object-fit: contain; }
 .first-goal-reward span { flex: 1; }
 .first-goal-reward b { font-size: 14px; }
-.first-goal-reward small { display: block; font-size: 13px; color: #7d673e; }
+.first-goal-reward small { display: block; font-size: 14px; color: #7d673e; }
 .mission-preview { display: flex; align-items: center; gap: 12px; background: white; color: #2f435a; border: 0; border-bottom: 1px solid #e1eaf4; width: 100%; padding: 16px 0; text-align: left; }
 .mission-preview:hover { background: #f7faff; }
 .mission-preview>span:nth-child(2) { flex: 1; min-width: 0; }
 .mission-preview b { display: block; font-size: 16px; }
-.mission-preview small { display: block; font-size: 13px; color: #5d738c; margin-top: 4px; }
+.mission-preview small { display: block; font-size: 14px; color: #5d738c; margin-top: 4px; }
 .mission-check { border: 2px solid #bfcee0; border-radius: 8px; width: 27px; height: 27px; flex-shrink: 0; text-align: center; line-height: 23px; }
 .mission-preview.done .mission-check { background: #2f795a; color: white; border-color: #2f795a; }
 .mission-preview.done b { text-decoration: line-through; color: #64768a; }
@@ -183,7 +183,7 @@ small { font-size: 14px; }
 .return-village:hover { background: #e8f1fc; color: #194e94; }
 .credit, .muted, .region p, dialog p, .callout { font-size: 14px; line-height: 1.8; color: #536b85; }
 .notice { background: #eef5ff; border: 1px solid #c5d8ef; color: #385b80; border-radius: 12px; padding: 16px; box-shadow: none; font-size: 14px; line-height: 1.85; }
-.pill { border: 1px solid #c8d8ec; background: #edf4ff; color: #315b8b; border-radius: 6px; font-size: 13px; padding: 3px 8px; }
+.pill { border: 1px solid #c8d8ec; background: #edf4ff; color: #315b8b; border-radius: 6px; font-size: 14px; padding: 3px 8px; }
 .task { border-bottom-color: #e2eaf4; gap: 12px; padding: 19px 0; flex-wrap: wrap; }
 .taskname { color: #283f58; font-size: 16px; line-height: 1.55; }
 .taskmeta { color: #5b728d; font-size: 14px; }
@@ -195,7 +195,7 @@ small { font-size: 14px; }
 .addtask { color: #285e9f; background: #f2f7ff; border: 1px dashed #93b2d7; }
 .weekly { background: #f1f6fd; border: 1px solid #d4e2f3; border-radius: 12px; }
 .weeklytop { font-size: 14px; }
-.day { font-size: 13px; color: #526c87; }
+.day { font-size: 14px; color: #526c87; }
 .day i { border-color: #bdcfe4; border-radius: 50%; background: white; width: 30px; height: 30px; line-height: 28px; }
 .day.active i { background: #2c6bbd; color: white; }
 .textbtn, .smalllink { color: #245d9f; font: 650 14px var(--ui-font); min-height: 35px; }
@@ -210,7 +210,7 @@ input[type=checkbox] { min-height: 18px; width: 18px; accent-color: #2a6ec0; }
 .collection { grid-template-columns: repeat(5,minmax(0,1fr)); gap: 16px; }
 .moncard { padding: 18px 12px; }
 .moncard h3 { color: #2b4867; font-size: 16px; }
-.moncard small { font: 13px var(--ui-font); color: #58718d; }
+.moncard small { font: 14px var(--ui-font); color: #58718d; }
 .moncard:not(.found).dexcard { background: #f1f5fa; }
 .moncard.found.dexcard { background: white; border-color: #a6c2e4; }
 .moncard:hover { border-color: #719ecb; }
@@ -218,14 +218,14 @@ input[type=checkbox] { min-height: 18px; width: 18px; accent-color: #2a6ec0; }
 .shop-tabs button { font-size: 14px; }
 .item-card .item-art, .item-art { background: #eff5fd; border: 1px solid #d6e4f4; border-radius: 12px; box-shadow: none; }
 .item-art img { filter: drop-shadow(0 3px #9eb9d52c); }
-.item-art>small { color: #476a90; font-size: 13px; }
+.item-art>small { color: #476a90; font-size: 14px; }
 .item-art.compact { border-radius: 8px; }
 .premium-form { color: #75501f; border-color: #ddc693; background: #fff6df; }
 .inventory-list small, [data-equip-held] small { color: #57718c; font-size: 14px; }
 .pagination { color: #4e6d8f; font-size: 15px; gap: 12px; }
 .regiontabs { display: grid; grid-template-columns: repeat(9,minmax(0,1fr)); gap: 9px; margin: 22px 0; }
 .regiontabs button { background: white; border: 1px solid #c7d8ec; color: #395f8c; border-radius: 11px; padding: 12px 4px; font: 750 15px var(--ui-font); }
-.regiontabs button small { font: 12px var(--ui-font); color: #617e9d; margin-bottom: 4px; }
+.regiontabs button small { font: 14px var(--ui-font); color: #617e9d; margin-bottom: 4px; }
 .regiontabs button.active { background: #2868ba; color: white; border-color: #2868ba; box-shadow: 0 3px 0 #194e90; }
 .regiontabs button.active small { color: #e2edff; }
 .worldbanner { border: 1px solid #bad3ed; border-radius: 16px; box-shadow: none; background: linear-gradient(110deg,#e6f1ff,#f2f8ff); padding: 24px 28px; }
@@ -243,7 +243,7 @@ summary { color: #3a648f; font-size: 14px; line-height: 1.8; }
 .regionart { border: 1px solid #c3d8ec; border-radius: 12px; box-shadow: none; background-color: #e5f2e1!important; height: 145px; }
 .locationcard { background: white; }
 .locationcard.first-trail { border: 2px solid #83b2e4; }
-.location-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 13px; margin: 14px 0; }
+.location-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 14px; margin: 14px 0; }
 .location-meta span { color: #446382; background: #f0f5fc; padding: 4px 8px; border-radius: 6px; }
 .location-meta b { color: #236247; background: #e5f5ed; padding: 4px 8px; border-radius: 6px; font-weight: 700; }
 .special-roster { background: #f3f7fe; border: 1px solid #d5e3f4; border-radius: 12px; padding: 12px; }
@@ -251,13 +251,13 @@ summary { color: #3a648f; font-size: 14px; line-height: 1.8; }
 .rare-mini-gallery small, .special-roster .rare-mini-gallery small { color: #395d83; font-size: 14px; line-height: 1.6; }
 .boss-phase-preview { background: #f4f2ff; border: 1px solid #d3c8ed; border-radius: 12px; padding: 12px; }
 .boss-phase-preview small { color: #534d80; font-size: 14px; }
-.boss-phase-preview p { color: #625b83; font-size: 13px; }
+.boss-phase-preview p { color: #625b83; font-size: 14px; }
 .hidden-final-portal { background: linear-gradient(110deg,#f0eaff,#fbf8ff); color: #4d3f70; border: 1px solid #c5b4e1; border-radius: 16px; padding: 25px; }
 .hidden-final-portal p { color: #62517b; font-size: 15px; }
 .hidden-region-progress span { background: white; color: #655382; border: 1px solid #d4c8e6; border-radius: 7px; font-size: 14px; }
 .demo-ribbon { background: #fff6df; border: 0; border-bottom: 1px solid #e5d1a2; color: #795621; }
 .demo-ribbon b { font-size: 15px; }
-.demo-ribbon span { color: #7b663e; font-size: 13px; }
+.demo-ribbon span { color: #7b663e; font-size: 14px; }
 .demo-actions button, .demo-actions a { background: white; color: #6c542d; border: 1px solid #d9c69f; border-radius: 7px; font: 14px var(--ui-font); padding: 8px 10px; }
 .demo-actions button:hover, .demo-actions a:hover { background: #ffedc6; }
 dialog { color: var(--ink); font: 16px/1.7 var(--ui-font); background: white; border: 1px solid #bfd1e7; border-top: 5px solid #df4c59; border-radius: 18px; box-shadow: 0 20px 100px #15324e40; padding: 32px; max-width: 650px; max-height: 90dvh; }
@@ -275,14 +275,14 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
 .statrow { border-bottom-color: #e2eaf4; color: #365371; font-size: 15px; gap: 8px; }
 .statrow.labels { color: #566f8c; font-size: 14px; }
 .statrow input { padding: 8px; }
-.zero { font-size: 13px; color: #526c87; }
+.zero { font-size: 14px; color: #526c87; }
 .evolution-option { border-color: #dce6f3; color: #365572; font-size: 15px; }
 .evolution-option small { color: #58728e; font-size: 14px; }
 .evaluation { background: #eff6ff; border: 1px solid #c2d7ef; border-radius: 12px; color: #365b83; }
 .evaluation p { font-size: 14px; }
 .evaluation h3 { font-size: 18px; }
 .equipped-moves>div { background: #f0f6ff; border: 1px solid #bfd4ed; border-radius: 10px; padding: 13px; }
-.equipped-moves small { color: #526d8c; font-size: 13px; }
+.equipped-moves small { color: #526d8c; font-size: 14px; }
 .equipped-moves b { color: #2f527b; font-size: 16px; }
 .equipped-moves span { color: #4d6989; font-size: 14px; }
 .learnset-entry { border-color: #dce6f2; padding: 15px 0; }
@@ -301,13 +301,13 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
 .duel-hud { color: #29435d; background: #fffffff5; border: 2px solid #6d8ba6; border-radius: 16px 5px; box-shadow: 0 4px 0 #2e506439; }
 .duel-name { font-size: 17px; flex-wrap: wrap; }
 .duel-name>span:last-child { font-size: 14px; white-space: nowrap; }
-.duel-hp-row>small { color: #786522; font-size: 13px; }
+.duel-hp-row>small { color: #786522; font-size: 14px; }
 .duel-hp { background: #e2eaf0; border: 1px solid #a8bac7; height: 11px; }
 .duel-hp i { background: #2c996c; box-shadow: inset 0 2px #68c79f; }
 .duel-hp.warning i { background: #d5a128; }
 .duel-hp.critical i { background: #d9504d; }
 .duel-hp-value { font-size: 15px; }
-.duel-types { color: #566e83; font-size: 13px; }
+.duel-types { color: #566e83; font-size: 14px; }
 .duel-team { color: #e74154; text-shadow: 0 1px white; }
 .duel-team .fainted { color: #6a7b8c; }
 .battle-console { background: white; border: 2px solid #829bb6; border-radius: 0 0 16px 16px; }
@@ -320,15 +320,15 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
 .duel-command.pokemon { background: #276c55; }
 .duel-command.bag { background: #85621e; }
 .duel-command.run { background: #2865a7; }
-.duel-command small { font-size: 13px; line-height: 1.5; }
+.duel-command small { font-size: 14px; line-height: 1.5; }
 .move-button, .battle-console .move-button { background: white; color: #294766; border: 1px solid #bed1e8; border-left: 5px solid var(--move-color,#719ed5); border-radius: 10px; box-shadow: 0 2px 0 #cbdced; font-family: var(--ui-font); padding: 13px; gap: 8px; min-height: 118px; }
 .move-button:hover { background: #eef5ff; }
 .move-button b, .duel-move-name>b { font-size: 17px; }
 .move-button small { color: #426a8e; font-size: 14px; }
 .move-button>span { color: #536f8d; font-size: 14px; }
-.duel-move-type { color: #3b5d7d; background: #edf3fc; border-radius: 5px; padding: 3px 7px; font-size: 13px; }
+.duel-move-type { color: #3b5d7d; background: #edf3fc; border-radius: 5px; padding: 3px 7px; font-size: 14px; }
 .duel-move-pp { gap: 6px; flex-wrap: wrap; }
-.duel-move-pp>span { color: #57708b; font-size: 13px; }
+.duel-move-pp>span { color: #57708b; font-size: 14px; }
 .duel-move-pp>b { color: #325f8f; font-size: 14px; }
 .duel-effect.strong { color: #216c46; }
 .duel-effect.weak { color: #8b581e; }
@@ -339,18 +339,18 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
 .duel-party-choice b { font-size: 16px; }
 .duel-party-choice span, .duel-party-choice small { color: #526e8d; font-size: 14px; }
 .duel-extra small, .duel-credit { font-size: 14px; color: #55708e; line-height: 1.8; }
-.mainline-battle .route span { background: #edf4fc; color: #47698c; border-color: #bdcee4; border-radius: 7px; font-size: 13px; }
+.mainline-battle .route span { background: #edf4fc; color: #47698c; border-color: #bdcee4; border-radius: 7px; font-size: 14px; }
 .mainline-battle .route .current { background: #2b69b9; color: white; border-color: #1e5294; }
 .duel-boss-phase { font: 750 13px/1.5 var(--ui-font); background: #5b447d; border: 1px solid #b9a9d2; color: white; }
-.duel-boss-phase small { font-size: 12px; }
-.pokemon-vitals { color: #326a53; font-size: 13px; line-height: 1.6; }
+.duel-boss-phase small { font-size: 14px; }
+.pokemon-vitals { color: #326a53; font-size: 14px; line-height: 1.6; }
 .pokemon-vitals.fainted { color: #a83b50; }
 .center-room { border-color: #d9b9bf; border-radius: 12px; background: repeating-linear-gradient(0deg,transparent 0 23px,#e4d9dc 24px 25px),repeating-linear-gradient(90deg,#fff6f7 0 23px,#e4d9dc 24px 25px); }
 .center-clock { color: #ad4358; font: 800 16px var(--ui-font); }
 .center-counter { background: #e2889a; border-top-color: #ffd4dd; border-bottom-color: #ba5c73; box-shadow: 0 6px #84415220; }
 .center-healer b { background: #b24863; color: white; border-radius: 7px; font-size: 14px; }
 .center-machine { background: white; color: #5d6e84; border-color: #9fb3c8; box-shadow: 0 4px #7f96ab; }
-.center-machine>span, .center-machine small { font-size: 13px; }
+.center-machine>span, .center-machine small { font-size: 14px; }
 .center-ball { background: linear-gradient(#e65364 0 45%,#36465a 45% 55%,#fff 55%); border-color: #36465a; }
 .center-dialogue { border: 1px solid #e9bdc9; background: #fff2f5; border-radius: 12px; padding: 18px; }
 .center-dialogue b { font-size: 18px; color: #9e3d58; }
@@ -368,8 +368,8 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .trainer-desk { grid-template-columns:minmax(0,1fr) 290px; gap:18px; }
   .destination-grid { gap:10px; } .destination-grid button { padding:12px; gap:8px; }
   .destination-icon { width:45px; height:45px; } .destination-icon img { width:42px; height:42px; }
-  .destination-grid b { font-size:15px; } .destination-grid small { font-size:12px; }
-  .building-hint { display:none; } .building-name { font-size:13px; padding:4px 7px; }
+  .destination-grid b { font-size:15px; } .destination-grid small { font-size:14px; }
+  .building-hint { display:none; } .building-name { font-size:14px; padding:4px 7px; }
   .collection { grid-template-columns:repeat(4,minmax(0,1fr)); }
   .shopgrid { grid-template-columns:repeat(3,minmax(0,1fr)); }
 }
@@ -392,32 +392,32 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .game-main { padding:0 16px 20px; }
   .game-hud { padding:18px 16px 15px; gap:16px; }
   .game-logo { font-size:23px; gap:10px; }
-  .game-logo small { font-size:12px; letter-spacing:.06em; }
+  .game-logo small { font-size:14px; letter-spacing:.06em; }
   .pixel-ball { width:32px; height:32px; border-width:2px; }
   .pixel-ball:after { left:8px; top:8px; width:8px; height:8px; border-width:2px; }
   .system-button { font-size:21px; padding:8px; min-width:44px; }
-  .system-button span { font-size:12px; }
+  .system-button span { font-size:14px; }
   .trainer-hud { gap:0; grid-column:1; }
   .trainerportrait { display:none; }
   .trainer-info { display:block; width:100%; max-width:220px; }
-  .trainer-info>span { font-size:13px; margin-bottom:7px; }
-  .trainer-info small { font-size:12px; margin-top:4px; }
+  .trainer-info>span { font-size:14px; margin-bottom:7px; }
+  .trainer-info small { font-size:14px; margin-top:4px; }
   .wallet { gap:7px; align-self:center; }
   .wallet>span { gap:5px; padding:9px 8px; min-width:55px; }
   .wallet b { font-size:16px; }
-  .screenbar { font-size:12px; height:45px; gap:8px; }
-  .screenbar p { font-size:12px; }
+  .screenbar { font-size:14px; height:45px; gap:8px; }
+  .screenbar p { font-size:14px; }
   .screen-subtitle, .screen-divider { display:none; }
   .village-topline { align-items:flex-start; padding:5px 0 18px; gap:12px; }
   .village-topline h1 { font-size:27px; }
   .village-topline p { font-size:14px; }
-  .village-topline .eyebrow { font-size:11px; }
-  .village-record { margin-top:0; flex-direction:column; gap:6px; font-size:12px; flex-shrink:0; }
-  .village-record .streak, .village-dex-link { padding:7px 8px; font-size:12px; border-radius:8px; white-space:nowrap; }
+  .village-topline .eyebrow { font-size:14px; }
+  .village-record { margin-top:0; flex-direction:column; gap:6px; font-size:14px; flex-shrink:0; }
+  .village-record .streak, .village-dex-link { padding:7px 8px; font-size:14px; border-radius:8px; white-space:nowrap; }
   .journey-welcome { padding:23px 20px; min-height:220px; align-items:flex-start; }
   .journey-welcome:after { width:170px; height:170px; border-width:25px; right:-70px; top:-30px; }
   .welcome-copy { min-width:0; }
-  .welcome-tag { font-size:11px; }
+  .welcome-tag { font-size:14px; }
   .welcome-copy h2 { font-size:24px; max-width:240px; }
   .welcome-copy p { font-size:15px; max-width:230px; margin:8px 0 18px; }
   .welcome-pokemon { position:absolute; right:-4px; bottom:46px; width:95px; min-width:0; opacity:.95; margin:0; pointer-events:none; }
@@ -430,19 +430,19 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .destination-icon { width:40px; height:44px; border-radius:9px; }
   .destination-icon img { width:39px; height:39px; }
   .destination-grid b { font-size:15px; }
-  .destination-grid small { font-size:12px; line-height:1.5; }
+  .destination-grid small { font-size:14px; line-height:1.5; }
   .trainer-desk { gap:0; }
   .map-heading { padding:16px; } .map-heading h2 { font-size:23px; }
-  .map-heading>span { font-size:12px; }
+  .map-heading>span { font-size:14px; }
   .village-canvas { aspect-ratio:1/1.08; border:0; }
-  .village-weather { font-size:12px; top:8px; left:8px; padding:5px 7px; }
+  .village-weather { font-size:14px; top:8px; left:8px; padding:5px 7px; }
   .town-building { width:26%; top:calc(var(--by) + 3%); }
   .building-quests { width:23%; top:calc(var(--by) + 5%); }
   .building-gate { width:27%; top:calc(var(--by) + 7%); }
   .building-shop { top:calc(var(--by) + 6%); }
-  .building-name { font-size:12px; border-radius:6px; padding:4px 6px; margin-top:-3px; }
+  .building-name { font-size:14px; border-radius:6px; padding:4px 6px; margin-top:-3px; }
   .building-hint { display:none; }
-  .habitat-edit { font-size:12px; right:8px; bottom:9px; padding:8px 9px; }
+  .habitat-edit { font-size:14px; right:8px; bottom:9px; padding:8px 9px; }
   .panel, .desk-side .panel { padding:18px; margin-bottom:18px; border-radius:14px; }
   .panelhead { gap:10px; flex-wrap:wrap; }
   .panelhead small { font-size:14px; }
@@ -450,13 +450,13 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .home-mission-panel .panelhead .secondary { padding:8px 11px; font-size:14px; }
   .first-goal-reward { gap:8px; padding:10px; }
   .first-goal-reward img { width:32px; height:32px; }
-  .first-goal-reward b { font-size:13px; }
+  .first-goal-reward b { font-size:14px; }
   .first-goal-reward> b { white-space:nowrap; }
-  .first-goal-reward small { font-size:12px; }
+  .first-goal-reward small { font-size:14px; }
   .mission-preview { gap:10px; }
   .mission-preview b { font-size:15px; }
-  .mission-preview small { font-size:13px; }
-  .mission-reward { font-size:13px; white-space:nowrap; }
+  .mission-preview small { font-size:14px; }
+  .mission-reward { font-size:14px; white-space:nowrap; }
   .mission-empty { gap:10px; }
   .mission-empty img { width:70px; height:70px; }
   .desk-side { display:block; }
@@ -464,21 +464,21 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .home-content-links button { font-size:15px; }
   .home-team .partycards { gap:9px; }
   .home-team .minimon b { font-size:15px; }
-  .home-team .minimon small { font-size:13px; }
+  .home-team .minimon small { font-size:14px; }
   .town-news { padding:14px; align-items:flex-start; }
-  .town-news p, .news-heading { font-size:13px; }
+  .town-news p, .news-heading { font-size:14px; }
   .game-footer { display:block; padding:16px; }
-  .game-footer span { display:block; font-size:12px; margin:3px 0; }
+  .game-footer span { display:block; font-size:14px; margin:3px 0; }
   .game-footer span:last-child { display:block; }
   .game-dock { width:calc(100% - 24px); bottom:12px; grid-template-columns:repeat(4,minmax(0,1fr)); padding:12px; gap:8px; }
-  .game-dock button { font-size:13px; min-height:76px; padding:10px 4px; }
+  .game-dock button { font-size:14px; min-height:76px; padding:10px 4px; }
   .game-dock button span { font-size:24px; }
   #view:not([data-page=home]) { padding:5px 0; min-height:500px; }
   .intro { align-items:flex-start; flex-wrap:wrap; margin-bottom:20px; }
   .intro h1 { font-size:27px; }
   .intro p { font-size:15px; }
   .intro .secondary { font-size:14px; padding:10px 12px; }
-  .eyebrow { font-size:12px; }
+  .eyebrow { font-size:14px; }
   .return-village { font-size:14px; margin-bottom:17px; }
   .columns { display:block; }
   .primary, .secondary { font-size:15px; }
@@ -492,17 +492,17 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .collection { grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; }
   .moncard { padding:12px 5px; border-radius:12px; }
   .moncard h3 { font-size:15px; }
-  .moncard small { font-size:12px; }
+  .moncard small { font-size:14px; }
   .moncard img { width:85px; height:85px; }
-  .moncard .pill { font-size:12px; padding:3px 5px; }
+  .moncard .pill { font-size:14px; padding:3px 5px; }
   .shopgrid { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .shopgrid .moncard { padding:15px 10px; }
   .shopgrid .moncard .primary, .shopgrid .moncard .secondary { font-size:14px; padding:10px 6px; }
   .item-card .credit { min-height:0; font-size:14px; }
-  .item-art>small { font-size:12px; }
+  .item-art>small { font-size:14px; }
   .regiontabs { grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
   .regiontabs button { font-size:15px; padding:10px 5px; }
-  .regiontabs button small { font-size:12px; }
+  .regiontabs button small { font-size:14px; }
   .worldbanner { padding:20px; }
   .worldbanner h2 { font-size:25px; }
   .worldbanner p { font-size:14px; }
@@ -512,9 +512,9 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .rare-mini-gallery small, .special-roster .rare-mini-gallery small { font-size:14px; }
   .pagination { font-size:14px; gap:8px; }
   .demo-ribbon { display:block; padding:14px 16px; }
-  .demo-ribbon span { font-size:13px; }
+  .demo-ribbon span { font-size:14px; }
   .demo-actions { margin-top:10px; }
-  .demo-actions button, .demo-actions a { font-size:13px; }
+  .demo-actions button, .demo-actions a { font-size:14px; }
   dialog { padding:28px 20px 24px; max-width:calc(100% - 24px); width:calc(100% - 24px); border-radius:15px; }
   dialog h2 { font-size:23px; }
   dialog p, dialog label { font-size:15px; }
@@ -523,10 +523,10 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .detailhead img { width:86px; }
   .detailhead h2 { font-size:21px; }
   .statrow { font-size:14px; gap:6px; }
-  .statrow.labels { font-size:13px; }
+  .statrow.labels { font-size:14px; }
   .statrow input { padding:7px; font-size:16px; }
   .evolution-option { font-size:14px; }
-  .evolution-option small { font-size:13px; }
+  .evolution-option small { font-size:14px; }
   .equipped-moves b { font-size:16px; }
   .equipped-moves span { font-size:14px; }
   .learnset-entry { gap:8px; align-items:flex-start; }
@@ -534,22 +534,22 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .learnset-entry span, .learnset-entry small { font-size:14px; }
   .learnset-entry .secondary { white-space:normal; font-size:14px; min-width:72px; }
   .mainline-battle .route { gap:4px; flex-wrap:wrap; }
-  .mainline-battle .route span { flex:1 1 26%; font-size:12px; padding:7px 4px; }
+  .mainline-battle .route span { flex:1 1 26%; font-size:14px; padding:7px 4px; }
   .duel-scene { height:340px; }
   .duel-hud { width:205px; padding:10px; }
   .duel-hud.opponent { left:8px; top:12px; }
   .duel-hud.player { right:8px; bottom:12px; width:218px; }
   .duel-name { font-size:15px; }
-  .duel-name>span:last-child { font-size:13px; }
-  .duel-types { font-size:12px; }
+  .duel-name>span:last-child { font-size:14px; }
+  .duel-types { font-size:14px; }
   .duel-hp-value { font-size:14px; }
   .duel-sprite.opponent { top:85px; right:0; width:135px; height:135px; }
   .duel-sprite.player { left:-10px; bottom:50px; width:165px; height:165px; }
   .duel-platform.opponent { top:202px; right:0; }
   .duel-platform.player { bottom:42px; }
   .duel-team { bottom:141px; right:15px; }
-  .duel-boss-phase { left:auto; right:8px; top:10px; transform:none; font-size:12px; padding:4px 6px; max-width:95px; }
-  .duel-boss-phase small { font-size:12px; }
+  .duel-boss-phase { left:auto; right:8px; top:10px; transform:none; font-size:14px; padding:4px 6px; max-width:95px; }
+  .duel-boss-phase small { font-size:14px; }
   .battle-console { grid-template-columns:1fr; }
   .duel-message { border-bottom:1px solid #ceddeb; border-right:0; padding:16px; gap:10px; }
   .mainline-battle .battlelog { font-size:15px; }
@@ -557,20 +557,20 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .duel-input { padding:12px; }
   .duel-commands { gap:9px; }
   .duel-command { min-height:75px; font-size:17px; padding:12px 6px; }
-  .duel-command small { font-size:12px; }
+  .duel-command small { font-size:14px; }
   .battle-console .move-grid { gap:9px; }
   .battle-console .move-button { min-height:135px; padding:10px; }
   .duel-move-name { flex-direction:column; align-items:flex-start; gap:6px; }
   .move-button b, .duel-move-name>b { font-size:16px; }
-  .move-button small, .duel-effect { font-size:13px; }
-  .duel-move-pp>span { font-size:12px; }
+  .move-button small, .duel-effect { font-size:14px; }
+  .duel-move-pp>span { font-size:14px; }
   .duel-move-pp>b { font-size:14px; }
-  .duel-extra small { font-size:13px; }
+  .duel-extra small { font-size:14px; }
   .center-patients img { width:60px; height:60px; }
   .center-patients b { font-size:14px; }
-  .pokemon-vitals { font-size:13px; }
-  .center-healer b { font-size:13px; }
-  .center-machine small, .center-machine>span { font-size:12px; }
+  .pokemon-vitals { font-size:14px; }
+  .center-healer b { font-size:14px; }
+  .center-machine small, .center-machine>span { font-size:14px; }
 }
 @media (max-width:380px) {
   .game-main { padding-left:12px; padding-right:12px; }
@@ -592,8 +592,8 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
 .reveal .shine { color:#8a641e; font:750 13px var(--ui-font); }
 .bigempty { color:#57718c; font-size:16px; }
 .room-empty { color:#3c5e7a; font-size:14px; }
-.battletypes { color:#315576; background:#ffffffed; border-radius:5px; font-size:13px; }
-.duel-status { color:white; background:#855565; font-size:12px; }
+.battletypes { color:#315576; background:#ffffffed; border-radius:5px; font-size:14px; }
+.duel-status { color:white; background:#855565; font-size:14px; }
 .empty-move { color:#708399; background:#edf2f8; }
 .hp { background:#e5edf5; border:1px solid #a5bcd0; border-radius:6px; }
 .hp i { background:#2d9166; }
@@ -608,4 +608,25 @@ dialog label { color: #355371; font-size: 15px; font-weight: 700; }
   .welcome-copy h2, .welcome-copy p { max-width:calc(100% - 75px); }
   .welcome-pokemon { width:72px; right:0; }
   .welcome-pokemon img { width:72px; height:72px; }
+}
+
+/* Reading comfort: ordinary instructions stay readable; long rules are optional. */
+body.pixel-game { line-height:1.75; }
+.credit, .muted, .taskmeta, .region p, .inventory-list small, dialog p { font-size:15px; line-height:1.8; }
+.moncard small, .minimon small, .pill, .pokemon-vitals, .location-meta, .zero { font-size:14px; }
+.help-details { margin:16px 0; padding:12px 15px; border:1px solid #d3e0ee; border-radius:10px; background:#f7faff; }
+.help-details summary, .card-help summary { color:#365d85; font-size:15px; font-weight:650; }
+.help-details[open] summary { margin-bottom:12px; }
+.help-details p:last-child { margin-bottom:0; }
+.card-help { margin:12px 0; text-align:left; }
+.card-help summary { font-size:14px; }
+.starterpick small { display:block; margin-top:5px; font-size:15px; color:#41668e; }
+.duel-extra .help-details { width:100%; margin:8px 0 0; }
+.duel-extra .help-details small { color:#526c88; font-size:14px; line-height:1.8; }
+@media(max-width:720px) {
+ .credit, .muted, .taskmeta, .region p, dialog p, .intro p { font-size:15px; }
+ .panelhead small, .moncard small, .minimon small, .pill, .pokemon-vitals, .location-meta { font-size:14px; }
+ .task { padding:19px 0; }
+ .taskname, .mission-preview b { font-size:16px; line-height:1.65; }
+ .help-details { padding:12px 14px; }
 }

@@ -7,6 +7,7 @@ for (let gen = 1; gen <= 9; gen++) {
   if (first) { first.required = 1; first.firstTrail = true; }
 }
 function initializeJourneyBalance() {
+  normalizeStarterLevel();
   if (S.journeyWelcomeVersion !== 1) {
     S.items['rare-candy'] = (S.items['rare-candy'] || 0) + 4;
     S.items.potion = (S.items.potion || 0) + 3;
@@ -36,6 +37,7 @@ function chooseStarter(id) {
   if (S.starter || ![1,4,7].includes(id)) return false;
   const m = enrich({uid:crypto.randomUUID(), id, lv:STARTER_LEVEL, candy:0, shiny:false});
   S.starter = id;
+  S.starterUid = m.uid;
   S.mons.push(m);
   S.party.push(m.uid);
   S.house.push(id);
@@ -54,4 +56,15 @@ function claimDailyAttendance() {
   save(); render();
   toast('오늘도 반가워요! +10코인 · +10 EXP');
   return true;
+}
+
+/* Only the original selected gift is eligible, never a later recruit of the same species. */
+function normalizeStarterLevel() {
+  if (![1,4,7].includes(S.starter)) return;
+  if (!S.starterUid && S.mons[0]?.id===S.starter) S.starterUid=S.mons[0].uid;
+  const starter = S.mons.find(m=>m.uid===S.starterUid);
+  if (!starter || starter.id!==S.starter || starter.lv>=STARTER_LEVEL || S.battle) return;
+  starter.lv=STARTER_LEVEL;
+  ensureMoves(starter);
+  addLog(`${mon(starter.id).name}의 첫 파트너 출발 레벨을 Lv.5로 맞췄어요.`);
 }
