@@ -1,0 +1,70 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const {createGame}=require('./harness.cjs');
+for(const id of [1,4,7]) {
+  const {run}=createGame();
+  assert.equal(run(`chooseStarter(${id})`),true);
+  assert.equal(run('S.mons[0].lv'),5);
+  assert.equal(run('S.xp'),0);
+  assert.equal(run('level()'),1);
+  assert.equal(run(`S.registered.includes(${id})`),true);
+  assert.equal(run(`chooseStarter(${id})`),false);
+  assert.equal(run('S.mons.length'),1);
+  assert.equal(run(`S.items['rare-candy']`),4);
+  assert.equal(run('S.items.potion'),3);
+  run('migrate();migrate()');
+  assert.equal(run(`S.items['rare-candy']`),4);
+  assert.equal(run('S.items.potion'),3);
+  assert.equal(run('LOCATIONS.filter(l=>l.firstTrail&&l.required===1).length'),9);
+  assert.equal(run(`LOCATIONS.find(l=>l.id==='kanto-moon').required`),3);
+  run(`startLocation('kanto-moon')`);
+  assert.equal(run('S.battle'),null); // blocked before spending the initial energy
+  assert.equal(run('S.energy'),6);
+  run(`startLocation('kanto-forest')`);
+  assert.equal(run('S.battle.location'),'kanto-forest');
+  assert.equal(run('S.battle.foe.level'),3);
+  assert.equal(run('S.energy'),5);
+  assert.equal(run('S.tickets'),0);
+  let actions=0;
+  while(!run('S.battle.finished')&&actions++<100) {
+    const action=run(`S.battle.phase==='fight'?'move:'+enemyMove(activeFighter(S.battle),S.battle.foe).id:S.battle.phase==='forced-switch'?'switch:'+S.battle.party.find(uid=>S.battle.fighters[uid].hp>0):S.battle.phase==='choice'?'berry':'next'`);
+    run(`battleAction(${JSON.stringify(action)})`);
+  }
+  assert.ok(actions<100);
+  assert.equal(run(`S.locationClears.includes('kanto-forest')`),true,`starter ${id} can finish the first trail`);
+}
+const g=createGame(),{run,el}=g;
+run(`chooseStarter(1);S.tasks=[{id:'first',name:'첫 목표',category:'공부',size:1,done:false,reward:{coins:60,xp:30,training:3}}];complete('first')`);
+el('#confirmdone').onclick();
+assert.equal(run('S.xp'),130);
+assert.equal(run('S.coins'),60);
+assert.equal(run('S.firstQuestBonusClaimed'),true);
+run(`complete('first')`);
+assert.equal(run('S.xp'),130);
+run(`S.tasks.push({id:'second',name:'두 번째 목표',category:'공부',size:1,done:false,reward:{coins:60,xp:30,training:3}});complete('second')`);
+el('#confirmdone').onclick();
+assert.equal(run('S.xp'),160);
+run(`go('home')`);
+run('claimDailyAttendance()');
+assert.equal(run('S.xp'),170);
+const coins=run('S.coins');
+run('claimDailyAttendance()');
+assert.equal(run('S.xp'),170);
+assert.equal(run('S.coins'),coins);
+const saved=g.storage.get('growth-expedition-v1');
+const loaded=createGame({storage:{'growth-expedition-v1':saved}});
+assert.equal(loaded.run('S.firstQuestBonusClaimed'),true);
+assert.equal(loaded.run(`S.items['rare-candy']`),4);
+assert.equal(loaded.run('awardFirstQuestBonus()'),0);
+assert.equal(loaded.run('S.xp'),170);
+assert.equal(loaded.run('encounterRequirement(144)'),55);
+assert.equal(loaded.run('encounterRequirement(150)'),60);
+// Check that redesigned routes and assets exist without claiming browser rendering QA.
+run(`go('home')`);
+const html=el('#view').innerHTML;
+for(const route of ['explore','tasks','scout','shop','dex','party','arena'])assert.ok(html.includes(`data-page="${route}"`));
+for(const town of ['home','lab','quests','shop','gate'])assert.ok(html.includes(`data-town="${town}"`));
+assert.ok(html.includes('trainer-desk'));
+for(const match of html.matchAll(/(?:src|href)="(assets\/[^"?]+)"/g)) assert.ok(fs.existsSync(path.join(g.root,'web',match[1])),match[1]);
+console.log('PASS: all three Lv.5 starters win a real Lv.1 first expedition; nine first trails open, welcome gifts/first-goal XP/daily XP pay once, reload preserves rewards and rare gates, and all home destinations and assets remain available.');
