@@ -3,6 +3,10 @@ run(`S.xp=6000;S.energy=12;S.tickets=10;adventureGen=4;var portal=regionalExplor
 assert.equal(run('hiddenFinalProgress().total'),114);assert.equal(run('hiddenFinalProgress().ready'),false);assert.ok(!run(`portal.includes('data-location="sinnoh-hall-origin"')`));assert.equal(run('canSpecialEncounter(493)'),false);assert.equal(run('redeemSpecial(493)'),false);assert.equal(run('receive(493)'),false);
 run(`combatStartLocation('sinnoh-hall-origin')`);assert.equal(run('S.battle'),null);assert.equal(run('S.energy'),12);assert.equal(run('S.tickets'),10);
 run(`S.locationClears=LOCATIONS.filter(l=>!l.hiddenFinal).map(l=>l.id)`);assert.equal(run('hiddenFinalProgress().ready'),false); // legacy single-bar wins do not certify new phase two
+run(`S.bossPhaseClears=Object.fromEntries(LOCATIONS.filter(l=>l.bossPhases&&!['hoenn-origin','hoenn-land'].includes(l.id)).map(l=>[l.id,2]))`);
+assert.equal(run('hiddenFinalProgress().done'),112);assert.equal(run('hiddenFinalProgress().ready'),false);
+run(`S.bossPhaseClears['hoenn-origin']=2`);assert.equal(run('hiddenFinalProgress().done'),113);assert.equal(run('hiddenFinalProgress().ready'),false);
+run(`S.bossPhaseClears['hoenn-land']=1`);assert.equal(run('hiddenFinalProgress().ready'),false);
 run(`S.bossPhaseClears=Object.fromEntries(LOCATIONS.filter(l=>l.bossPhases).map(l=>[l.id,l.bossPhases.length]));var missed=S.locationClears.pop()`);assert.equal(run('hiddenFinalProgress().ready'),false);
 run(`S.locationClears.push(missed)`);assert.equal(run('hiddenFinalProgress().ready'),true);assert.equal(run(`S.locationClears.includes('sinnoh-hall-origin')`),false);assert.ok(run(`regionalExplore().includes('data-location="sinnoh-hall-origin"')`));
 assert.equal(run('redeemSpecial(493)'),false);assert.equal(run('receive(493)'),false); // clearing other regions does not itself award Arceus
